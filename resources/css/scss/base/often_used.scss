@@ -1,0 +1,22 @@
+.error-input {
+   position: absolute;
+   left: 0;
+   bottom: rem(-25);
+   color: red;
+}
+
+.tittle {
+   @include adaptiveValueREM("font-size", 60, 35);
+   line-height: 1.2;
+   margin: 0 0 40px 0;
+   color: #232322;
+   width: 100%;
+   text-align: center;
+}
+.tittle-opacity {
+   @include adaptiveValueREM("font-size", 100, 29);
+   line-height: 1.2;
+   color: $hoverColor;
+   opacity: 0.1;
+   text-transform: uppercase;
+}

@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,22 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@changeLocale')->name('locale');
+Route::post('feedback', 'App\Http\Controllers\ContactController@feedBackForm')->name('contactForm');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::group(
+   ['prefix' => LaravelLocalization::setLocale()],
+   function(){}
+);
+
+Route::get('/', function () { return view('home');})->name('index');
+Route::get('/es', function () {App::setlocale('es'); return view('home');})->name('indexES');
+Route::get('/ru', function () {App::setlocale('ru'); return view('home');})->name('indexRU');
+
+Route::get('/home', function () {return view('home');})->name('home');
+Route::get('/es/home', function () {App::setlocale('es'); return view('home');})->name('homeES');
+Route::get('/ru/home', function () {App::setlocale('ru'); return view('home');})->name('homeRU');
+
+      
+      
+      
