@@ -37,7 +37,17 @@
                <ul class="menu-burger__list">
                   <li class="menu-burger__item"><a href="{{LaravelLocalization::getLocalizedURL(__('main.set_lang'), 'home')}}" class="menu-burger__item-link">о нас</a></li>
                   <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">отзывы</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">услуги</a></li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link burger-service-menu">услуги<span></span></a>
+                  <ul class="burger-service-menu__list">
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Наружная реклама</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Полиграфия</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Айдентика</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">СММ</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Создание сайтов</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">УФ печать</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Печать на одежде</a></li>
+                        </ul>
+               </li>
                   <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">портфолио</a></li>
                </ul>
             </nav>
@@ -64,7 +74,9 @@
                   </div>
                </div>
             </div>
-            <div class="burger__presentation">Скачать презентацию</div>
+            <div class="burger__presentation">
+               <a href="{{route('download')}}">Скачать презентацию</a>
+            </div>
          </div>
       </div>
    </div>

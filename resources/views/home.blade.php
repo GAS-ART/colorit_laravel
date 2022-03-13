@@ -273,10 +273,10 @@
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/1.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/black/1.png')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/1.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/color/1.png')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
@@ -305,10 +305,10 @@
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/4.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/black/4.png')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/4.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/color/4.png')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
@@ -329,10 +329,10 @@
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/7.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/black/7.png')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/7.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/color/7.png')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
@@ -353,10 +353,10 @@
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/11.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/black/11.png')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/11.jpg')}}" alt="Our clients">
+                     <img src="{{asset('img/clients/color/11.png')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">

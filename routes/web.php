@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@changeLocale')->name('locale');
 Route::post('feedback', 'App\Http\Controllers\ContactController@feedBackForm')->name('contactForm');
+Route::get('/download', 'App\Http\Controllers\downloadController@downloadPresentation')->name('download');
 
 Route::group(
    ['prefix' => LaravelLocalization::setLocale()],

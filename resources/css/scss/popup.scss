@@ -101,11 +101,11 @@
    }
 }
 .popup__form {
-   padding: 20px 50px 34px 50px;
+   padding: 10px 50px 10px 50px;
    background-color: #ffffff;
    position: relative;
    @media (max-width: $tablet) {
-      padding: 42px 15px 40px 15px;
+      padding: 5px 15px 10px 15px;
       order: 2;
    }
 }
@@ -151,7 +151,7 @@
       }
       resize: none;
    }
-   margin-bottom: 13px;
+   margin-bottom: 10px;
 }
 
 .select2-selection {
@@ -180,9 +180,9 @@
 }
 .popup__title {
    text-align: center;
-   margin-bottom: 27px;
+   margin-bottom: 15px;
    @media (max-width: $mobile) {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
    }
 }
 .popup__title h4 {
@@ -270,6 +270,10 @@
    font-family: "Muller";
    text-align: left;
    color: red;
+   min-height: 15px;
+   @media (max-width: $mobileSmall) {
+      min-height: unset;
+   }
 }
 /*----POP-UP-JS----*/
 .popup.open .popup__content {
@@ -346,6 +350,9 @@
    }
    @media (max-width: $mobile) {
       background-size: 100% 100%;
+   }
+   @media (max-width: $mobileSmall) {
+      flex: 1 1 180px;
    }
 }
 /*----POP-UP----*/
