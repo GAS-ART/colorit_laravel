@@ -93,6 +93,7 @@
 		background-color: #232322;
 		transition: all 0.5s ease 0s;
 		margin: 0 15px 0 0;
+		text-align: center;
 		@media (pointer: fine) {
 			&:hover {
 				background-color: #000000;
@@ -307,28 +308,30 @@
 	}
 
 	&__presentation {
-		font-size: rem(18);
-		line-height: 1;
-		font-weight: 500;
-		transition: all 0.3s ease 0s;
-		cursor: pointer;
-		position: relative;
-		max-width: 205px;
-		&::after {
-			content: "";
-			height: 2px;
-			width: 0%;
-			background-color: $hoverColor;
-			position: absolute;
-			bottom: -5px;
-			left: 0;
+		a {
+			font-size: rem(18);
+			line-height: 1;
+			font-weight: 500;
 			transition: all 0.3s ease 0s;
-		}
-		@media (pointer: fine) {
-			&:hover {
-				color: $hoverColor;
-				&::after {
-					width: 100%;
+			cursor: pointer;
+			position: relative;
+			max-width: 205px;
+			&::after {
+				content: "";
+				height: 2px;
+				width: 0%;
+				background-color: $hoverColor;
+				position: absolute;
+				bottom: -5px;
+				left: 0;
+				transition: all 0.3s ease 0s;
+			}
+			@media (pointer: fine) {
+				&:hover {
+					color: $hoverColor;
+					&::after {
+						width: 100%;
+					}
 				}
 			}
 		}
@@ -347,7 +350,7 @@
 			.menu-burger__item-link {
 				position: relative;
 				display: inline-block;
-				width: 180px;
+				width: 230px;
 				@media (max-width: $mobileSmall) {
 					width: 140px;
 				}

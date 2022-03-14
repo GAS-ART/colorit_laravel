@@ -21,6 +21,8 @@
       .confirm {
          opacity: 1;
          visibility: visible;
+         text-align: center;
+         width: 100%;
       }
       .popup__title {
          opacity: 0;
@@ -311,7 +313,6 @@
       font-size: rem(25);
       line-height: 1.2;
       padding: 0 10px;
-      text-transform: uppercase;
       margin-bottom: 30px;
    }
 }

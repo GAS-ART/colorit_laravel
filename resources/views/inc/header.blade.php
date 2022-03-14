@@ -4,7 +4,7 @@
       <div class="header__container">
          <div class="header__body">
             <div class="header__logo">
-               <a href=""><img src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
+               <a href="{{LaravelLocalization::getLocalizedURL(__('main.set_lang'), '/')}}"><img src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
             </div>
             <nav class="header__menu menu-header">
                <ul class="menu-header__list">
@@ -35,31 +35,31 @@
          <div class="burger__body">
             <nav class="burger__menu menu-burger">
                <ul class="menu-burger__list">
-                  <li class="menu-burger__item"><a href="{{LaravelLocalization::getLocalizedURL(__('main.set_lang'), 'home')}}" class="menu-burger__item-link">о нас</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">отзывы</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link burger-service-menu">услуги<span></span></a>
+                  <li class="menu-burger__item"><a href="{{LaravelLocalization::getLocalizedURL(__('main.set_lang'), 'home')}}" class="menu-burger__item-link">@lang('burger.about_us')</a></li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a></li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
                   <ul class="burger-service-menu__list">
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Наружная реклама</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Полиграфия</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Айдентика</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">СММ</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Создание сайтов</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">УФ печать</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">Печать на одежде</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.outdoor_advertising')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.identity')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.smm')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.website_development')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.uv_printing')</a></li>
+                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.printing_on_clothes')</a></li>
                         </ul>
                </li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">портфолио</a></li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.portfolio')</a></li>
                </ul>
             </nav>
             <div class="burger__contacts contacts-burger">
-               <div class="contacts-burger__tittle">Контакты</div>
+               <div class="contacts-burger__tittle">@lang('contacts.contacts')</div>
                <div class="contacts-burger__contacts">
                   <div class="contacts-burger__address">
-                     <p>Адрес</p>
-                     <p>Барселона, Испания</p>
+                     <p>@lang('contacts.address')</p>
+                     <p>@lang('contacts.address_name')</p>
                   </div>
                   <div class="contacts-burger__phone">
-                     <p>Телефон</p>
+                     <p>@lang('contacts.phone')</p>
                      <a href="tel:%2B34691820317">+34 691 820 317</a>
                   </div>
                   <div class="contacts-burger__email">
@@ -75,7 +75,7 @@
                </div>
             </div>
             <div class="burger__presentation">
-               <a href="{{route('download')}}">Скачать презентацию</a>
+               <a href="{{route('download')}}">@lang('contacts.presentation')</a>
             </div>
          </div>
       </div>

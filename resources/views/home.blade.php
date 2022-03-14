@@ -9,28 +9,27 @@
 @section('content')
 <main class="page">
    <section class="service-menu">
-      <div class="service-menu__shadow-text">наружная реклама</div>
+      <div class="service-menu__shadow-text">@lang('services.outdoor_advertising')</div>
       <div class="service-menu__container">
          <div class="service-menu__body">
             <div class="service-menu__menu menu-service">
                <nav class="menu-service__list">
                   <ul class="menu-service__items">
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
-                           data-img="outdoorAdvertising" data-link="#outdoorAdvertising">наружная реклама</a></li>
+                           data-img="outdoorAdvertising" data-link="#outdoorAdvertising">@lang('services.outdoor_advertising')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="polygraphy"
-                           data-link="#polygraphy">полиграфия</a></li>
+                           data-link="#polygraphy">@lang('services.polygraphy')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="identity"
-                           data-link="#identity">айдентика</a></li>
+                           data-link="#identity">@lang('services.identity')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="smm"
-                           data-link="#smm">смм</a>
+                           data-link="#smm">@lang('services.smm')</a>
                      </li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
-                           data-img="websiteDevelopment" data-link="#websiteDevelopment">создание сайтов</a></li>
+                           data-img="websiteDevelopment" data-link="#websiteDevelopment">@lang('services.website_development')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="uvPrinting"
-                           data-link="#uvPrinting">уф
-                           печать</a></li>
+                           data-link="#uvPrinting">@lang('services.uv_printing')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
-                           data-img="printingOnClothes" data-link="#printingOnClothes">печать на одежде</a></li>
+                           data-img="printingOnClothes" data-link="#printingOnClothes">@lang('services.printing_on_clothes')</a></li>
                   </ul>
                </nav>
                <div class="service-menu__social">
@@ -42,7 +41,7 @@
             </div>
 
             <div class="service-menu__images">
-               <div class="service-menu__shadow-text-mobile">наружная реклама</div>
+               <div class="service-menu__shadow-text-mobile">@lang('services.outdoor_advertising')</div>
                <img class="service-menu__img active" src="{{asset('img/header/Outdoor_advertising.jpg')}}"
                   alt="Outdoor advertising" data-img="outdoorAdvertising">
                <img class="service-menu__img" src="{{asset('img/header/polygraphy.jpg')}}" alt="polygraphy"
@@ -56,7 +55,7 @@
                   data-img="uvPrinting">
                <img class="service-menu__img" src="{{asset('img/header/printing_on_clothes.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
-               <a href="#" class="service-menu__img-link">Подробнее</a>
+               <a href="#" class="service-menu__img-link">@lang('home.more')</a>
             </div>
          </div>
       </div>
@@ -67,20 +66,17 @@
    <section class="about">
       <div class="about__container">
          <div class="about__body">
-            <div class="about__about">Кто мы такие</div>
+            <div class="about__about">@lang('home.who_we_are')</div>
             <div class="about__text">
-               <p>Привет. Мы <span>¨Colorit agency¨</span> креативное агентство полного цикла в
-                  Барселоне и у нас есть все инструменты в продвижении вашего
-                  бизнеса.</p>
-               <p>Делаем рекламу которая будет эффективной, выводим бизнес в онлайн,
-                  а также помогаем поднять уровень продаж.</p>
+               <p>@lang('home.who_we_are_text_1')</p>
+               <p>@lang('home.who_we_are_text_2')</p>
             </div>
          </div>
       </div>
    </section>
    <section class="service">
       <div class="service__container">
-         <div class="service__tittle tittle">Наши услуги</div>
+         <div class="service__tittle tittle">@lang('services.our_services')</div>
          <div class="service__body">
             <div class="service__row">
                <div class="service__vertical vertical-content">
@@ -89,7 +85,7 @@
                            alt="Outdoor advertising"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">Наружная Реклама</a>
+                     <a href="#" class="">@lang('services.outdoor_advertising')</a>
                   </div>
                </div>
                <div class="service__horizontal horizontal-content">
@@ -97,7 +93,7 @@
                      <a href="#"><img src="{{asset('img/service/polygraphy.jpg')}}" alt="polygraphy"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <div class="horizontal-content__link"><a href="#" class="">Полиграфия</a></div>
+                     <div class="horizontal-content__link"><a href="#" class="">@lang('services.polygraphy')</a></div>
                   </div>
                </div>
             </div>
@@ -108,7 +104,7 @@
                      <a href="#"><img src="{{asset('img/service/identity.jpg')}}" alt="identity"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <a href="#" class="">Айдентика</a>
+                     <a href="#" class="">@lang('services.identity')</a>
                   </div>
                </div>
                <div class="service__vertical vertical-content">
@@ -116,7 +112,7 @@
                      <a href="#"><img src="{{asset('img/service/smm.jpg')}}" alt="smm"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">СММ</a>
+                     <a href="#" class="">@lang('services.smm')</a>
                   </div>
                </div>
             </div>
@@ -128,7 +124,7 @@
                            alt="website development"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">Создание Сайтов</a>
+                     <a href="#" class="">@lang('services.website_development')</a>
                   </div>
                </div>
                <div class="service__horizontal horizontal-content">
@@ -136,7 +132,7 @@
                      <a href="#"><img src="{{asset('img/service/UV_printing.jpg')}}" alt="UV printing"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <a href="#" class="">УФ Печать</a>
+                     <a href="#" class="">@lang('services.uv_printing')</a>
                   </div>
                </div>
             </div>
@@ -148,7 +144,7 @@
                            alt="printing on clothes"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <a href="#" class="">Печать на Одежде</a>
+                     <a href="#" class="">@lang('services.printing_on_clothes')</a>
                   </div>
                </div>
                <div class="service__vertical vertical-content">
@@ -166,7 +162,7 @@
    </section>
    <section class="cases">
       <div class="cases__container">
-         <div class="cases__titile tittle">Наши кейсы</div>
+         <div class="cases__titile tittle">@lang('home.our_cases')</div>
       </div>
       <div class="cases__images">
          <div class="cases__row">
@@ -389,14 +385,14 @@
       <div class="experience__container">
          <div class="experience__body">
             <div class="experience__text">
-               <p>Нам есть что рассказать!</p>
+               <p>@lang('home.experience')</p>
 
             </div>
             <div class="experience__callback callback">
                <div class="callback__text">
-                  <p>Оставляй заявку и мы перезвоним</p>
+                  <p>@lang('home.experience_lead')</p>
                </div>
-               <div class="callback__btn popup-btn"><button class="popup-btn" type="button">Оставить заявку</button></div>
+               <div class="callback__btn popup-btn"><button class="popup-btn" type="button">@lang('home.experience_lead_btn')</button></div>
             </div>
          </div>
 

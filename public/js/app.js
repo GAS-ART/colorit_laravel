@@ -202,14 +202,10 @@ window.onload = function () {
     } else {
       entries[0].target.classList.add('_scroll');
     }
-  } //Стилизация Select
+  } // Отпарвка данных из формы
 
 
-  $('.select-form').select2({
-    placeholder: 'Выберету услугу',
-    minimumResultsForSearch: -1
-  }); // Отпарвка данных из формы
-
+  var bookingForm = document.querySelector('#bookingform');
   $("#bookingform").submit(function (event) {
     event.preventDefault();
     $.ajax({
@@ -235,40 +231,105 @@ window.onload = function () {
         });
       },
       error: function error(err) {
-        var _err$responseJSON$err, _err$responseJSON$err2, _err$responseJSON$err3, _err$responseJSON$err4, _err$responseJSON$err5;
+        if (bookingForm.classList.contains('es')) {
+          var _err$responseJSON$err, _err$responseJSON$err2, _err$responseJSON$err3, _err$responseJSON$err4;
 
-        if ((_err$responseJSON$err = err.responseJSON.errors) !== null && _err$responseJSON$err !== void 0 && _err$responseJSON$err.email) {
-          $(".email-error").html(err.responseJSON.errors.email[0]);
-        } else {
-          $(".email-error").html('');
-        }
+          if ((_err$responseJSON$err = err.responseJSON.errors) !== null && _err$responseJSON$err !== void 0 && _err$responseJSON$err.email) {
+            var text = err.responseJSON.errors.email[0];
 
-        if ((_err$responseJSON$err2 = err.responseJSON.errors) !== null && _err$responseJSON$err2 !== void 0 && _err$responseJSON$err2.name) {
-          $(".name-error").html(err.responseJSON.errors.name[0]);
-        } else {
-          $(".name-error").html('');
-        }
+            if (text == 'Не заполнено поле "email"') {
+              $(".email-error").html('El campo no esta rellenado "email"');
+            } else if (text == 'Указан не корректный email адрес') {
+              $(".email-error").html('Introduce un email válido');
+            }
+          } else {
+            $(".email-error").html('');
+          }
 
-        if ((_err$responseJSON$err3 = err.responseJSON.errors) !== null && _err$responseJSON$err3 !== void 0 && _err$responseJSON$err3.phone) {
-          $(".phone-error").html(err.responseJSON.errors.phone[0]);
-        } else {
-          $(".phone-error").html('');
-          ;
-        }
+          if ((_err$responseJSON$err2 = err.responseJSON.errors) !== null && _err$responseJSON$err2 !== void 0 && _err$responseJSON$err2.name) {
+            var _text = err.responseJSON.errors.name[0];
 
-        if ((_err$responseJSON$err4 = err.responseJSON.errors) !== null && _err$responseJSON$err4 !== void 0 && _err$responseJSON$err4.filename) {
-          $(".file-error").html(err.responseJSON.errors.filename[0]);
-        } else {
-          $(".file-error").html('');
-        }
+            if (_text == 'Не заполнено поле "Имя"') {
+              $(".name-error").html('El campo Nombre no esta rellenado');
+            } else if (_text == 'Поле "Имя" не должно содержать цифр') {
+              $(".name-error").html('Campo "Nombre" no puede contener los números');
+            } else if (_text == 'Поле "Имя" должно содержать 2 или больше символов') {
+              $(".name-error").html('Campo "Nombre" Debe contener 2 o mas simbolos');
+            } else if (_text == 'Поле "Имя" должно содержать не больше 80 символов') {
+              $(".name-error").html('Campo "Nombre" no puede contener mas de 80 simbolos');
+            }
+          } else {
+            $(".name-error").html('');
+          }
 
-        if ((_err$responseJSON$err5 = err.responseJSON.errors) !== null && _err$responseJSON$err5 !== void 0 && _err$responseJSON$err5.service) {
-          $(".service-error").html(err.responseJSON.errors.service[0]);
+          if ((_err$responseJSON$err3 = err.responseJSON.errors) !== null && _err$responseJSON$err3 !== void 0 && _err$responseJSON$err3.phone) {
+            var _text2 = err.responseJSON.errors.phone[0];
+
+            if (_text2 == 'Не заполнено поле "Номер телефона"') {
+              $(".phone-error").html('El campo no esta rellenado telefono');
+            } else if (_text2 == 'Не верный формат номера телефона') {
+              $(".phone-error").html('Introduce un telefono válido');
+            }
+          } else {
+            $(".phone-error").html('');
+          }
+
+          if ((_err$responseJSON$err4 = err.responseJSON.errors) !== null && _err$responseJSON$err4 !== void 0 && _err$responseJSON$err4.service) {
+            var _text3 = err.responseJSON.errors.service[0];
+
+            if (_text3 == 'Пожалуйста выберете тип услуги из списка') {
+              $(".service-error").html('Por favor, elige el servicio');
+            }
+          } else {
+            $(".service-error").html('');
+          }
         } else {
-          $(".service-error").html('');
+          var _err$responseJSON$err5, _err$responseJSON$err6, _err$responseJSON$err7, _err$responseJSON$err8, _err$responseJSON$err9;
+
+          if ((_err$responseJSON$err5 = err.responseJSON.errors) !== null && _err$responseJSON$err5 !== void 0 && _err$responseJSON$err5.email) {
+            $(".email-error").html(err.responseJSON.errors.email[0]);
+          } else {
+            $(".email-error").html('');
+          }
+
+          if ((_err$responseJSON$err6 = err.responseJSON.errors) !== null && _err$responseJSON$err6 !== void 0 && _err$responseJSON$err6.name) {
+            $(".name-error").html(err.responseJSON.errors.name[0]);
+          } else {
+            $(".name-error").html('');
+          }
+
+          if ((_err$responseJSON$err7 = err.responseJSON.errors) !== null && _err$responseJSON$err7 !== void 0 && _err$responseJSON$err7.phone) {
+            $(".phone-error").html(err.responseJSON.errors.phone[0]);
+          } else {
+            $(".phone-error").html('');
+            ;
+          }
+
+          if ((_err$responseJSON$err8 = err.responseJSON.errors) !== null && _err$responseJSON$err8 !== void 0 && _err$responseJSON$err8.filename) {
+            $(".file-error").html(err.responseJSON.errors.filename[0]);
+          } else {
+            $(".file-error").html('');
+          }
+
+          if ((_err$responseJSON$err9 = err.responseJSON.errors) !== null && _err$responseJSON$err9 !== void 0 && _err$responseJSON$err9.service) {
+            $(".service-error").html(err.responseJSON.errors.service[0]);
+          } else {
+            $(".service-error").html('');
+          }
         }
       }
     });
+  }); //Стилизация Select
+
+  var placeholderText = 'Выберету услугу';
+
+  if (bookingForm.classList.contains('es')) {
+    placeholderText = 'Elige el servicio';
+  }
+
+  $('.select-form').select2({
+    placeholder: placeholderText,
+    minimumResultsForSearch: -1
   });
 };
 

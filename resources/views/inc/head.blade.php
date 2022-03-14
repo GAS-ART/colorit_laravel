@@ -28,10 +28,10 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Roboto&amp;display=swap"
       rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css?_v=8">
+   <link rel="stylesheet" href="{{asset('css/style.css')}}"> 
 
    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-   <script src="js/app.js?_v=2"></script>
+   <script src="{{asset('js/app.js')}}"></script>
 </head>
