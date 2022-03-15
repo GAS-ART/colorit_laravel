@@ -7,7 +7,7 @@
                <h5 class="footer__tittle">@lang('services.services')</h5>
                <nav class="service-footer__list">
                   <ul class="service-footer__items">
-                     <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.outdoor_advertising')</a>
+                     <li class="service-footer__item"><a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.outdoor_advertising')</a>
                      </li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.polygraphy')</a></li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.identity')</a></li>

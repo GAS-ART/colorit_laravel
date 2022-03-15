@@ -23,7 +23,7 @@ Route::get('/', function () {App::setLocale('ru'); return view('home');})->name(
 
 Route::get('/{locale}', function ($locale) {
    
-   if (! in_array($locale, ['ru', 'es', 'home'])) { // Добавляем в этот массив ссылки на все страницы которые идут после {locale}!!!
+   if (! in_array($locale, ['ru', 'es', 'home', 'outdoor_advertising'])) { // Добавляем в этот массив ссылки на все страницы которые идут после {locale}!!!
 
       abort(404);
 
@@ -59,4 +59,23 @@ Route::get('/{locale}/home', function ($locale) {
 
    }
 })->name('home.lang');
+
+Route::get('/{locale}/outdoor_advertising', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('outdoor_advertising');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('outdoor_advertising');
+
+   }
+})->name('outdoor_advertising.lang');
 

@@ -3,12 +3,12 @@
 return [
    'outdoor_advertising' => 'Rotulacion',
    'polygraphy' => 'Impresion digital',
-   'identity' => 'Identity',
+   'identity' => 'Diseño',
    'smm' => 'SMM',
    'website_development' => 'Desarrollo web',
-   'uv_printing' => 'Impresion digital',
+   'uv_printing' => 'УФ печать',
    'printing_on_clothes' => 'Ropa personalizada',
-   'services' => 'Servicio',
+   'services' => 'Servicios',
    'our_services' => 'Nuestros servicios',
 ]
 

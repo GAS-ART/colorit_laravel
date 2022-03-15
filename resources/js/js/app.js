@@ -84,14 +84,14 @@ window.onload = function () {
    }
 
    //бегущая строка
+   const baner = document.querySelector('.baner');
+   const banerStart = document.querySelector('.baner__start');
+   const banerSpanStart = '<span class="baner__start">агентство эффективной рекламы</span>';
    function animationBanerText() {
       let screenWidth = 0;
       let textWidth = 0;
       let spanQuantity = 0;
       let banerWidth = 0;
-      const baner = document.querySelector('.baner');
-      const banerStart = document.querySelector('.baner__start');
-      const banerSpanStart = '<span class="baner__start">агентство эффективной рекламы</span>';
       screenWidth = document.documentElement.clientWidth
       textWidth = baner.clientWidth;
       spanQuantity = Math.ceil(screenWidth / textWidth);
@@ -115,7 +115,10 @@ window.onload = function () {
          })
       });
    }
-   animationBanerText();
+   if (baner) {
+      animationBanerText();
+   }
+
 
    //Цвет логотипов компаний при наведении
    const logosBlack = document.querySelectorAll('.black-image > img');

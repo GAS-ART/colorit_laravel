@@ -3,7 +3,7 @@
 return [
    'cases' => 'Portfolio',
    'contacts' => 'Contacto',
-   'presentation' => 'presentación',
+   'presentation' => 'Presentación',
    'lead' => 'Contactar',
 ]
 

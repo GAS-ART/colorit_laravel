@@ -7,7 +7,6 @@
 
 
 @section('content')
-<main class="page">
    <section class="service-menu">
       <div class="service-menu__shadow-text">@lang('services.outdoor_advertising')</div>
       <div class="service-menu__container">
@@ -15,7 +14,7 @@
             <div class="service-menu__menu menu-service">
                <nav class="menu-service__list">
                   <ul class="menu-service__items">
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link"
+                     <li class="menu-service__item"><a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link"
                            data-img="outdoorAdvertising" data-link="#outdoorAdvertising">@lang('services.outdoor_advertising')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="polygraphy"
                            data-link="#polygraphy">@lang('services.polygraphy')</a></li>
@@ -81,11 +80,11 @@
             <div class="service__row">
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="#"><img src="{{asset('img/service/Outdoor_advertising.jpg')}}"
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/Outdoor_advertising.jpg')}}"
                            alt="Outdoor advertising"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">@lang('services.outdoor_advertising')</a>
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.outdoor_advertising')</a>
                   </div>
                </div>
                <div class="service__horizontal horizontal-content">
@@ -398,5 +397,4 @@
 
       </div>
    </section>
-</main>
 @endsection

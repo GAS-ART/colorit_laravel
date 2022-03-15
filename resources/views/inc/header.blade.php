@@ -4,26 +4,30 @@
       <div class="header__container">
          <div class="header__body">
             <div class="header__logo">
-               <a href="{{ route('index.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
+               <a href="{{ route('index.lang', ['locale' => __('main.set_lang')]) }}"><img
+                     src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
             </div>
             <nav class="header__menu menu-header">
                <ul class="menu-header__list">
-                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.cases')</a></li>
-                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.contacts')</a></li>
-                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.presentation')</a></li>
+                  <li class="menu-header__item"><a class="menu-header__item-link"
+                        href="#">@lang('header.presentation')</a></li>
+                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.cases')</a>
+                  </li>
+                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.contacts')</a>
+                  </li>
                </ul>
             </nav>
             <div class="header__language language-btn">
                <div class="language-btn__select">
-               <a class="language-btn__link" href="{{ route('locale', __('main.set_lang')) }}">
-                  <div class="language-btn__text">@lang('main.current_lang')</div>
-                  <div class="language-btn__icon @lang('main.current_lang_class')"></div>
-</a>
+                  <a class="language-btn__link" href="{{ route('locale', __('main.set_lang')) }}">
+                     <div class="language-btn__text">@lang('main.current_lang')</div>
+                     <div class="language-btn__icon @lang('main.current_lang_class')"></div>
+                  </a>
                </div>
                <div class="language-btn__select">
-               <a class="language-btn__link" href="{{ route('locale', __('main.change_lang_link')) }}"> 
-                  <div class="language-btn__text">@lang('main.another_lang')</div>
-                  <div class="language-btn__icon @lang('main.change_lang_class')"></div>
+                  <a class="language-btn__link" href="{{ route('locale', __('main.change_lang_link')) }}">
+                     <div class="language-btn__text">@lang('main.another_lang')</div>
+                     <div class="language-btn__icon @lang('main.change_lang_class')"></div>
                   </a>
                </div>
             </div>
@@ -35,20 +39,32 @@
          <div class="burger__body">
             <nav class="burger__menu menu-burger">
                <ul class="menu-burger__list">
-                  <li class="menu-burger__item"><a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('burger.about_us')</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
-                  <ul class="burger-service-menu__list">
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.outdoor_advertising')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.identity')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.smm')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.website_development')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.uv_printing')</a></li>
-                           <li class="burger-service-menu__item"><a href="" class="burger-service-menu__item-link">@lang('services.printing_on_clothes')</a></li>
-                        </ul>
-               </li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.portfolio')</a></li>
+                  <li class="menu-burger__item"><a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="menu-burger__item-link">@lang('burger.about_us')</a></li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a>
+                  </li>
+                  <li class="menu-burger__item"><a href="#"
+                        class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
+                     <ul class="burger-service-menu__list">
+                        <li class="burger-service-menu__item"><a
+                              href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+                              class="burger-service-menu__item-link">@lang('services.outdoor_advertising')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.identity')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.smm')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.website_development')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.uv_printing')</a></li>
+                        <li class="burger-service-menu__item"><a href=""
+                              class="burger-service-menu__item-link">@lang('services.printing_on_clothes')</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.portfolio')</a>
+                  </li>
                </ul>
             </nav>
             <div class="burger__contacts contacts-burger">

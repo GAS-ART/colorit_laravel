@@ -1,0 +1,102 @@
+/*LINKS*/
+//==================================================================
+.links {
+   margin: 161px 0 30px 0;
+   @media (max-width: $mobileSmall) {
+      margin: 126px 0 20px 0;
+   }
+   &__body {
+      @media (max-width: $mobile) {
+         text-align: center;
+      }
+   }
+   &__current {
+      color: $hoverColor;
+      font-family: "Muller";
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1;
+   }
+   &__previous {
+      position: relative;
+      color: #828282;
+      font-family: "Muller";
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1;
+      margin-right: 25px;
+      transition: all 0.3s ease 0s;
+      @media (pointer: fine) {
+         &:hover {
+            color: $hoverColor;
+         }
+      }
+      &::after {
+         content: "";
+         position: absolute;
+         width: 5px;
+         height: 1px;
+         top: 43.4%;
+         right: -15px;
+         background-color: #828282;
+      }
+   }
+}
+/*LINKS*/
+//==================================================================
+
+/*MAIN-BANER-TOP*/
+//==================================================================
+.main-baner-top {
+   &__body {
+      position: relative;
+      text-align: center;
+      padding-bottom: 33.143%;
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+
+   &__lage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+      @media (max-width: $mobile) {
+         display: none;
+      }
+   }
+
+   &__small {
+      display: none;
+      @media (max-width: $mobile) {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+   }
+
+   &__tittle {
+      position: absolute;
+      z-index: 5;
+      text-transform: uppercase;
+      left: 0;
+      bottom: -43px;
+      @include adaptiveValueREM("font-size", 150, 30);
+      line-height: 1.2;
+      color: #ffffff;
+      text-align: left;
+      @media (max-width: $mobile) {
+         bottom: 0px;
+      }
+   }
+}
+
+/*MAIN-BANER-TOP*/
+//==================================================================

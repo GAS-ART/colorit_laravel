@@ -1,7 +1,7 @@
 <?php
 
 return [
-   'about_us' => 'Sobre nosotros',
+   'about_us' => 'Nosotros',
    'recall' => 'opiniones',
    'services' => 'Servicios',
    'portfolio' => 'Portfolio',

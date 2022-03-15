@@ -4,7 +4,9 @@
 <body id="body">
    <div class="wrapper">
       @include('inc.header')
-      @yield('content')
+         <main class="page">
+            @yield('content')
+         </main>
       @include('inc.footer')
    </div>
    @include('inc.popup')
