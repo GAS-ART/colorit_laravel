@@ -18,28 +18,12 @@ Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@change
 Route::post('feedback', 'App\Http\Controllers\ContactController@feedBackForm')->name('contactForm');
 Route::get('/download', 'App\Http\Controllers\downloadController@downloadPresentation')->name('download');
 
-/*Route::group(
-   ['prefix' => LaravelLocalization::setLocale()],
-   function(){
-     
-   }
-);*/
-
-//Route::get('/', function () { return view('home');})->name('index');
-//Route::get('/es', function () {App::setlocale('es'); return view('home');})->name('indexES');
-//Route::get('/ru', function () {App::setlocale('ru'); return view('home');})->name('indexRU');
-
-//Route::get('/home', function () {return view('home');})->name('home');
-//Route::get('/es/home', function () {App::setlocale('es'); return view('home');})->name('homeES');
-//Route::get('/ru/home', function () {App::setlocale('ru'); return view('home');})->name('homeRU');
-
-
 
 Route::get('/', function () {App::setLocale('ru'); return view('home');})->name('index');
 
 Route::get('/{locale}', function ($locale) {
    
-   if (! in_array($locale, ['ru', 'es', 'home'])) {
+   if (! in_array($locale, ['ru', 'es', 'home'])) { // Добавляем в этот массив ссылки на все страницы которые идут после {locale}!!!
 
       abort(404);
 
@@ -48,18 +32,15 @@ Route::get('/{locale}', function ($locale) {
       App::setLocale('ru');
       return view('home');
 
-      //return redirect()->route('index');
-
    } else if ($locale == 'es') {
 
       App::setLocale('es');
       return view('home');
 
    }
-})->name('index.es');
+})->name('index.lang');
 
 
-//Route::get('/ru/home', function () {return view('home');})->name('home');
 Route::get('/{locale}/home', function ($locale) {
    
    if (! in_array($locale, ['ru', 'es'])) {
@@ -77,4 +58,5 @@ Route::get('/{locale}/home', function ($locale) {
       return view('home');
 
    }
-})->name('home.es');
+})->name('home.lang');
+

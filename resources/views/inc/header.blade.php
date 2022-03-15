@@ -4,7 +4,7 @@
       <div class="header__container">
          <div class="header__body">
             <div class="header__logo">
-               <a href="{{ route('index.es', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
+               <a href="{{ route('index.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/logo1.png')}}" alt="colorit logo" title="colorit logo"></a>
             </div>
             <nav class="header__menu menu-header">
                <ul class="menu-header__list">
@@ -35,7 +35,7 @@
          <div class="burger__body">
             <nav class="burger__menu menu-burger">
                <ul class="menu-burger__list">
-                  <li class="menu-burger__item"><a href="{{ route('home.es', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('burger.about_us')</a></li>
+                  <li class="menu-burger__item"><a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('burger.about_us')</a></li>
                   <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a></li>
                   <li class="menu-burger__item"><a href="#" class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
                   <ul class="burger-service-menu__list">
