@@ -48,12 +48,17 @@
 /*MAIN-BANER-TOP*/
 //==================================================================
 .main-baner-top {
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
    &__body {
       position: relative;
       text-align: center;
       padding-bottom: 33.143%;
       margin-left: 50px;
       margin-right: 50px;
+      font-size: rem(150);
    }
 
    &__lage {
@@ -87,16 +92,65 @@
       z-index: 5;
       text-transform: uppercase;
       left: 0;
-      bottom: -43px;
-      @include adaptiveValueREM("font-size", 150, 30);
+      // bottom: -43px;
+      @include adaptiveValueREM("bottom", -43, -10, 1920, 768, 1);
+      @include adaptiveValueREM("font-size", 125, 30, 1810, 320, 3);
       line-height: 1.2;
       color: #ffffff;
       text-align: left;
       @media (max-width: $mobile) {
-         bottom: 0px;
+         text-align: right;
+         right: 0;
       }
    }
 }
 
 /*MAIN-BANER-TOP*/
+//==================================================================
+
+/*OUTDOR-ADVERTISING-ABOUT*/
+//==================================================================
+.outdor-advertising-about {
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
+   position: relative;
+   &__container {
+   }
+
+   &__body {
+      position: relative;
+      max-width: 1155px;
+      margin-left: auto;
+      text-align: left;
+      padding-bottom: 71px;
+      z-index: 5;
+      font-family: "Muller";
+      line-height: 1.8;
+      @include adaptiveValueREM("font-size", 20, 16);
+      span {
+         color: $mainColor;
+         font-weight: 700;
+      }
+      @media (max-width: $mobileSmall) {
+         padding-bottom: 45px;
+      }
+   }
+   &__tittle {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-transform: uppercase;
+      line-height: 1.2;
+      @include adaptiveValueREM("font-size", 100, 30);
+      color: $hoverColor;
+      opacity: 0.08;
+      @media (max-width: $mobile) {
+         text-align: center;
+         padding-left: 30px;
+      }
+   }
+}
+/*OUTDOR-ADVERTISING-ABOUT*/
 //==================================================================

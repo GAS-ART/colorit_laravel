@@ -23,7 +23,7 @@ Route::get('/', function () {App::setLocale('ru'); return view('home');})->name(
 
 Route::get('/{locale}', function ($locale) {
    
-   if (! in_array($locale, ['ru', 'es', 'home', 'outdoor_advertising'])) { // Добавляем в этот массив ссылки на все страницы которые идут после {locale}!!!
+   if (! in_array($locale, ['ru', 'es'])) { 
 
       abort(404);
 

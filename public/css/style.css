@@ -2037,12 +2037,21 @@ h6 {
 
 /*LINKS*/
 /*MAIN-BANER-TOP*/
+.main-baner-top {
+  margin-bottom: 100px;
+}
+@media (max-width: 61.99875em) {
+  .main-baner-top {
+    margin-bottom: 60px;
+  }
+}
 .main-baner-top__body {
   position: relative;
   text-align: center;
   padding-bottom: 33.143%;
   margin-left: 50px;
   margin-right: 50px;
+  font-size: 9.375rem;
 }
 .main-baner-top__lage {
   position: absolute;
@@ -2078,30 +2087,117 @@ h6 {
   z-index: 5;
   text-transform: uppercase;
   left: 0;
-  bottom: -43px;
   line-height: 1.2;
   color: #ffffff;
   text-align: left;
 }
-@supports (font-size: clamp( 1.875rem , 0.0000000625rem  +  9.375vw , 9.375rem )) {
+@supports (bottom: clamp( -2.6875rem , 0.75rem  +  -2.8645833333vw , -0.625rem )) {
   .main-baner-top__tittle {
-    font-size: clamp( 1.875rem , 0.0000000625rem  +  9.375vw , 9.375rem );
+    bottom: clamp( -2.6875rem , 0.75rem  +  -2.8645833333vw , -0.625rem );
   }
 }
-@supports not (font-size: clamp( 1.875rem , 0.0000000625rem  +  9.375vw , 9.375rem )) {
+@supports not (bottom: clamp( -2.6875rem , 0.75rem  +  -2.8645833333vw , -0.625rem )) {
+  .main-baner-top__tittle {
+    bottom: calc(
+         -0.625rem + -2.0625 * (100vw - 48rem) / 72
+      );
+  }
+}
+@supports (font-size: clamp( 1.875rem , 0.5998322148rem  +  6.3758389262vw , 7.8125rem )) {
+  .main-baner-top__tittle {
+    font-size: clamp( 1.875rem , 0.5998322148rem  +  6.3758389262vw , 7.8125rem );
+  }
+}
+@supports not (font-size: clamp( 1.875rem , 0.5998322148rem  +  6.3758389262vw , 7.8125rem )) {
   .main-baner-top__tittle {
     font-size: calc(
-         1.875rem + 7.5 * (100vw - 20rem) / 80
+         1.875rem + 5.9375 * (100vw - 20rem) / 93.125
       );
+  }
+}
+@media (min-width: 113.125em) {
+  .main-baner-top__tittle {
+    font-size: inherit;
   }
 }
 @media (max-width: 47.99875em) {
   .main-baner-top__tittle {
-    bottom: 0px;
+    text-align: right;
+    right: 0;
   }
 }
 
 /*MAIN-BANER-TOP*/
+/*OUTDOR-ADVERTISING-ABOUT*/
+.outdor-advertising-about {
+  margin-bottom: 100px;
+  position: relative;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising-about {
+    margin-bottom: 60px;
+  }
+}
+.outdor-advertising-about__body {
+  position: relative;
+  max-width: 1155px;
+  margin-left: auto;
+  text-align: left;
+  padding-bottom: 71px;
+  z-index: 5;
+  font-family: "Muller";
+  line-height: 1.8;
+}
+@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .outdor-advertising-about__body {
+    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .outdor-advertising-about__body {
+    font-size: calc(
+         1rem + 0.25 * (100vw - 20rem) / 80
+      );
+  }
+}
+.outdor-advertising-about__body span {
+  color: #000000;
+  font-weight: 700;
+}
+@media (max-width: 29.99875em) {
+  .outdor-advertising-about__body {
+    padding-bottom: 45px;
+  }
+}
+.outdor-advertising-about__tittle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #962e93;
+  opacity: 0.08;
+}
+@supports (font-size: clamp( 1.875rem , 0.78125rem  +  5.46875vw , 6.25rem )) {
+  .outdor-advertising-about__tittle {
+    font-size: clamp( 1.875rem , 0.78125rem  +  5.46875vw , 6.25rem );
+  }
+}
+@supports not (font-size: clamp( 1.875rem , 0.78125rem  +  5.46875vw , 6.25rem )) {
+  .outdor-advertising-about__tittle {
+    font-size: calc(
+         1.875rem + 4.375 * (100vw - 20rem) / 80
+      );
+  }
+}
+@media (max-width: 47.99875em) {
+  .outdor-advertising-about__tittle {
+    text-align: center;
+    padding-left: 30px;
+  }
+}
+
+/*OUTDOR-ADVERTISING-ABOUT*/
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;

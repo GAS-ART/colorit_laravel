@@ -10,6 +10,7 @@ return [
    'printing_on_clothes' => 'Ropa personalizada',
    'services' => 'Servicios',
    'our_services' => 'Nuestros servicios',
+   'main_link' => 'Inicio',
 ]
 
 ?>

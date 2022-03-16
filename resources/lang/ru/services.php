@@ -10,6 +10,7 @@ return [
    'printing_on_clothes' => 'Печать на одежде',
    'services' => 'Услуги',
    'our_services' => 'Наши услуги',
+   'main_link' => 'Главная',
 ]
 
 ?>
