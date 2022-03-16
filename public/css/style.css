@@ -2130,12 +2130,12 @@ h6 {
 /*MAIN-BANER-TOP*/
 /*OUTDOR-ADVERTISING-ABOUT*/
 .outdor-advertising-about {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   position: relative;
 }
 @media (max-width: 61.99875em) {
   .outdor-advertising-about {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 }
 .outdor-advertising-about__body {
@@ -2198,6 +2198,17 @@ h6 {
 }
 
 /*OUTDOR-ADVERTISING-ABOUT*/
+/*OUTDOR-ADVERTISING*/
+.outdor-advertising__tittle {
+  margin: 0 0 50px 0;
+  text-align: left;
+}
+@media (max-width: 47.99875em) {
+  .outdor-advertising__tittle {
+    margin: 0 0 40px 0;
+  }
+}
+/*OUTDOR-ADVERTISING*/
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;

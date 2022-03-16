@@ -111,9 +111,9 @@
 /*OUTDOR-ADVERTISING-ABOUT*/
 //==================================================================
 .outdor-advertising-about {
-   margin-bottom: 100px;
+   margin-bottom: 30px;
    @media (max-width: $tablet) {
-      margin-bottom: 60px;
+      margin-bottom: 20px;
    }
    position: relative;
    &__container {
@@ -153,4 +153,34 @@
    }
 }
 /*OUTDOR-ADVERTISING-ABOUT*/
+//==================================================================
+
+/*OUTDOR-ADVERTISING*/
+//==================================================================
+.outdor-advertising {
+   &__container {
+   }
+
+   &__tittle {
+      margin: 0 0 50px 0;
+      text-align: left;
+      @media (max-width: $mobile) {
+         margin: 0 0 40px 0;
+      }
+   }
+
+   &__row {
+   }
+
+   &__item {
+   }
+}
+.description-outdor-advertising {
+   &__tittle {
+   }
+
+   &__text {
+   }
+}
+/*OUTDOR-ADVERTISING*/
 //==================================================================

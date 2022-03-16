@@ -34,7 +34,7 @@
 </section>
 <section class="outdor-advertising">
    <div class="outdor-advertising__container">
-      <h2 class="outdor-advertising__tittle">@lang('services.outdoor_advertising')</h2>
+      <h2 class="outdor-advertising__tittle tittle">@lang('services.outdoor_advertising')</h2>
       <div class="outdor-advertising__row">
          <div class="outdor-advertising__item description-outdor-advertising">
             <div class="description-outdor-advertising__tittle">
@@ -46,18 +46,18 @@
          </div>
          <div class="outdor-advertising__item description-outdor-advertising">
             <div class="description-outdor-advertising__tittle">
-               Сроки изготовления
+               @lang('outdorAdvertising.outdor_advertising.production_time_tittle')
             </div>
             <div class="description-outdor-advertising__text">
-               В зависимости от сложности работ сроки могут составлять 5 – 25 дней
+               @lang('outdorAdvertising.outdor_advertising.production_time_text')
             </div>
          </div>
          <div class="outdor-advertising__item description-outdor-advertising">
             <div class="description-outdor-advertising__tittle">
-               Используемые материалы
+               @lang('outdorAdvertising.outdor_advertising.materials_used_tittle')
             </div>
             <div class="description-outdor-advertising__text">
-               Алюминий (композит), метакрилат, пвх, дерево, винил.
+               @lang('outdorAdvertising.outdor_advertising.materials_used_text')
             </div>
          </div>
       </div>
