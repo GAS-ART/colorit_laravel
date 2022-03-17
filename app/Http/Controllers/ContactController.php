@@ -26,11 +26,12 @@ class ContactController extends Controller
       $phone = $req->input('phone');
       $service = $req->input('service');
       $text = $req->input('text');
+      $page = $req->input('page');
 
       $pathToFile = storage_path('app/public/mail_files/' . $fileName); // АДРЕС ГДЕ ХРАНИТСЯ ФАЙЛ
 
       /*ОТПРАВКА ДАННЫХ ИЗ ФОРМЫ И ФАЙЛА НА ПОЧТУ*/
-      mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, ], function($message) use ($pathToFile){
+      mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message) use ($pathToFile){
          $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ')->attach($pathToFile);
          });
 
@@ -43,8 +44,9 @@ class ContactController extends Controller
       $phone = $req->input('phone');
       $service = $req->input('service');
       $text = $req->input('text');
+      $page = $req->input('page');
 
-      mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, ], function($message){
+      mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message){
          $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
          });
    }

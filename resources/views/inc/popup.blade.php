@@ -11,6 +11,7 @@
                <div class="popup__text">
                   <form class="form @lang('main.current_lang_class')" id="bookingform" name="popupform" method="POST" enctype="multipart/form-data" action="#" autocomplete="on">
                      @csrf
+                     <input type="hidden" name="page" value="{{__(Request::url())}}">
                      <div class="contacts-form__item data popup-data">
                         <input class="data__text-field" type="text" name="name" placeholder="@lang('form.name')">
                         <p class="name-error error"></p>
