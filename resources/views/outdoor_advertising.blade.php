@@ -63,4 +63,46 @@
       </div>
    </div>
 </section>
+<section class="outdor-advertising-products">
+   <div class="outdor-advertising-products__container">
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/letters.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">объёмные буквы</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">Объёмные буквы являются разновидностью наружной рекламы
+                  и в последние годы, одними из самых востребованных на рынке. <span
+                     class="description-product__text-more"> Огромным преимуществом является то, что их
+                     можно применять как на фасады зданий или магазинов, так и внутри помещения.</span>
+               </div>
+               <button class="description-product__read-more-btn">Читать дальше</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile"> Огромным преимуществом является то, что
+                     их
+                     можно применять как на фасады зданий или магазинов, так и внутри помещения.
+                  </div>
+                  <div class="description-product__type">Виды</div>
+                  <ul class="description-product__list">
+                     <li class="description-product__item">- световые буквы</li>
+                     <li class="description-product__item">- объёмные без подсветки</li>
+                     <li class="description-product__item">- интерьерные буквы</li>
+                     <li class="description-product__item">- контр-ажурные объёмные буквы</li>
+                  </ul>
+                  <div class="description-product__details">
+                     <p><span>Сроки изготовления</span> могут составлять от 10 – 25 дней</p>
+                     <p><span>Используемые материалы: </span>алюминий (композит), метакрилат, пвх, дерево, винил.</p>
+
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">Скрыть текст</button>
+               <button class="description-product__btn popup-btn">Заказать</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">Заказать</button>
+      </div>
+   </div>
+</section>
 @endsection

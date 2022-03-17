@@ -235,6 +235,8 @@ window.onload = function () {
         });
       },
       error: function error(err) {
+        console.log(err);
+
         if (bookingForm.classList.contains('es')) {
           var _err$responseJSON$err, _err$responseJSON$err2, _err$responseJSON$err3, _err$responseJSON$err4;
 
@@ -335,6 +337,34 @@ window.onload = function () {
     placeholder: placeholderText,
     minimumResultsForSearch: -1
   });
+  /*OUTDOR-ADVERTISING*/
+  //==================================================================
+  //Скрыть показать текст (читать больше/меньше)
+  //$('.description-outdor-advertising__read-more-btn').next().slideUp();
+
+  $('.description-product__read-more-btn').click(function (e) {
+    $(e.target).next().slideDown(300);
+    $('.description-product__read-less-btn').addClass('active');
+    $(e.target).addClass('active');
+  });
+  $('.description-product__read-less-btn').click(function (e) {
+    $(e.target).prev().slideUp(300);
+    $('.description-product__read-more-btn').removeClass('active');
+    $(e.target).removeClass('active');
+  });
+
+  function windowSize() {
+    if ($(window).width() <= '991.98') {
+      $('.description-product__read-more-btn').next().slideUp();
+    } else {
+      $('.description-product__read-more-btn').next().slideDown();
+    }
+  }
+
+  $(window).on('load resize', windowSize);
+  windowSize();
+  /*OUTDOR-ADVERTISING*/
+  //==================================================================
 };
 
 /***/ }),

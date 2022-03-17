@@ -2199,6 +2199,14 @@ h6 {
 
 /*OUTDOR-ADVERTISING-ABOUT*/
 /*OUTDOR-ADVERTISING*/
+.outdor-advertising {
+  margin-bottom: 100px;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising {
+    margin-bottom: 60px;
+  }
+}
 .outdor-advertising__tittle {
   margin: 0 0 50px 0;
   text-align: left;
@@ -2208,7 +2216,283 @@ h6 {
     margin: 0 0 40px 0;
   }
 }
+.outdor-advertising__row {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising__row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.outdor-advertising__item {
+  text-align: left;
+}
+.outdor-advertising__item:not(:last-child) {
+  margin-right: 30px;
+}
+.outdor-advertising__item:first-child {
+  max-width: 819px;
+}
+.outdor-advertising__item:not(:first-child) {
+  max-width: 300px;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising__item {
+    margin-right: 0px;
+  }
+  .outdor-advertising__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.description-outdor-advertising__tittle {
+  font-family: "Muller";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #962e93;
+}
+.description-outdor-advertising__text {
+  font-family: "Muller";
+  line-height: 1.8;
+  color: #000000;
+  font-size: 1rem;
+}
+
 /*OUTDOR-ADVERTISING*/
+/*OUTDOR-ADVERTISING-PRODUCTS*/
+.outdor-advertising-products__item {
+  display: flex;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising-products__item {
+    flex-direction: column;
+  }
+}
+
+.item-outdor-advertising-products__img {
+  position: relative;
+  flex: 0 1 900px;
+}
+.item-outdor-advertising-products__img:first-child {
+  margin-right: 63px;
+}
+@media (max-width: 73.8125em) {
+  .item-outdor-advertising-products__img:first-child {
+    margin-right: 20px;
+  }
+}
+.item-outdor-advertising-products__img img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+@media (max-width: 61.99875em) {
+  .item-outdor-advertising-products__img {
+    flex: 1 1 auto;
+    margin-bottom: 20px;
+  }
+  .item-outdor-advertising-products__img img {
+    position: relative;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .item-outdor-advertising-products__img:first-child {
+    margin-right: 0px;
+  }
+}
+.item-outdor-advertising-products__description {
+  flex: 0 1 577px;
+}
+.item-outdor-advertising-products__description:first-child {
+  margin-right: 63px;
+}
+@media (max-width: 61.99875em) {
+  .item-outdor-advertising-products__description {
+    flex: 1 1 auto;
+  }
+  .item-outdor-advertising-products__description:first-child {
+    margin-right: 0px;
+  }
+}
+.item-outdor-advertising-products__btn-mobile {
+  display: none;
+}
+@media (max-width: 61.99875em) {
+  .item-outdor-advertising-products__btn-mobile {
+    display: block !important;
+  }
+}
+
+.description-product__tittle {
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #232322;
+  margin-bottom: 25px;
+  text-align: left;
+}
+@supports (font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem )) {
+  .description-product__tittle {
+    font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem );
+  }
+}
+@supports not (font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem )) {
+  .description-product__tittle {
+    font-size: calc(
+         1.5625rem + 0.9375 * (100vw - 20rem) / 80
+      );
+  }
+}
+@media (max-width: 47.99875em) {
+  .description-product__tittle {
+    margin-bottom: 20px;
+  }
+}
+.description-product__text {
+  font-family: "Muller";
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+@media (max-width: 61.99875em) {
+  .description-product__text-more {
+    display: none;
+  }
+}
+.description-product__read-more-btn {
+  display: none;
+  transition: all 0.3s ease 0s;
+  font-family: "Muller";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 15px 0 47px 0;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  color: #232322;
+}
+.description-product__read-more-btn.active {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+.description-product__read-more-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #232322;
+  bottom: 0;
+}
+@media (max-width: 61.99875em) {
+  .description-product__read-more-btn {
+    display: block;
+  }
+}
+.description-product__text-more-mobile {
+  font-family: "Muller";
+  line-height: 1.8;
+  font-size: 1rem;
+  display: none;
+}
+@media (max-width: 61.99875em) {
+  .description-product__text-more-mobile {
+    display: block;
+  }
+}
+.description-product__type {
+  font-family: "Muller";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #962e93;
+  margin-bottom: 5px;
+}
+.description-product__list {
+  font-family: "Muller";
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.description-product__details {
+  font-family: "Muller";
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.description-product__details p:not(:last-child) {
+  margin-bottom: 10px;
+}
+.description-product__details span {
+  color: #962e93;
+  font-weight: 700;
+}
+@media (max-width: 61.99875em) {
+  .description-product__details {
+    margin-bottom: 0px;
+  }
+}
+.description-product__read-less-btn {
+  display: none;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  font-family: "Muller";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  transition: all 0.3s ease 0s;
+  color: #232322;
+}
+.description-product__read-less-btn.active {
+  opacity: 1;
+  visibility: visible;
+  margin: 15px 0 47px 0;
+  height: 100%;
+}
+.description-product__read-less-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #232322;
+  bottom: 0;
+}
+@media (max-width: 61.99875em) {
+  .description-product__read-less-btn {
+    display: block;
+  }
+}
+.description-product__btn {
+  font-family: "Muller";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 17px 40px;
+  background-color: #962e93;
+  color: #ffffff;
+}
+@media (max-width: 61.99875em) {
+  .description-product__btn {
+    display: none;
+  }
+}
+
+/*OUTDOR-ADVERTISING-PRODUCTS*/
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;
@@ -2929,4 +3213,13 @@ h6 {
   }
 }
 
+/*.current-page {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+   height: 0;
+}*/
 /*----POP-UP----*/
