@@ -2210,6 +2210,7 @@ h6 {
 .outdor-advertising__tittle {
   margin: 0 0 50px 0;
   text-align: left;
+  text-transform: uppercase;
 }
 @media (max-width: 47.99875em) {
   .outdor-advertising__tittle {
@@ -2260,6 +2261,9 @@ h6 {
   line-height: 1.8;
   color: #000000;
   font-size: 1rem;
+}
+.description-outdor-advertising__text p {
+  margin-top: 20px;
 }
 
 /*OUTDOR-ADVERTISING*/

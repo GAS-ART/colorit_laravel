@@ -5,7 +5,7 @@ return [
    'outdor_advertising' => 
    [
       'outdoor_signage_tittle' => 'Rotulos en Barcelona',
-      'outdoor_signage_text' => 'Esta es la mejor manera de atraer potenciales clientes a su negocio. Los rótulos luminosos, letras corporeas e lightbox forman la primera imagen de la empresa y se recuerdan durante mucho tiempo haciendo que la imagen o la marca sea reconocible. Dado al constante crecimiento de la competencia, cada día se hace más difícil diferenciarse del resto, por lo que estudiamos en detalle todas las tendencias del mercado publicitario para ofrecerle lo mejor. Rótulos de interior, rótulos de exterior, cajas de luz, letras 3D o rótulos de neón siempre serán un gran complemento para su punto de venta.',
+      'outdoor_signage_text' => 'Esta es la mejor manera de atraer potenciales clientes a su negocio. Los rótulos luminosos, letras corporeas e lightbox forman la primera imagen de la empresa y se recuerdan durante mucho tiempo haciendo que la imagen o la marca sea reconocible. Dado al constante crecimiento de la competencia, cada día se hace más difícil diferenciarse del resto, por lo que estudiamos en detalle todas las tendencias del mercado publicitario para ofrecerle lo mejor.<p> Rótulos de interior, rótulos de exterior, cajas de luz, letras 3D o rótulos de neón siempre serán un gran complemento para su punto de venta.</p>',
       'production_time_tittle' => 'Plazos de producción',
       'production_time_text' => 'Dependiendo de la complejidad del trabajo, los plazos pueden variarse entre 5 a 25 días.',
       'materials_used_tittle' => 'Materiales utilizados',
