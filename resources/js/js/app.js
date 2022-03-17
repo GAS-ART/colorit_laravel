@@ -228,7 +228,6 @@ window.onload = function () {
             });
          },
          error: function (err) {
-            console.log(err);
             if (bookingForm.classList.contains('es')) {
                if (err.responseJSON.errors?.email) {
                   let text = err.responseJSON.errors.email[0]
@@ -319,25 +318,28 @@ window.onload = function () {
    //==================================================================
 
    //Скрыть показать текст (читать больше/меньше)
-   //$('.description-outdor-advertising__read-more-btn').next().slideUp();
    $('.description-product__read-more-btn').click(function (e) {
       $(e.target).next().slideDown(300);
-      $('.description-product__read-less-btn').addClass('active');
+      $(e.target).next().next().addClass('active');
       $(e.target).addClass('active');
    });
 
 
    $('.description-product__read-less-btn').click(function (e) {
       $(e.target).prev().slideUp(300);
-      $('.description-product__read-more-btn').removeClass('active');
+      $(e.target).prev().prev().removeClass('active');
       $(e.target).removeClass('active');
    });
 
    function windowSize() {
       if ($(window).width() <= '991.98') {
          $('.description-product__read-more-btn').next().slideUp();
+         $('.description-product__read-less-btn').removeClass('active');
+         $('.description-product__read-more-btn').removeClass('active');
       } else {
          $('.description-product__read-more-btn').next().slideDown();
+         $('.description-product__read-less-btn').removeClass('active');
+         $('.description-product__read-more-btn').removeClass('active');
       }
    }
 

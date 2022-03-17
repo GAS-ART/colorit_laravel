@@ -70,39 +70,183 @@
             <img src="{{asset('img/outdoor_advertising/letters.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
-            <h2 class="description-product__tittle">объёмные буквы</h2>
+            <h2 class="description-product__tittle">
+               @lang('outdorAdvertising.products.letters.tittle')</h2>
             <div class="description-product__body">
-               <div class="description-product__text">Объёмные буквы являются разновидностью наружной рекламы
-                  и в последние годы, одними из самых востребованных на рынке. <span
-                     class="description-product__text-more"> Огромным преимуществом является то, что их
-                     можно применять как на фасады зданий или магазинов, так и внутри помещения.</span>
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.letters.text')
                </div>
-               <button class="description-product__read-more-btn">Читать дальше</button>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
                <div class="description-product__read-more">
-                  <div class="description-product__text-more-mobile"> Огромным преимуществом является то, что
-                     их
-                     можно применять как на фасады зданий или магазинов, так и внутри помещения.
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.letters.text_more')
                   </div>
-                  <div class="description-product__type">Виды</div>
+                  <div class="description-product__type">@lang('outdorAdvertising.products.types')</div>
                   <ul class="description-product__list">
-                     <li class="description-product__item">- световые буквы</li>
-                     <li class="description-product__item">- объёмные без подсветки</li>
-                     <li class="description-product__item">- интерьерные буквы</li>
-                     <li class="description-product__item">- контр-ажурные объёмные буквы</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.letters.item')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.letters.item1')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.letters.item2')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.letters.item3')</li>
                   </ul>
                   <div class="description-product__details">
-                     <p><span>Сроки изготовления</span> могут составлять от 10 – 25 дней</p>
-                     <p><span>Используемые материалы: </span>алюминий (композит), метакрилат, пвх, дерево, винил.</p>
-
+                     @lang('outdorAdvertising.products.letters.details')
                   </div>
                </div>
-               <button class="description-product__read-less-btn">Скрыть текст</button>
-               <button class="description-product__btn popup-btn">Заказать</button>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
             </div>
          </div>
          <button
-            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">Заказать</button>
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
       </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle"> @lang('outdorAdvertising.products.neon.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.neon.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.neon.text_more')
+                  </div>
+                  <div class="description-product__details">
+                     @lang('outdorAdvertising.products.neon.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/neon_signs.jpg')}}" alt="">
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/led_screen.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">
+               @lang('outdorAdvertising.products.led.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.led.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.led.text_more')
+                  </div>
+                  <div class="description-product__details">
+                     @lang('outdorAdvertising.products.led.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle"> @lang('outdorAdvertising.products.lightboxes.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.lightboxes.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.lightboxes.text_more')
+                  </div>
+                  <div class="description-product__type">@lang('outdorAdvertising.products.types')</div>
+                  <ul class="description-product__list">
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item1')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item2')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item3')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item4')</li>
+                     <li class="description-product__item">@lang('outdorAdvertising.products.lightboxes.item5')</li>
+                  </ul>
+                  <div class="description-product__details">
+                     @lang('outdorAdvertising.products.lightboxes.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/lightboxes.jpg')}}" alt="">
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/oracal.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">
+               @lang('outdorAdvertising.products.oracal.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.oracal.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.oracal.text_more')
+                  </div>
+                  <div class="description-product__details">
+                     @lang('outdorAdvertising.products.oracal.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle"> @lang('outdorAdvertising.products.baner.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('outdorAdvertising.products.baner.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('outdorAdvertising.products.baner.text_more')
+                  </div>
+                  <div class="description-product__details">
+                     @lang('outdorAdvertising.products.baner.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/outdoor_advertising/baner.jpg')}}" alt="">
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+
    </div>
 </section>
 @endsection

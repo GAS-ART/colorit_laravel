@@ -2272,6 +2272,23 @@ h6 {
     flex-direction: column;
   }
 }
+.outdor-advertising-products__item:not(:last-child) {
+  margin-bottom: 80px;
+}
+@media (max-width: 61.99875em) {
+  .outdor-advertising-products__item {
+    margin-bottom: 50px;
+  }
+  .outdor-advertising-products__item:nth-child(even) .item-outdor-advertising-products__description {
+    order: 2;
+  }
+  .outdor-advertising-products__item:nth-child(even) .item-outdor-advertising-products__img {
+    order: 1;
+  }
+  .outdor-advertising-products__item:nth-child(even) .item-outdor-advertising-products__btn-mobile {
+    order: 3;
+  }
+}
 
 .item-outdor-advertising-products__img {
   position: relative;
@@ -2403,6 +2420,7 @@ h6 {
   line-height: 1.8;
   font-size: 1rem;
   display: none;
+  margin-bottom: 15px;
 }
 @media (max-width: 61.99875em) {
   .description-product__text-more-mobile {
@@ -3213,13 +3231,4 @@ h6 {
   }
 }
 
-/*.current-page {
-   position: absolute;
-   top: 0;
-   left: 0;
-   opacity: 0;
-   visibility: hidden;
-   pointer-events: none;
-   height: 0;
-}*/
 /*----POP-UP----*/

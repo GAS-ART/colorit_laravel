@@ -232,6 +232,23 @@
       @media (max-width: $tablet) {
          flex-direction: column;
       }
+      &:not(:last-child) {
+         margin-bottom: 80px;
+      }
+      @media (max-width: $tablet) {
+         margin-bottom: 50px;
+         &:nth-child(even) {
+            .item-outdor-advertising-products__description {
+               order: 2;
+            }
+            .item-outdor-advertising-products__img {
+               order: 1;
+            }
+            .item-outdor-advertising-products__btn-mobile {
+               order: 3;
+            }
+         }
+      }
    }
 }
 .item-outdor-advertising-products {
@@ -353,6 +370,7 @@
       line-height: 1.8;
       font-size: rem(16);
       display: none;
+      margin-bottom: 15px;
       @media (max-width: $tablet) {
          display: block;
       }
