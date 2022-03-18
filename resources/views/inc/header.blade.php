@@ -53,7 +53,7 @@
                               class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
                         <li class="burger-service-menu__item"><a href=""
                               class="burger-service-menu__item-link">@lang('services.identity')</a></li>
-                        <li class="burger-service-menu__item"><a href=""
+                        <li class="burger-service-menu__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.smm')</a></li>
                         <li class="burger-service-menu__item"><a href=""
                               class="burger-service-menu__item-link">@lang('services.website_development')</a></li>

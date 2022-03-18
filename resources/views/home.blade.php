@@ -15,13 +15,13 @@
                <nav class="menu-service__list">
                   <ul class="menu-service__items">
                      <li class="menu-service__item"><a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link"
-                           data-img="outdoorAdvertising" data-link="#outdoorAdvertising">@lang('services.outdoor_advertising')</a></li>
+                           data-img="outdoorAdvertising" data-link="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.outdoor_advertising')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="polygraphy"
                            data-link="#polygraphy">@lang('services.polygraphy')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="identity"
                            data-link="#identity">@lang('services.identity')</a></li>
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="smm"
-                           data-link="#smm">@lang('services.smm')</a>
+                     <li class="menu-service__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="smm"
+                           data-link="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.smm')</a>
                      </li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
                            data-img="websiteDevelopment" data-link="#websiteDevelopment">@lang('services.website_development')</a></li>
@@ -108,10 +108,10 @@
                </div>
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="#"><img src="{{asset('img/service/smm.jpg')}}" alt="smm"></a>
+                     <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/smm.jpg')}}" alt="smm"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">@lang('services.smm')</a>
+                     <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.smm')</a>
                   </div>
                </div>
             </div>

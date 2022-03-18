@@ -1,0 +1,183 @@
+/*WHY-SMM*/
+//==================================================================
+.why-smm {
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
+   &__container {
+   }
+
+   &__body {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      @media (max-width: em(1179)) {
+         flex-direction: column;
+         justify-content: center;
+      }
+   }
+
+   &__tittle {
+      text-align: left;
+      @include adaptiveValueREM("max-width", 580, 370, 1920, 992, 1);
+   }
+
+   &__list {
+   }
+
+   &__item {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      &::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 1px;
+         background-color: #e0e0e0;
+         z-index: 5;
+      }
+   }
+
+   &__text {
+      position: relative;
+      font-family: "Muller";
+      line-height: 1.8;
+      color: $mainColor;
+      font-weight: 700;
+      margin-right: 119px;
+      @include adaptiveValueREM("margin-right", 119, 30, 1920, 1180, 1);
+      font-size: rem(20);
+      flex: 0 0 auto;
+      padding-bottom: 10px;
+      &::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 1px;
+         background-color: $mainColor;
+         z-index: 5;
+      }
+      @media (max-width: em(1179)) {
+         flex: 0 1 auto;
+      }
+      @media (max-width: $mobile) {
+         line-height: 1.5;
+      }
+   }
+
+   &__count {
+      font-family: "Muller";
+      color: $hoverColor;
+      font-weight: 700;
+      line-height: 1.8;
+      font-size: rem(20);
+      padding-bottom: 10px;
+   }
+}
+/*WHY-SMM*/
+//==================================================================
+
+/*SMM-NUMBERS*/
+//==================================================================
+.smm-numbers {
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
+
+   &__container {
+   }
+
+   &__tittle {
+      text-align: left;
+   }
+
+   &__body {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      @include adaptiveValueREM("gap", 40, 15, 1920, 992, 1);
+      @media (max-width: $tablet) {
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: auto auto;
+         gap: 20px;
+      }
+      @media (max-width: $mobile) {
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(4, auto);
+      }
+   }
+
+   &__item {
+   }
+}
+.tittle {
+}
+.item-smm-number {
+   &__number {
+      font-family: "Muller";
+      font-weight: 700;
+      font-size: rem(50);
+      line-height: 1.8;
+      color: $hoverColor;
+   }
+
+   &__text {
+      font-family: "Muller";
+      font-size: rem(16);
+      line-height: 1.8;
+      color: $mainColor;
+   }
+}
+/*SMM-NUMBERS*/
+//==================================================================
+
+/*SMM-PROMOTION*/
+//==================================================================
+.promotion-smm {
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
+   &__container {
+   }
+
+   &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: $tablet) {
+         flex-direction: column;
+      }
+   }
+
+   &__tittle {
+      text-align: left;
+      span {
+         color: $hoverColor;
+      }
+      max-width: 504px;
+   }
+
+   &__text {
+      padding: 50px 60px;
+      font-family: "Muller";
+      background-color: $mainColor;
+      color: #ffffff;
+      font-weight: 700;
+      line-height: 1.5;
+      @include adaptiveValueREM("font-size", 30, 20);
+      max-width: 836px;
+   }
+}
+.tittle {
+}
+/*SMM-PROMOTION*/
+//==================================================================

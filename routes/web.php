@@ -80,3 +80,22 @@ Route::get('/{locale}/outdoor_advertising', function ($locale) {
    }
 })->name('outdoor_advertising.lang');
 
+Route::get('/{locale}/smm', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('smm');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('smm');
+
+   }
+})->name('smm.lang');
+
