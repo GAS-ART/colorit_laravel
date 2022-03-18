@@ -246,7 +246,50 @@
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
       </div>
 
-
    </div>
 </section>
+<section class="outdor-advertising-portfolio">
+   <img class="outdor-advertising-portfolio__desktop" src="{{asset('img/outdoor_advertising/cases.jpg')}}" alt="">
+   <img class="outdor-advertising-portfolio__mobile" src="{{asset('img/outdoor_advertising/cases_small.jpg')}}" alt="">
+   <div class="outdor-advertising-portfolio__body">
+      <div class="outdor-advertising-portfolio__tittle">@lang('outdorAdvertising.portfolio.tittle')</div>
+      <a href="#" class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
+   </div>
+</section>
+<section class="outdor-advertising-advantages">
+   <div class="outdor-advertising-advantages__container">
+      <h3 class="outdor-advertising-advantages__tittle tittle">@lang('outdorAdvertising.advantages.tittle')</h3>
+      <div class="outdor-advertising-advantages__body ">
+         <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
+            <div class="outdor-advertising-advantages-item__tittle">@lang('outdorAdvertising.advantages.terms_tittle')
+            </div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.terms_text')</div>
+         </div>
+         <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
+            <div class="outdor-advertising-advantages-item__tittle">
+               @lang('outdorAdvertising.advantages.convenient_tittle')</div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.convenient_text')
+            </div>
+         </div>
+         <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
+            <div class="outdor-advertising-advantages-item__tittle">@lang('outdorAdvertising.advantages.support_tittle')
+            </div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.support_text')
+            </div>
+         </div>
+         <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
+            <div class="outdor-advertising-advantages-item__tittle">@lang('outdorAdvertising.advantages.price_tittle')
+            </div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.price_text')</div>
+         </div>
+         <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
+            <div class="outdor-advertising-advantages-item__tittle">
+               @lang('outdorAdvertising.advantages.creative_tittle')</div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.creative_text')
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 @endsection
