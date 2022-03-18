@@ -632,3 +632,66 @@
 }
 /*OUTDOR-ADVERTISING-ADVANTAGES*/
 //==================================================================
+
+/*OUTDOR-ADVERTISING-HELP*/
+//==================================================================
+.help {
+   &__container {
+   }
+
+   &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: $tablet) {
+         flex-direction: column;
+      }
+   }
+
+   &__item {
+      @media (max-width: $mobile) {
+         align-self: flex-start;
+      }
+   }
+
+   &__item-tittle {
+      max-width: 687px;
+      text-align: left;
+      margin-bottom: 30px;
+      @media (max-width: $tablet) {
+         margin-bottom: 20px;
+         text-align: center;
+      }
+      @media (max-width: $mobile) {
+         text-align: left;
+      }
+   }
+
+   &__item-text {
+      font-family: "Muller";
+      font-size: rem(20);
+      @media (max-width: $tablet) {
+         font-size: rem(16);
+         text-align: center;
+         margin-bottom: 40px;
+      }
+      @media (max-width: $mobile) {
+         text-align: left;
+      }
+   }
+
+   &__item-form {
+      .phone,
+      .data__text-field,
+      .email {
+         @include adaptiveValueREM("width", 650, 290);
+      }
+      .popup__button {
+         button {
+            width: 100%;
+         }
+      }
+   }
+}
+/*OUTDOR-ADVERTISING-HELP*/
+//==================================================================

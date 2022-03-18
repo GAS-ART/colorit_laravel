@@ -2701,6 +2701,75 @@ h6 {
 }
 
 /*OUTDOR-ADVERTISING-ADVANTAGES*/
+/*OUTDOR-ADVERTISING-HELP*/
+.help__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 61.99875em) {
+  .help__row {
+    flex-direction: column;
+  }
+}
+@media (max-width: 47.99875em) {
+  .help__item {
+    align-self: flex-start;
+  }
+}
+.help__item-tittle {
+  max-width: 687px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+@media (max-width: 61.99875em) {
+  .help__item-tittle {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 47.99875em) {
+  .help__item-tittle {
+    text-align: left;
+  }
+}
+.help__item-text {
+  font-family: "Muller";
+  font-size: 1.25rem;
+}
+@media (max-width: 61.99875em) {
+  .help__item-text {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 47.99875em) {
+  .help__item-text {
+    text-align: left;
+  }
+}
+@supports (width: clamp( 18.125rem , 12.5rem  +  28.125vw , 40.625rem )) {
+  .help__item-form .phone,
+.help__item-form .data__text-field,
+.help__item-form .email {
+    width: clamp( 18.125rem , 12.5rem  +  28.125vw , 40.625rem );
+  }
+}
+@supports not (width: clamp( 18.125rem , 12.5rem  +  28.125vw , 40.625rem )) {
+  .help__item-form .phone,
+.help__item-form .data__text-field,
+.help__item-form .email {
+    width: calc(
+         18.125rem + 22.5 * (100vw - 20rem) / 80
+      );
+  }
+}
+.help__item-form .popup__button button {
+  width: 100%;
+}
+
+/*OUTDOR-ADVERTISING-HELP*/
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;
@@ -3224,6 +3293,7 @@ h6 {
 }
 
 .popup__title {
+  transition: all 1.2s ease 0s;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -3251,6 +3321,7 @@ h6 {
 }
 
 .popup__text {
+  transition: all 1.2s ease 0s;
   display: flex;
   color: #232322;
 }

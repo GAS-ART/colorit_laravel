@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Mail;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\ContactRequest;
+use App\Http\Requests\ContactRequestPage;
 
 class ContactController extends Controller
 {
@@ -52,6 +53,18 @@ class ContactController extends Controller
    }
 
       return view('send');
+ }
+
+ public function feedBackFormPage (ContactRequestPage $req){
+    /*ДАННЫЕ ИЗ ФОРМЫ*/
+    $name = $req->input('name');
+    $email = $req->input('email');
+    $phone = $req->input('phone');
+    $page = $req->input('page');
+    
+    mail::send(['html' => 'mail_page_form'], ['name' => $name, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message){
+      $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
+      });
  }
    
 }

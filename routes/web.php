@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@changeLocale')->name('locale');
 Route::post('feedback', 'App\Http\Controllers\ContactController@feedBackForm')->name('contactForm');
+Route::post('feedback_page', 'App\Http\Controllers\ContactController@feedBackFormPage')->name('contactFormPage');
 Route::get('/download', 'App\Http\Controllers\downloadController@downloadPresentation')->name('download');
 
 

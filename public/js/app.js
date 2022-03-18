@@ -226,8 +226,7 @@ window.onload = function () {
         $(".file-error").html('');
         $(".service-error").html('');
         $(".popup").addClass("send");
-        var formBooking = document.querySelector('#bookingform');
-        formBooking.reset();
+        bookingForm.reset();
         $(".select-form").select2("destroy");
         $('.select-form').select2({
           placeholder: 'Выберету услугу',
@@ -319,6 +318,92 @@ window.onload = function () {
             $(".service-error").html(err.responseJSON.errors.service[0]);
           } else {
             $(".service-error").html('');
+          }
+        }
+      }
+    });
+  });
+  var formPage = document.querySelector('#pageForm');
+  $("#pageForm").submit(function (event) {
+    event.preventDefault();
+    $.ajax({
+      type: 'POST',
+      url: 'http://127.0.0.1:8000/feedback_page',
+      data: new FormData(this),
+      contentType: false,
+      cache: false,
+      processData: false,
+      success: function success() {
+        $(".email-error").html('');
+        $(".name-error").html('');
+        $(".phone-error").html('');
+        $(".popup").addClass("open");
+        $(".popup").addClass("send");
+        formPage.reset();
+      },
+      error: function error(err) {
+        if (formPage.classList.contains('es')) {
+          var _err$responseJSON$err10, _err$responseJSON$err11, _err$responseJSON$err12;
+
+          if ((_err$responseJSON$err10 = err.responseJSON.errors) !== null && _err$responseJSON$err10 !== void 0 && _err$responseJSON$err10.email) {
+            var text = err.responseJSON.errors.email[0];
+
+            if (text == 'Не заполнено поле "email"') {
+              $(".email-error").html('El campo no esta rellenado "email"');
+            } else if (text == 'Указан не корректный email адрес') {
+              $(".email-error").html('Introduce un email válido');
+            }
+          } else {
+            $(".email-error").html('');
+          }
+
+          if ((_err$responseJSON$err11 = err.responseJSON.errors) !== null && _err$responseJSON$err11 !== void 0 && _err$responseJSON$err11.name) {
+            var _text4 = err.responseJSON.errors.name[0];
+
+            if (_text4 == 'Не заполнено поле "Имя"') {
+              $(".name-error").html('El campo Nombre no esta rellenado');
+            } else if (_text4 == 'Поле "Имя" не должно содержать цифр') {
+              $(".name-error").html('Campo "Nombre" no puede contener los números');
+            } else if (_text4 == 'Поле "Имя" должно содержать 2 или больше символов') {
+              $(".name-error").html('Campo "Nombre" Debe contener 2 o mas simbolos');
+            } else if (_text4 == 'Поле "Имя" должно содержать не больше 80 символов') {
+              $(".name-error").html('Campo "Nombre" no puede contener mas de 80 simbolos');
+            }
+          } else {
+            $(".name-error").html('');
+          }
+
+          if ((_err$responseJSON$err12 = err.responseJSON.errors) !== null && _err$responseJSON$err12 !== void 0 && _err$responseJSON$err12.phone) {
+            var _text5 = err.responseJSON.errors.phone[0];
+
+            if (_text5 == 'Не заполнено поле "Номер телефона"') {
+              $(".phone-error").html('El campo no esta rellenado telefono');
+            } else if (_text5 == 'Не верный формат номера телефона') {
+              $(".phone-error").html('Introduce un telefono válido');
+            }
+          } else {
+            $(".phone-error").html('');
+          }
+        } else {
+          var _err$responseJSON$err13, _err$responseJSON$err14, _err$responseJSON$err15;
+
+          if ((_err$responseJSON$err13 = err.responseJSON.errors) !== null && _err$responseJSON$err13 !== void 0 && _err$responseJSON$err13.email) {
+            $(".email-error").html(err.responseJSON.errors.email[0]);
+          } else {
+            $(".email-error").html('');
+          }
+
+          if ((_err$responseJSON$err14 = err.responseJSON.errors) !== null && _err$responseJSON$err14 !== void 0 && _err$responseJSON$err14.name) {
+            $(".name-error").html(err.responseJSON.errors.name[0]);
+          } else {
+            $(".name-error").html('');
+          }
+
+          if ((_err$responseJSON$err15 = err.responseJSON.errors) !== null && _err$responseJSON$err15 !== void 0 && _err$responseJSON$err15.phone) {
+            $(".phone-error").html(err.responseJSON.errors.phone[0]);
+          } else {
+            $(".phone-error").html('');
+            ;
           }
         }
       }
