@@ -96,5 +96,153 @@
       </div>
    </div>
 </section>
-
+<section class="smm-price">
+   <div class="smm-price__container">
+      <div class="smm-price__tittle tittle">@lang('smm.price.tittle')</div>
+      <div class="smm-price__body">
+         <div class="smm-price__item item-price-smm">
+            <div class="item-price-smm__tittle">@lang('smm.price.light.tittle')</div>
+            <ul class="item-price-smm__list">
+               <li class="item-price-smm__item">@lang('smm.price.light.1')</li>
+               <li class="item-price-smm__item">@lang('smm.price.light.2')</li>
+               <li class="item-price-smm__item">@lang('smm.price.light.3')</li>
+               <li class="item-price-smm__item">@lang('smm.price.light.4')</li>
+               <li class="item-price-smm__item">@lang('smm.price.light.5')</li>
+            </ul>
+            <button class="item-price-smm__price popup-btn">@lang('smm.price.price')</buttontn>
+         </div>
+         <div class="smm-price__item item-price-smm">
+            <div class="item-price-smm__tittle">@lang('smm.price.medio.tittle')</div>
+            <ul class="item-price-smm__list">
+               <li class="item-price-smm__item">@lang('smm.price.medio.1')</li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.2')
+               </li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.3')</li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.4')</li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.5')</li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.6')</li>
+               <li class="item-price-smm__item">@lang('smm.price.medio.7')</li>
+            </ul>
+            <button class="item-price-smm__price popup-btn">@lang('smm.price.price')</buttontn>
+         </div>
+         <div class="smm-price__item item-price-smm">
+            <div class="item-price-smm__tittle">@lang('smm.price.zoom.tittle')</div>
+            <ul class="item-price-smm__list">
+               <li class="item-price-smm__item">@lang('smm.price.zoom.1')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.2')
+               </li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.3')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.4')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.5')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.6')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.7')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.8')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.9')</li>
+               <li class="item-price-smm__item">@lang('smm.price.zoom.10')</li>
+            </ul>
+            <button class="item-price-smm__price popup-btn">@lang('smm.price.price')</buttontn>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="why-smm">
+   <div class="why-smm__container">
+      <div class="why-smm__body">
+         <h3 class="why-smm__tittle tittle">@lang('smm.additional_sercices.tittle')</h3>
+         <ul class="why-smm__list">
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('smm.additional_sercices.1')</div>
+               <div class="why-smm__count">01</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('smm.additional_sercices.2')</div>
+               <div class="why-smm__count">02</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('smm.additional_sercices.3')</div>
+               <div class="why-smm__count">03</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('smm.additional_sercices.4')</div>
+               <div class="why-smm__count">04</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('smm.additional_sercices.5')</div>
+               <div class="why-smm__count">05</div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+<section class="smm-portfolio">
+   <div class="smm-portfolio__body">
+      <div class="smm-portfolio__img">
+         <img src="{{asset('img/smm/portfolio.jpg')}}" alt="">
+      </div>
+      <div class="smm-portfolio__content">
+         <div class="smm-portfolio__tittle tittle">@lang('smm.portfolio.tittle')</div>
+         <a class=" smm-portfolio__link" href="#">@lang('smm.portfolio.btn')</a>
+      </div>
+   </div>
+</section>
+<section class="smm-to-top">
+   <div class="smm-to-top__container">
+      <div class="smm-to-top__tittle tittle"><span>SMM</span> - это алгоритм определённых действий умноженный на опыт.
+         Мы знаем как
+         вывести Вас в ТОП</div>
+      <div class="smm-to-top__item">
+         Мы не берём проектов больше, чем можем выполнить
+         <p>Специалисты всегда на связи и полностью погружаются в процесс.</p>
+      </div>
+      <div class="smm-to-top__item">
+         Специалисты всегда на связи и полностью погружаются в процесс.
+         <p>Следим за новостями digital marketinga и повышаем квалификацию.</p>
+      </div>
+      <div class="smm-to-top__item">
+         Честность
+         <p>Найдём, протестим и используем все инструменты, чтобы ваша цена за лиды была низкой!</p>
+      </div>
+      <div class="smm-to-top__item">
+         54 % всех клиентов приходят к нам по рекомендациям
+         <p>Мы ценим то, что нам доверяют.</p>
+      </div>
+      <div class="smm-to-top__item">
+         Применим весь опыт
+         <p>Применим весь опыт, чтобы вы оставались с нами как можно дольше.</p>
+      </div>
+   </div>
+</section>
+<section class="help">
+   <div class="help__container">
+      <div class="help__row">
+         <div class="help__item">
+            <h3 class="help__item-tittle tittle">@lang('form.page_form.tittle')</h3>
+            <div class="help__item-text">@lang('form.page_form.text')</div>
+         </div>
+         <div class="help__item">
+            <div class="help__item-form">
+               <form action="#" id="pageForm" class="form @lang('main.current_lang_class')" name="outdorAdvertising">
+                  @csrf
+                  <input type="hidden" name="page" value="{{__(Request::url())}}">
+                  <div class="contacts-form__item data popup-data">
+                     <input class="data__text-field" type="text" name="name" placeholder="@lang('form.name')">
+                     <p class="name-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-phone">
+                     <input class="phone" type="text" name="phone" placeholder="@lang('form.phone')">
+                     <p class="phone-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-email">
+                     <input class="email" type="text" name="email" placeholder="@lang('form.email')">
+                     <p class="email-error error"></p>
+                  </div>
+                  <div class="popup__button">
+                     <button class="submit" type="submit">@lang('form.button')</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 @endsection

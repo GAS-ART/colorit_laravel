@@ -71,7 +71,7 @@ return [
    ],
    'portfolio' => 
    [
-      'tittle' => 'Больше примеров наших работу у нас в портфолио',
+      'tittle' => 'Más casos en nuestro portafolio',
       'btn' => 'Ir a portfolio',
    ],
    'advantages' => 
