@@ -230,9 +230,6 @@ h6 {
   position: absolute;
 }
 .header._scroll .header__wraper {
-  background-color: #ffffff;
-}
-.header._scroll .header__wraper {
   min-height: 80px;
 }
 .header__wraper {
@@ -244,6 +241,7 @@ h6 {
   min-height: 120px;
   display: flex;
   align-items: center;
+  background-color: #ffffff;
 }
 .header__container {
   position: relative;

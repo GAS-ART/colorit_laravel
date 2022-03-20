@@ -91,43 +91,45 @@ window.onload = function () {
 
 
   var baner = document.querySelector('.baner');
-  var banerStart = document.querySelector('.baner__start');
-  var banerSpanStart = '<span class="baner__start">агентство эффективной рекламы</span>';
-
-  function animationBanerText() {
-    var screenWidth = 0;
-    var textWidth = 0;
-    var spanQuantity = 0;
-    var banerWidth = 0;
-    screenWidth = document.documentElement.clientWidth;
-    textWidth = baner.clientWidth;
-    spanQuantity = Math.ceil(screenWidth / textWidth);
-
-    if (spanQuantity > 1) {
-      banerWidth = spanQuantity * textWidth + textWidth + 10;
-    } else {
-      banerWidth = (spanQuantity + 1) * textWidth + textWidth;
-    }
-
-    baner.style.width = banerWidth + "px";
-
-    for (var i = 0; i < spanQuantity; i++) {
-      banerStart.insertAdjacentHTML('afterEnd', banerSpanStart);
-    }
-
-    document.querySelectorAll('.baner__start').forEach(function (item) {
-      item.animate([{
-        transform: 'translate(0, 0)'
-      }, {
-        transform: 'translate(-' + "".concat(textWidth) + 'px, 0)'
-      }], {
-        duration: 10000,
-        iterations: Infinity
-      });
-    });
-  }
 
   if (baner) {
+    var animationBanerText = function animationBanerText() {
+      var screenWidth = 0;
+      var textWidth = 0;
+      var spanQuantity = 0;
+      var banerWidth = 0;
+      screenWidth = document.documentElement.clientWidth;
+      textWidth = baner.clientWidth;
+      spanQuantity = Math.ceil(screenWidth / textWidth);
+
+      if (spanQuantity > 1) {
+        banerWidth = spanQuantity * textWidth + textWidth + 10;
+      } else {
+        banerWidth = (spanQuantity + 1) * textWidth + textWidth;
+      }
+
+      baner.style.width = banerWidth + "px";
+
+      for (var i = 0; i < spanQuantity; i++) {
+        banerStart.insertAdjacentHTML('afterEnd', banerSpanStart);
+      }
+
+      document.querySelectorAll('.baner__start').forEach(function (item) {
+        item.animate([{
+          transform: 'translate(0, 0)'
+        }, {
+          transform: 'translate(-' + "".concat(textWidth) + 'px, 0)'
+        }], {
+          duration: 10000,
+          iterations: Infinity
+        });
+      });
+    };
+
+    var banerStart = document.querySelector('.baner__start');
+    var banerText = banerStart.innerHTML;
+    console.log(banerText);
+    var banerSpanStart = "<span class=\"baner__start\">".concat(banerText, "</span>");
     animationBanerText();
   } //Цвет логотипов компаний при наведении
 

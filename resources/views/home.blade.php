@@ -60,7 +60,7 @@
       </div>
    </section>
    <section class="baner">
-      <span class="baner__start">агентство эффективной рекламы</span>
+      <span class="baner__start">@lang('home.ticker')</span>
    </section>
    <section class="about">
       <div class="about__container">

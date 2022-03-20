@@ -11,8 +11,9 @@ return [
    'success' => 'Gracias!<br><br>Encantados de conocerte.<br><br>En breve te llamaremos.',
    'page_form' =>
    [
-      'tittle' => 'Нужна помощь в выборе вывески?',
-      'text' => 'Оставляй заявку и мы перезвоним',
+      'outdorAdvertising' => 'Rótulos luminos en Barcelona?',
+      'smm' => 'Te podemos ayudar en SMM. Contáctanos',
+      'text' => 'No dudes en contactar con nosotros',
    ],
 ]
 

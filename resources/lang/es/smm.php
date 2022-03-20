@@ -78,6 +78,14 @@ return [
       'tittle' => 'Más casos en nuestro portafolio',
       'btn' => 'Ir a portfolio',
    ],
+   'top' => [
+      'tittle' => '<span>SMM</span> es un algoritmo de ciertas acciones multiplicadas por la experiencia. Sabemos cómo subirte en el TOP',
+      '1' => 'No asumimos más proyectos de los que podemos manejar. <p>Los especialistas están siempre en contacto y están completamente inmersos en el proceso.</p>',
+      '2' => 'Somos un equipo SMM joven y genial. <p>Seguimos las noticias del marketing digital y mejoramos nuestras habilidades.</p>',
+      '3' => 'Honestidad. <p>¡Encontraremos, probaremos y utilizaremos todas las herramientas para mantener bajo su costo por cliente potencial!</p>',
+      '4' => 'El 54% de todos los clientes vienen a nosotros a través de referencias. <p>Agradecemos que confíen en nosotros.</p>',
+      '5' => 'Aplicaremos toda la experiencia <p>Aplicaremos toda la experiencia para que te quedes con nosotros el mayor tiempo posible.</p>',
+   ],
 ]
 
 ?>

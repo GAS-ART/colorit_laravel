@@ -187,28 +187,21 @@
 </section>
 <section class="smm-to-top">
    <div class="smm-to-top__container">
-      <div class="smm-to-top__tittle tittle"><span>SMM</span> - это алгоритм определённых действий умноженный на опыт.
-         Мы знаем как
-         вывести Вас в ТОП</div>
+      <div class="smm-to-top__tittle tittle">@lang('smm.top.tittle')</div>
       <div class="smm-to-top__item">
-         Мы не берём проектов больше, чем можем выполнить
-         <p>Специалисты всегда на связи и полностью погружаются в процесс.</p>
+      @lang('smm.top.1')
       </div>
       <div class="smm-to-top__item">
-         Специалисты всегда на связи и полностью погружаются в процесс.
-         <p>Следим за новостями digital marketinga и повышаем квалификацию.</p>
+      @lang('smm.top.2')
       </div>
       <div class="smm-to-top__item">
-         Честность
-         <p>Найдём, протестим и используем все инструменты, чтобы ваша цена за лиды была низкой!</p>
+      @lang('smm.top.3')
       </div>
       <div class="smm-to-top__item">
-         54 % всех клиентов приходят к нам по рекомендациям
-         <p>Мы ценим то, что нам доверяют.</p>
+      @lang('smm.top.4')
       </div>
       <div class="smm-to-top__item">
-         Применим весь опыт
-         <p>Применим весь опыт, чтобы вы оставались с нами как можно дольше.</p>
+      @lang('smm.top.5')
       </div>
    </div>
 </section>
@@ -216,7 +209,7 @@
    <div class="help__container">
       <div class="help__row">
          <div class="help__item">
-            <h3 class="help__item-tittle tittle">@lang('form.page_form.tittle')</h3>
+            <h3 class="help__item-tittle tittle">@lang('form.page_form.smm')</h3>
             <div class="help__item-text">@lang('form.page_form.text')</div>
          </div>
          <div class="help__item">

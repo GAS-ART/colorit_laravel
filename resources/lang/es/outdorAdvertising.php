@@ -76,17 +76,17 @@ return [
    ],
    'advantages' => 
    [
-      'tittle' => 'Преимущества работы с нами',
-      'terms_tittle' => 'Сроки',
-      'terms_text' => 'Изготавливаем продукцию не позже заявленного срока. В случае просрочки готовы предоставлять скидку на товар.',
-      'support_tittle' => 'Техподдержка',
-      'support_text' => 'Мы за поддержку Вашего бизнеса. Предоставляем полное техническое обслуживание по наружной продукции.',
-      'price_tittle' => 'Честная цена',
-      'price_text' => 'Мы не пытаемся сделать вывески дешевыми, так как это ведёт к потере качества и постоянным техническим сбоям. Наш приоритет отличное качество и доступная цена для каждого клиента',
-      'creative_tittle' => 'Креатив',
-      'creative_text' => 'Наш коллектив состоит из молодых и креативных дизайнеров, которые не боятся пробовать и экспериментировать. Мы хотим, чтобы продукты наружной рекламы были яркими и вызывали эмоции.',
-      'convenient_tittle' => 'С нами удобно',
-      'convenient_text' => '«Colorit agency» - это рекламно-креативное агентство полного цикла. У нас есть всё, от полиграфии и вывесок до разработки сайтов и смм.',
+      'tittle' => 'VENTAJAS DE TRABAJAR CON NOSOTROS',
+      'terms_tittle' => 'Plazos',
+      'terms_text' => 'Producimos productos en plazo establecido. En caso de retraso, estamos listos para ofrecer un descuento en los productos.',
+      'support_tittle' => 'Soporte técnico ',
+      'support_text' => 'Estamos aquí para apoyar su negocio. Ofrecemos servicio técnico completo para productos de exterior.',
+      'price_tittle' => 'Precio justo',
+      'price_text' => 'No tratamos de hacer carteles baratos, ya que esto conduce a la pérdida de calidad y fallas técnicas constantes. Nuestra prioridad es una excelente calidad y un precio razonable para cada cliente.',
+      'creative_tittle' => 'Creatividad',
+      'creative_text' => 'Nuestro equipo está formado por diseñadores jóvenes y creativos que no tienen miedo de probar y experimentar. Queremos que los productos de publicidad exterior sean brillantes y evoquen emociones.',
+      'convenient_tittle' => 'Con nosotros, es cómodo!',
+      'convenient_text' => '"Agencia Colorit" es una agencia creativa y de publicidad de ciclo completo. Tenemos de todo, desde impresión y señalización hasta desarrollo de sitios web y SMM.',
    ],
 ]
 

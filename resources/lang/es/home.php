@@ -9,6 +9,7 @@ return [
    'experience_lead' => 'Rellena este formulario y hablamos de tu proyecto',
    'experience_lead_btn' => 'Enviar',
    'more' => 'Mas informacion',
+   'ticker' => 'Agencia de marketing eficaz',
 ]
 
 ?>

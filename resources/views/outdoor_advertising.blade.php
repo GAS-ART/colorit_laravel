@@ -433,7 +433,7 @@
    <div class="help__container">
       <div class="help__row">
          <div class="help__item">
-            <h3 class="help__item-tittle tittle">@lang('form.page_form.tittle')</h3>
+            <h3 class="help__item-tittle tittle">@lang('form.page_form.outdorAdvertising')</h3>
             <div class="help__item-text">@lang('form.page_form.text')</div>
          </div>
          <div class="help__item">
