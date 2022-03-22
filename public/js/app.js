@@ -98,8 +98,9 @@ window.onload = function () {
       var textWidth = 0;
       var spanQuantity = 0;
       var banerWidth = 0;
+      var textMarginRight = +getComputedStyle(banerStart).marginRight.replace("px", "");
       screenWidth = document.documentElement.clientWidth;
-      textWidth = baner.clientWidth;
+      textWidth = banerStart.clientWidth + textMarginRight;
       spanQuantity = Math.ceil(screenWidth / textWidth);
 
       if (spanQuantity > 1) {
@@ -128,7 +129,6 @@ window.onload = function () {
 
     var banerStart = document.querySelector('.baner__start');
     var banerText = banerStart.innerHTML;
-    console.log(banerText);
     var banerSpanStart = "<span class=\"baner__start\">".concat(banerText, "</span>");
     animationBanerText();
   } //Цвет логотипов компаний при наведении
