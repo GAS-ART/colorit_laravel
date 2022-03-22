@@ -1,0 +1,204 @@
+@extends('layout')
+@section('title','Заголовок страницы')
+@section('description', 'Описание страницы')
+@section('ogTitle','Заголовок страницы для месенджеров')
+@section('ogDescription','Описание страницы для месенджеров')
+@section('ogUrl','https://colorit.com')
+
+
+@section('content')
+<section class="links">
+   <div class="links__container">
+      <div class="links__body">
+         <a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
+            class="links__previous">@lang('services.main_link')</a>
+         <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
+            class="links__current">@lang('services.identity')</a>
+      </div>
+   </div>
+</section>
+<section class="main-baner-top">
+   <div class="main-baner-top__body">
+      <img class="main-baner-top__lage" src="{{asset('img/smm/main.jpg')}}" alt="our cases">
+      <img class="main-baner-top__small" src="{{asset('img/smm/main_small.jpg')}}" alt="our cases">
+      <h1 class="main-baner-top__tittle">@lang('services.identity')</h1>
+   </div>
+</section>
+<section class="outdor-advertising-about">
+   <div class="outdor-advertising-about__container">
+      <div class="outdor-advertising-about__body">
+         @lang('design.about')
+      </div>
+   </div>
+   <h3 class="outdor-advertising-about__tittle">Colorit agency</h3>
+</section>
+<section class="why-smm">
+   <div class="why-smm__container">
+      <div class="why-smm__body">
+         <h3 class="why-smm__tittle tittle">@lang('design.why.tittle')</h3>
+         <ul class="why-smm__list">
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.1')</div>
+               <div class="why-smm__count">01</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.2')</div>
+               <div class="why-smm__count">02</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.3')</div>
+               <div class="why-smm__count">03</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.4')</div>
+               <div class="why-smm__count">04</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.5')</div>
+               <div class="why-smm__count">05</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('design.why.6')</div>
+               <div class="why-smm__count">06</div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+<section class="outdor-advertising-products">
+   <div class="outdor-advertising-products__container">
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/design/2_web_design.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">
+               @lang('design.products.graphic_design.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('design.products.graphic_design.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('design.products.graphic_design.text_more')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle"> @lang('design.products.polygraphic_design.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('design.products.polygraphic_design.text')
+               </div>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/design/3_poligraphy.jpg')}}" alt="">
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/design/logo.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">
+               @lang('design.products.logo.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('design.products.logo.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('design.products.logo.text_more')
+                  </div>
+                  <ul class="description-product__list">
+                     <li class="description-product__item">@lang('design.products.logo.item')</li>
+                     <li class="description-product__item">@lang('design.products.logo.item1')</li>
+                     <li class="description-product__item">@lang('design.products.logo.item2')</li>
+                  </ul>
+                  <div class="description-product__details">
+                     @lang('design.products.logo.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle"> @lang('design.products.style.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('design.products.style.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('design.products.style.text_more')
+                  </div>
+                  <ul class="description-product__list">
+                     <li class="description-product__item">@lang('design.products.style.item')</li>
+                     <li class="description-product__item">@lang('design.products.style.item1')</li>
+                     <li class="description-product__item">@lang('design.products.style.item2')</li>
+                  </ul>
+                  <div class="description-product__details">
+                     @lang('design.products.style.details')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/design/2_fir_style.jpg')}}" alt="">
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+      <div class="outdor-advertising-products__item item-outdor-advertising-products">
+         <div class="item-outdor-advertising-products__img">
+            <img src="{{asset('img/design/4_web_design.jpg')}}" alt="">
+         </div>
+         <div class="item-outdor-advertising-products__description description-product">
+            <h2 class="description-product__tittle">
+               @lang('design.products.web_design.tittle')</h2>
+            <div class="description-product__body">
+               <div class="description-product__text">
+                  @lang('design.products.web_design.text')
+               </div>
+               <button class="description-product__read-more-btn">@lang('outdorAdvertising.products.read_more')</button>
+               <div class="description-product__read-more">
+                  <div class="description-product__text-more-mobile">
+                     @lang('design.products.web_design.text_more')
+                  </div>
+               </div>
+               <button class="description-product__read-less-btn">@lang('outdorAdvertising.products.read_less')</button>
+               <button class="description-product__btn popup-btn">@lang('main.order')</button>
+            </div>
+         </div>
+         <button
+            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+      </div>
+
+   </div>
+</section>
+@endsection

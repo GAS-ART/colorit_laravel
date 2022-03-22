@@ -99,3 +99,21 @@ Route::get('/{locale}/smm', function ($locale) {
    }
 })->name('smm.lang');
 
+Route::get('/{locale}/design', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('design');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('design');
+
+   }
+})->name('design.lang');

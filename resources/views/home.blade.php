@@ -18,8 +18,8 @@
                            data-img="outdoorAdvertising" data-link="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.outdoor_advertising')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="polygraphy"
                            data-link="#polygraphy">@lang('services.polygraphy')</a></li>
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="identity"
-                           data-link="#identity">@lang('services.identity')</a></li>
+                     <li class="menu-service__item"><a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="identity"
+                           data-link="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.identity')</a></li>
                      <li class="menu-service__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="smm"
                            data-link="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.smm')</a>
                      </li>
@@ -100,10 +100,10 @@
             <div class="service__row">
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="#"><img src="{{asset('img/service/identity.jpg')}}" alt="identity"></a>
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/identity.jpg')}}" alt="identity"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <a href="#" class="">@lang('services.identity')</a>
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.identity')</a>
                   </div>
                </div>
                <div class="service__vertical vertical-content">

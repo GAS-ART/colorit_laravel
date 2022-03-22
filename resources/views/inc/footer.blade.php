@@ -10,7 +10,7 @@
                      <li class="service-footer__item"><a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.outdoor_advertising')</a>
                      </li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.polygraphy')</a></li>
-                     <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.identity')</a></li>
+                     <li class="service-footer__item"><a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.identity')</a></li>
                      <li class="service-footer__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.smm')</a></li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.website_development')</a>
                      </li>
@@ -31,7 +31,7 @@
                      <li class="information-footer__item"><a href="#" class="information-footer__item-link">@lang('footer.clients')</a>
                      </li>
                      <li class="information-footer__item"><a href="#" class="information-footer__item-link">@lang('footer.lead')</a></li>
-                     <li class="information-footer__item"><a href="#"
+                     <li class="information-footer__item"><a href="{{route('download')}}"
                            class="information-footer__item-link">@lang('contacts.presentation')</a></li>
                   </ul>
                </nav>

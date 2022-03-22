@@ -10,7 +10,7 @@
             <nav class="header__menu menu-header">
                <ul class="menu-header__list">
                   <li class="menu-header__item"><a class="menu-header__item-link"
-                        href="#">@lang('header.presentation')</a></li>
+                        href="{{route('download')}}">@lang('header.presentation')</a></li>
                   <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.cases')</a>
                   </li>
                   <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.contacts')</a>
@@ -51,7 +51,7 @@
                               class="burger-service-menu__item-link">@lang('services.outdoor_advertising')</a></li>
                         <li class="burger-service-menu__item"><a href=""
                               class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
-                        <li class="burger-service-menu__item"><a href=""
+                        <li class="burger-service-menu__item"><a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.identity')</a></li>
                         <li class="burger-service-menu__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.smm')</a></li>
