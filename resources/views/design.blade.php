@@ -201,4 +201,42 @@
 
    </div>
 </section>
+<section class="promotion-smm">
+   <div class="promotion-smm__container">
+      <div class="promotion-smm__row">
+         <h2 class="promotion-smm__tittle tittle">@lang('design.promotion.tittle')</h2>
+         <div class="promotion-smm__text">@lang('design.promotion.text')</div>
+      </div>
+   </div>
+</section>
+<section class="smm-to-top">
+   <div class="smm-to-top__container">
+      <div class="smm-to-top__tittle tittle">@lang('design.top.tittle')</div>
+      <div class="smm-to-top__item">
+         @lang('design.top.1')
+      </div>
+      <div class="smm-to-top__item">
+         @lang('design.top.2')
+      </div>
+      <div class="smm-to-top__item">
+         @lang('design.top.3')
+      </div>
+      <div class="smm-to-top__item">
+         @lang('design.top.4')
+      </div>
+      <div class="smm-to-top__tittle to-top__tittle tittle ">@lang('design.top.tittle_end')</div>
+   </div>
+</section>
+<section class="smm-portfolio">
+   <div class="smm-portfolio__body">
+      <div class="smm-portfolio__img">
+         <img src="{{asset('img/smm/portfolio.jpg')}}" alt="">
+      </div>
+      <div class="smm-portfolio__content">
+         <div class="smm-portfolio__tittle tittle">@lang('smm.portfolio.tittle')</div>
+         <a class=" smm-portfolio__link" href="#">@lang('smm.portfolio.btn')</a>
+      </div>
+   </div>
+</section>
+
 @endsection

@@ -53,5 +53,18 @@ return [
          'text_more' => 'Los diseñadores y programadores de nuestra agencia le ayudarán a actualizar y mejorar la apariencia obsoleta y los parámetros técnicos de la web, haciéndolo más atractivo y funcional. Le ofreceremos las mejores soluciones de rediseño, estructura conveniente y diseño adaptable para todos los dispositivos móviles.',
       ],
    ],
+      'promotion' => 
+      [
+         'tittle' => 'Estamos 100% seguros ',
+         'text' => 'de que un equipo ambicioso y profesional está detrás del éxito de cualquier proyecto creado, listo para lograr el mejor resultado más rápido que los competidores. Por lo tanto, dedicamos mucho tiempo al personal y a la  mejora de las habilidades de cada empleado en el campo del diseño.</span>',
+      ],
+      'top' => [
+         'tittle' => '<span>NÚMEROS</span>',
+         '1' => 'Más de 1000!<p>Precisamente esta cantidad de diseños fue creada durante la existencia de "Agencia Colorit"</p>',
+         '2' => '05 <p>Nuestro equipo está formado por 5 diseñadores.</p><p>- Gráfico</p> <p>- WEB</p> <p>- Ilustrador</p>',
+         '3' => '03 <p>La experiencia mínima de cada diseñador es de 3 años. Contamos con excelentes especialistas</p>',
+         '4' => '87% <p>Los clientes leales son la clave del éxito de cualquier negocio. ¡El 87% de los clientes vuelven a nosotros! ¡Somos de confianza!</p>',
+         'tittle_end' => 'No hay nada imposible para nosotros en el mundo creativo.<p><span>Estamos listos para mostrártelo.</span></p>',
+      ],
 ]
 ?>

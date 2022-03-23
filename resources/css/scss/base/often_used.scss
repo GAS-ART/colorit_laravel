@@ -20,3 +20,12 @@
    opacity: 0.1;
    text-transform: uppercase;
 }
+.to-top__tittle {
+   text-align: left;
+   &::before {
+      display: none;
+   }
+   span {
+      @include adaptiveValueREM("font-size", 60, 25);
+   }
+}
