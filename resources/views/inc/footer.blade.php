@@ -14,7 +14,7 @@
                      <li class="service-footer__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.smm')</a></li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.website_development')</a>
                      </li>
-                     <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.uv_printing')</a></li>
+                     <li class="service-footer__item"><a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="service-footer__item-link">@lang('services.uv_printing')</a></li>
                      <li class="service-footer__item"><a href="#" class="service-footer__item-link">@lang('services.printing_on_clothes')</a>
                      </li>
                   </ul>

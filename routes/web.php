@@ -117,3 +117,22 @@ Route::get('/{locale}/design', function ($locale) {
 
    }
 })->name('design.lang');
+
+Route::get('/{locale}/uv-printing', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('uvPrinting');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('uvPrinting');
+
+   }
+})->name('uvPrinting.lang');

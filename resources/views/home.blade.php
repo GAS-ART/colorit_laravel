@@ -25,8 +25,8 @@
                      </li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
                            data-img="websiteDevelopment" data-link="#websiteDevelopment">@lang('services.website_development')</a></li>
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="uvPrinting"
-                           data-link="#uvPrinting">@lang('services.uv_printing')</a></li>
+                     <li class="menu-service__item"><a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="uvPrinting"
+                           data-link="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.uv_printing')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
                            data-img="printingOnClothes" data-link="#printingOnClothes">@lang('services.printing_on_clothes')</a></li>
                   </ul>
@@ -128,10 +128,10 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="#"><img src="{{asset('img/service/UV_printing.jpg')}}" alt="UV printing"></a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/UV_printing.jpg')}}" alt="UV printing"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <a href="#" class="">@lang('services.uv_printing')</a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.uv_printing')</a>
                   </div>
                </div>
             </div>

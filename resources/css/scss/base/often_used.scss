@@ -29,3 +29,8 @@
       @include adaptiveValueREM("font-size", 60, 25);
    }
 }
+.description-product-uv-printing {
+   &:not(:last-child) {
+      margin-bottom: 15px;
+   }
+}
