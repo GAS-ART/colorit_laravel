@@ -3361,6 +3361,92 @@ h6 {
   margin-bottom: 15px;
 }
 
+@media (max-width: 61.99875em) {
+  .portfolio__body {
+    display: none;
+  }
+}
+.portfolio__body-mobile {
+  display: none;
+}
+@media (max-width: 61.99875em) {
+  .portfolio__body-mobile {
+    display: block;
+  }
+}
+.portfolio__images {
+  display: flex;
+}
+.portfolio__images:last-child .portfolio__row:nth-child(2) {
+  justify-content: flex-start;
+}
+.portfolio__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio__row:not(:last-child) {
+  margin-right: 56px;
+}
+.portfolio__img {
+  margin-bottom: 30px;
+  position: relative;
+}
+.portfolio__img img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.portfolio__link {
+  margin-bottom: 60px;
+}
+@supports ( margin-bottom: clamp( 1.25rem , -1.4224137931rem  +  4.3103448276vw , 3.75rem )) {
+  .portfolio__link {
+     margin-bottom: clamp( 1.25rem , -1.4224137931rem  +  4.3103448276vw , 3.75rem );
+  }
+}
+@supports not ( margin-bottom: clamp( 1.25rem , -1.4224137931rem  +  4.3103448276vw , 3.75rem )) {
+  .portfolio__link {
+     margin-bottom: calc(
+         1.25rem + 2.5 * (100vw - 62rem) / 58
+      );
+  }
+}
+.portfolio__link .information-footer__item-link {
+  font-weight: 300;
+  line-height: 1;
+  color: #000000;
+}
+@supports (font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem )) {
+  .portfolio__link .information-footer__item-link {
+    font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem );
+  }
+}
+@supports not (font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem )) {
+  .portfolio__link .information-footer__item-link {
+    font-size: calc(
+         1.125rem + 0.4375 * (100vw - 20rem) / 80
+      );
+  }
+}
+.portfolio .mobile-portfolio {
+  display: none;
+}
+@media (max-width: 61.99875em) {
+  .portfolio .mobile-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.portfolio .mobile-portfolio__item {
+  max-width: 430px;
+}
+
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;
