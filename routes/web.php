@@ -136,3 +136,41 @@ Route::get('/{locale}/uv-printing', function ($locale) {
 
    }
 })->name('uvPrinting.lang');
+
+Route::get('/{locale}/website-development', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('website_development');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('website_development');
+
+   }
+})->name('webDevelopment.lang');
+
+Route::get('/{locale}/portfolio', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('portfolio');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('portfolio');
+
+   }
+})->name('portfolio.lang');

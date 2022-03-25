@@ -12,7 +12,7 @@
       <div class="links__body">
          <a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
             class="links__previous">@lang('services.main_link')</a>
-         <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+         <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"
             class="links__current">@lang('services.smm')</a>
       </div>
    </div>
@@ -181,7 +181,7 @@
       </div>
       <div class="smm-portfolio__content">
          <div class="smm-portfolio__tittle tittle">@lang('smm.portfolio.tittle')</div>
-         <a class=" smm-portfolio__link" href="#">@lang('smm.portfolio.btn')</a>
+         <a class=" smm-portfolio__link" href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}">@lang('smm.portfolio.btn')</a>
       </div>
    </div>
 </section>

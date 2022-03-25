@@ -23,8 +23,8 @@
                      <li class="menu-service__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="smm"
                            data-link="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.smm')</a>
                      </li>
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link"
-                           data-img="websiteDevelopment" data-link="#websiteDevelopment">@lang('services.website_development')</a></li>
+                     <li class="menu-service__item"><a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link"
+                           data-img="websiteDevelopment" data-link="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.website_development')</a></li>
                      <li class="menu-service__item"><a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="uvPrinting"
                            data-link="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.uv_printing')</a></li>
                      <li class="menu-service__item"><a href="#" class="menu-service__item-link"
@@ -119,11 +119,11 @@
             <div class="service__row">
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="#"><img src="{{asset('img/service/website_development.jpg')}}"
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/website_development.jpg')}}"
                            alt="website development"></a>
                   </div>
                   <div class="vertical-content__link">
-                     <a href="#" class="">@lang('services.website_development')</a>
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.website_development')</a>
                   </div>
                </div>
                <div class="service__horizontal horizontal-content">

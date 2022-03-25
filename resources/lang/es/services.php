@@ -6,7 +6,7 @@ return [
    'identity' => 'Diseño',
    'smm' => 'SMM',
    'website_development' => 'Desarrollo web',
-   'uv_printing' => 'УФ печать',
+   'uv_printing' => 'Impresion digital',
    'printing_on_clothes' => 'Ropa personalizada',
    'services' => 'Servicios',
    'our_services' => 'Nuestros servicios',

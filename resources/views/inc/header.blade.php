@@ -55,7 +55,7 @@
                               class="burger-service-menu__item-link">@lang('services.identity')</a></li>
                         <li class="burger-service-menu__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.smm')</a></li>
-                        <li class="burger-service-menu__item"><a href=""
+                        <li class="burger-service-menu__item"><a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.website_development')</a></li>
                         <li class="burger-service-menu__item"><a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.uv_printing')</a></li>
@@ -63,7 +63,7 @@
                               class="burger-service-menu__item-link">@lang('services.printing_on_clothes')</a></li>
                      </ul>
                   </li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.portfolio')</a>
+                  <li class="menu-burger__item"><a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('burger.portfolio')</a>
                   </li>
                </ul>
             </nav>

@@ -169,6 +169,15 @@ window.onload = function () {
       $(".service-error").html('');
    }
 
+   //Открытие блока "?" в блоке  "Доступные пакеты"
+   const priceQuestionBtn = document.querySelectorAll('.price-details');
+   const priceQuestionText = document.querySelectorAll('.price-details-text');
+   priceQuestionBtn.forEach((item) => {
+      item.addEventListener('click', function (e) {
+         e.target.closest('.price-details').nextElementSibling.classList.toggle('active');
+      });
+   });
+
    function documentActions(e) {
       //убираем меню бургер
       if (!e.target.closest('.header__burger') && !e.target.classList.contains('header__icon-menu')) {
@@ -183,6 +192,12 @@ window.onload = function () {
       //Убираем popup
       if (!e.target.closest('.popup__content') && !e.target.classList.contains('popup-btn')) {
          closePopup(popup);
+      }
+      //Убираем price-details-text
+      if (!e.target.closest('.price-details-text') && !e.target.classList.contains('price-details-text') && !e.target.classList.contains('price-details-item')) {
+         priceQuestionText.forEach((item) => {
+            item.classList.remove('active');
+         });
       }
    }
 

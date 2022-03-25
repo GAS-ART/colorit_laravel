@@ -220,7 +220,7 @@
    <img class="outdor-advertising-portfolio__mobile" src="{{asset('img/outdoor_advertising/cases_small.jpg')}}" alt="">
    <div class="outdor-advertising-portfolio__body">
       <div class="outdor-advertising-portfolio__tittle">@lang('outdorAdvertising.portfolio.tittle')</div>
-      <a href="#" class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
+      <a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}" class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
    </div>
 </section>
 <section class="slider">
