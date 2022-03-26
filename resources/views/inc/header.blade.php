@@ -59,7 +59,7 @@
                               class="burger-service-menu__item-link">@lang('services.website_development')</a></li>
                         <li class="burger-service-menu__item"><a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.uv_printing')</a></li>
-                        <li class="burger-service-menu__item"><a href=""
+                        <li class="burger-service-menu__item"><a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.printing_on_clothes')</a></li>
                      </ul>
                   </li>

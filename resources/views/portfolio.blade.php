@@ -38,8 +38,21 @@
          <div class="portfolio__images">
             <div class="portfolio__row">
                <div class="portfolio__item">
-                  <div class="portfolio__img">
+                  <div class="portfolio__img portfolio-description">
                      <img src="{{asset('img/portfolio/1.jpg')}}" alt="">
+                     <div class="portfolio-description__body">
+                        <div class="portfolio-description__tittle">
+                           <p>Проект</p>
+                           <p>MARISTA</p>
+                           <p>Было сделано</p>
+                        </div>
+                        <ul class="portfolio-description__list">
+                           <li class="portfolio-description__item">Визитные карточки</li>
+                           <li class="portfolio-description__item">Вывеска</li>
+                           <li class="portfolio-description__item">Наружная реклама</li>
+                           <li class="portfolio-description__item">СММ</li>
+                        </ul>
+                     </div>
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
                   </div>
@@ -305,8 +318,21 @@
       </div>
       <div class="portfolio__body-mobile mobile-portfolio">
          <div class="mobile-portfolio__item">
-            <div class="portfolio__img">
+            <div class="portfolio__img portfolio-description">
                <img src="{{asset('img/portfolio/1.jpg')}}" alt="">
+               <div class="portfolio-description__body">
+                  <div class="portfolio-description__tittle">
+                     <p>Проект</p>
+                     <p>MARISTA</p>
+                     <p>Было сделано</p>
+                  </div>
+                  <ul class="portfolio-description__list">
+                     <li class="portfolio-description__item">Визитные карточки</li>
+                     <li class="portfolio-description__item">Вывеска</li>
+                     <li class="portfolio-description__item">Наружная реклама</li>
+                     <li class="portfolio-description__item">СММ</li>
+                  </ul>
+               </div>
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
             </div>

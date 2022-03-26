@@ -174,3 +174,22 @@ Route::get('/{locale}/portfolio', function ($locale) {
 
    }
 })->name('portfolio.lang');
+
+Route::get('/{locale}/printing_on_clothes', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('printing');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('printing');
+
+   }
+})->name('printing.lang');

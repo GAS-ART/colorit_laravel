@@ -3391,6 +3391,7 @@ h6 {
 .portfolio__img {
   margin-bottom: 30px;
   position: relative;
+  cursor: pointer;
 }
 .portfolio__img img {
   position: relative;
@@ -3445,6 +3446,76 @@ h6 {
 }
 .portfolio .mobile-portfolio__item {
   max-width: 430px;
+}
+
+.portfolio-description {
+  box-sizing: content-box;
+  position: relative;
+}
+.portfolio-description:hover .portfolio-description__body {
+  opacity: 0.9;
+  visibility: visible;
+  /* transform: translate(0%, 0);*/
+  width: 100%;
+}
+.portfolio-description__body {
+  cursor: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #232322;
+  opacity: 0.9;
+  font-family: "Muler";
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+}
+.portfolio-description__tittle {
+  margin-top: 10%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.portfolio-description__tittle p:not(:last-child) {
+  margin-bottom: 10px;
+}
+@supports (font-size: clamp( 1.125rem , 1.03125rem  +  0.46875vw , 1.5rem )) {
+  .portfolio-description__tittle p:nth-child(2) {
+    font-size: clamp( 1.125rem , 1.03125rem  +  0.46875vw , 1.5rem );
+  }
+}
+@supports not (font-size: clamp( 1.125rem , 1.03125rem  +  0.46875vw , 1.5rem )) {
+  .portfolio-description__tittle p:nth-child(2) {
+    font-size: calc(
+         1.125rem + 0.375 * (100vw - 20rem) / 80
+      );
+  }
+}
+.portfolio-description__list {
+  margin-top: -10%;
+}
+@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .portfolio-description__item {
+    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .portfolio-description__item {
+    font-size: calc(
+         1rem + 0.25 * (100vw - 20rem) / 80
+      );
+  }
+}
+.portfolio-description__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footer__body {
