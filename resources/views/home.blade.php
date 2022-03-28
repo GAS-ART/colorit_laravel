@@ -362,14 +362,6 @@
                      <img src="{{asset('img/clients/color/12_black.jpg')}}" alt="Our clients">
                   </div>
                </div>
-               <div class="swiper-slide">
-                  <div class="black-image">
-                     <img src="{{asset('img/clients/black/13.jpg')}}" alt="Our clients">
-                  </div>
-                  <div class="color-image">
-                     <img src="{{asset('img/clients/color/13_black.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
             </div>
             <!--pagination -->
             <div class="swiper-pagination"></div>

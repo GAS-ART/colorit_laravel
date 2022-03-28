@@ -11,7 +11,7 @@
                <ul class="menu-header__list">
                   <li class="menu-header__item"><a class="menu-header__item-link"
                         href="{{route('download')}}">@lang('header.presentation')</a></li>
-                  <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.cases')</a>
+                  <li class="menu-header__item"><a class="menu-header__item-link" href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}">@lang('burger.portfolio')</a>
                   </li>
                   <li class="menu-header__item"><a class="menu-header__item-link" href="#">@lang('header.contacts')</a>
                   </li>
@@ -41,8 +41,8 @@
                <ul class="menu-burger__list">
                   <li class="menu-burger__item"><a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
                         class="menu-burger__item-link">@lang('burger.about_us')</a></li>
-                  <li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a>
-                  </li>
+                 <!--<li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a> 
+                  </li> -->
                   <li class="menu-burger__item"><a href="#"
                         class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
                      <ul class="burger-service-menu__list">

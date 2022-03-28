@@ -437,6 +437,21 @@ window.onload = function () {
   $('.select-form').select2({
     placeholder: placeholderText,
     minimumResultsForSearch: -1
+  }); //Скролл к верху страницы
+
+  var scrollBtn = document.querySelector('.scroll-top');
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 1000) {
+      scrollBtn.classList.add('active');
+    } else {
+      scrollBtn.classList.remove('active');
+    }
+  });
+  scrollBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   });
   /*OUTDOR-ADVERTISING*/
   //==================================================================

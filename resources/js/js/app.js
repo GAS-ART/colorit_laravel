@@ -407,6 +407,25 @@ window.onload = function () {
       minimumResultsForSearch: -1,
    });
 
+   //Скролл к верху страницы
+
+   const scrollBtn = document.querySelector('.scroll-top');
+
+   window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 1000) {
+         scrollBtn.classList.add('active');
+      } else {
+         scrollBtn.classList.remove('active');
+      }
+   })
+
+   scrollBtn.addEventListener('click', function () {
+      window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+      });
+   })
+
    /*OUTDOR-ADVERTISING*/
    //==================================================================
 
