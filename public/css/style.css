@@ -1614,6 +1614,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
+  transform: scale(1);
 }
 .cases__info {
   transition: all 1s ease 0s;
@@ -1627,6 +1628,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0);
 }
 
 .info-cases__body {
@@ -1636,15 +1638,15 @@ h6 {
   margin: 20px;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   overflow: auto;
 }
 .info-cases__tittle {
+  cursor: pointer;
   color: #ffffff;
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 6.3125rem 0 1.875rem 0;
 }
 @supports (font-size: clamp( 1.125rem , 0.9375rem  +  0.9375vw , 1.875rem )) {
   .info-cases__tittle {
@@ -1656,21 +1658,6 @@ h6 {
     font-size: calc(
          1.125rem + 0.75 * (100vw - 20rem) / 80
       );
-  }
-}
-@media (max-width: 93.75em) {
-  .info-cases__tittle {
-    margin: 1.5625rem 0 0.625rem 0;
-  }
-}
-@media (max-width: 61.99875em) {
-  .info-cases__tittle {
-    margin: 6.3125rem 0 1.875rem 0;
-  }
-}
-@media (max-width: 47.99875em) {
-  .info-cases__tittle {
-    margin: 1.5625rem 0 0.625rem 0;
   }
 }
 .info-cases__items {
@@ -4457,3 +4444,63 @@ h6 {
 }
 
 /*----POP-UP----*/
+/*----POP-CASES----*/
+.case-popup__info {
+  background-color: #232322;
+  padding: 30px 50px;
+  font-family: "Muller";
+  color: #ffffff;
+}
+.case-popup__tittle {
+  margin-bottom: 30px;
+}
+@supports (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
+  .case-popup__tittle {
+    font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem );
+  }
+}
+@supports not (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
+  .case-popup__tittle {
+    font-size: calc(
+         1.25rem + 0.3125 * (100vw - 20rem) / 80
+      );
+  }
+}
+.case-popup__text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.case-popup-works__tittle {
+  color: #962e93;
+  margin-bottom: 10px;
+}
+@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .case-popup-works__tittle {
+    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .case-popup-works__tittle {
+    font-size: calc(
+         1rem + 0.25 * (100vw - 20rem) / 80
+      );
+  }
+}
+.case-popup-works__row {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.case-popup-works__items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.case-popup-works__items:not(:last-child) {
+  margin-bottom: 15px;
+}

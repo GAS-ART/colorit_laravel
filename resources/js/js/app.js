@@ -138,7 +138,8 @@ window.onload = function () {
    //popup
    const body = document.querySelector('#body');
    const popupBtn = document.querySelectorAll('.popup-btn');
-   const popup = document.querySelector('.popup');
+   const AllPopup = document.querySelectorAll('.popup');
+   const popup = document.querySelector('#popup');
    const popupClose = document.querySelectorAll('.popup__close');
    const confitmBtn = document.querySelector('.confirm-button');
 
@@ -169,6 +170,18 @@ window.onload = function () {
       $(".service-error").html('');
    }
 
+   //popup cases
+   const popupCaseBtn = document.querySelectorAll('.info-cases__tittle');
+
+   popupCaseBtn.forEach((item) => {
+      item.addEventListener('click', function (e) {
+         let currentPopupId = e.target.dataset.id;
+         let currentPopup = document.getElementById(currentPopupId);
+         currentPopup.classList.add('open');
+         body.classList.add('lock');
+      });
+   });
+
    //Открытие блока "?" в блоке  "Доступные пакеты"
    const priceQuestionBtn = document.querySelectorAll('.price-details');
    const priceQuestionText = document.querySelectorAll('.price-details-text');
@@ -190,8 +203,10 @@ window.onload = function () {
          languageBtn.classList.remove('active');
       }
       //Убираем popup
-      if (!e.target.closest('.popup__content') && !e.target.classList.contains('popup-btn')) {
-         closePopup(popup);
+      if (!e.target.closest('.popup__content') && !e.target.classList.contains('popup-btn') && !e.target.classList.contains('info-cases__tittle')) {
+         AllPopup.forEach((item) => {
+            closePopup(item);
+         })
       }
       //Убираем price-details-text
       if (!e.target.closest('.price-details-text') && !e.target.classList.contains('price-details-text') && !e.target.classList.contains('price-details-item')) {

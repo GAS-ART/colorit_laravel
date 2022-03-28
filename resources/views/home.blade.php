@@ -167,37 +167,23 @@
          <div class="cases__row">
             <div class="cases__body">
                <picture>
-                  <source srcset="{{asset('img/cases/1small.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/1.jpg')}}" alt="our cases">
+                  <source srcset="{{asset('img/cases/keys1.png')}}" sizes="(max-width: 767.98px)">
+                  <img src="{{asset('img/cases/keys1.png')}}" alt="our cases">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div class="info-cases__tittle">Проект "Bike Parts"</div>
-                     <ul class="info-cases__items">
-                        <li class="info-cases__item">- Разработка логотипа и фирменного</li>
-                        <li class="info-cases__item">- Вывеска лайтбокс и ее монтаж</li>
-                        <li class="info-cases__item">- Цифровые визитки</li>
-                        <li class="info-cases__item">- Изготовление футболок</li>
-                     </ul>
-                     <button class="info-cases__btn">Заказать</button>
+                     <div data-id="alianca" class="info-cases__tittle">Проект<br> "Alianca"</div>
                   </div>
                </div>
             </div>
             <div class="cases__body">
                <picture>
-                  <source srcset="{{asset('img/cases/3small.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/3.jpg')}}" alt="our cases">
+                  <source srcset="{{asset('img/cases/keys2.jpg')}}" sizes="(max-width: 767.98px)">
+                  <img src="{{asset('img/cases/keys2.jpg')}}" alt="our cases">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div class="info-cases__tittle">Проект "Bike Parts"</div>
-                     <ul class="info-cases__items">
-                        <li class="info-cases__item">- Разработка логотипа и фирменного</li>
-                        <li class="info-cases__item">- Вывеска лайтбокс и ее монтаж</li>
-                        <li class="info-cases__item">- Цифровые визитки</li>
-                        <li class="info-cases__item">- Изготовление футболок</li>
-                     </ul>
-                     <button class="info-cases__btn">Заказать</button>
+                     <div data-id="moonstersJump" class="info-cases__tittle">Проект<br>"Moonsters Jump"</div>
                   </div>
                </div>
             </div>
@@ -205,37 +191,23 @@
          <div class="cases__row">
             <div class="cases__body">
                <picture>
-                  <source srcset="{{asset('img/cases/2small.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/2.jpg')}}" alt="our cases">
+                  <source srcset="{{asset('img/cases/keys3.jpg')}}" sizes="(max-width: 767.98px)">
+                  <img src="{{asset('img/cases/keys3.jpg')}}" alt="our cases">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div class="info-cases__tittle">Проект "Bike Parts"</div>
-                     <ul class="info-cases__items">
-                        <li class="info-cases__item">- Разработка логотипа и фирменного</li>
-                        <li class="info-cases__item">- Вывеска лайтбокс и ее монтаж</li>
-                        <li class="info-cases__item">- Цифровые визитки</li>
-                        <li class="info-cases__item">- Изготовление футболок</li>
-                     </ul>
-                     <button class="info-cases__btn">Заказать</button>
+                     <div data-id="costaMaresme" class="info-cases__tittle">Проект<br>"Costa Maresme"</div>
                   </div>
                </div>
             </div>
             <div class="cases__body">
                <picture>
-                  <source srcset="{{asset('img/cases/4small.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/4.jpg')}}" alt="our cases">
+                  <source srcset="{{asset('img/cases/keys4.png')}}" sizes="(max-width: 767.98px)">
+                  <img src="{{asset('img/cases/keys4.png')}}" alt="our cases">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div class="info-cases__tittle">Проект "Bike Parts"</div>
-                     <ul class="info-cases__items">
-                        <li class="info-cases__item">- Разработка логотипа и фирменного</li>
-                        <li class="info-cases__item">- Вывеска лайтбокс и ее монтаж</li>
-                        <li class="info-cases__item">- Цифровые визитки</li>
-                        <li class="info-cases__item">- Изготовление футболок</li>
-                     </ul>
-                     <button class="info-cases__btn">Заказать</button>
+                     <div data-id="floaretelie" class="info-cases__tittle">Проект<br> "Floaretelie"</div>
                   </div>
                </div>
             </div>

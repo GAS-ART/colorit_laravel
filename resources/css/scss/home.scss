@@ -568,6 +568,7 @@
             opacity: 1;
             visibility: visible;
             pointer-events: all;
+            transform: scale(1);
          }
       }
    }
@@ -584,6 +585,7 @@
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
+      transform: scale(0);
    }
 }
 .info-cases {
@@ -594,26 +596,17 @@
       margin: 20px;
       text-align: center;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
       overflow: auto;
    }
 
    &__tittle {
       @include adaptiveValueREM("font-size", 30, 18);
+      cursor: pointer;
       color: #ffffff;
       text-transform: uppercase;
       line-height: 1.2;
-      margin: rem(101) 0 rem(30) 0;
-      @media (max-width: em(1500)) {
-         margin: rem(25) 0 rem(10) 0;
-      }
-      @media (max-width: $tablet) {
-         margin: rem(101) 0 rem(30) 0;
-      }
-      @media (max-width: $mobile) {
-         margin: rem(25) 0 rem(10) 0;
-      }
    }
 
    &__items {

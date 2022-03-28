@@ -359,3 +359,65 @@
    }
 }
 /*----POP-UP----*/
+
+/*----POP-CASES----*/
+.case-popup {
+   &__info {
+      background-color: $darckColor;
+      padding: 30px 50px;
+      font-family: "Muller";
+      color: #ffffff;
+   }
+
+   &__tittle {
+      @include adaptiveValueREM("font-size", 25, 20);
+      margin-bottom: 30px;
+   }
+
+   &__text {
+      margin-bottom: 20px;
+      font-size: 16px;
+      letter-spacing: 1px;
+   }
+
+   &__works {
+   }
+
+   &__links {
+   }
+
+   &__link {
+   }
+
+   &__img {
+   }
+}
+.case-popup-works {
+   &__tittle {
+      @include adaptiveValueREM("font-size", 20, 16);
+      color: $hoverColor;
+      margin-bottom: 10px;
+   }
+
+   &__row {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #000000;
+      padding: 10px;
+      margin-bottom: 30px;
+   }
+
+   &__items {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      &:not(:last-child) {
+         margin-bottom: 15px;
+      }
+   }
+
+   &__item {
+   }
+}
