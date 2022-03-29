@@ -167,12 +167,12 @@
          <div class="cases__row">
             <div class="cases__body">
                <picture>
-                  <source srcset="{{asset('img/cases/keys1.png')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/keys1.png')}}" alt="our cases">
+                  <source srcset="{{asset('img/cases/keys12.jpg')}}" sizes="(max-width: 767.98px)">
+                  <img src="{{asset('img/cases/keys12.jpg')}}" alt="our cases">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="alianca" class="info-cases__tittle">Проект<br> "Alianca"</div>
+                     <div data-id="alianca" class="info-cases__tittle">@lang('home.cases.alianca')</div>
                   </div>
                </div>
             </div>
@@ -183,7 +183,7 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="moonstersJump" class="info-cases__tittle">Проект<br>"Moonsters Jump"</div>
+                     <div data-id="costaMaresme" class="info-cases__tittle">@lang('home.cases.costa_maresme')</div>
                   </div>
                </div>
             </div>
@@ -196,7 +196,7 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="costaMaresme" class="info-cases__tittle">Проект<br>"Costa Maresme"</div>
+                     <div data-id="moonstersJump" class="info-cases__tittle">@lang('home.cases.moonsters_jump')</div>
                   </div>
                </div>
             </div>
@@ -207,7 +207,7 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="floaretelie" class="info-cases__tittle">Проект<br> "Floaretelie"</div>
+                     <div data-id="floaretelie" class="info-cases__tittle">@lang('home.cases.floaretelie')</div>
                   </div>
                </div>
             </div>

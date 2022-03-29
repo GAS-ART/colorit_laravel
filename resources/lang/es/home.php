@@ -10,6 +10,13 @@ return [
    'experience_lead_btn' => 'Enviar',
    'more' => 'Mas informacion',
    'ticker' => 'Agencia de marketing eficaz',
+   'cases' =>
+   [
+      'alianca' => 'Proyecto<br>"Alianca"',
+      'costa_maresme' => 'Proyecto<br>"Costa Maresme"',
+      'moonsters_jump' => 'Proyecto<br>"Moonsters Jump"',
+      'floaretelie' => 'Proyecto<br>"Floaretelie"',
+   ],
 ]
 
 ?>

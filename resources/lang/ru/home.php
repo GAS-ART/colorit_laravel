@@ -10,7 +10,13 @@ return [
    'experience_lead_btn' => 'Оставить заявку',
    'more' => 'Подробнее',
    'ticker' => 'агентство эффективной рекламы',
-
+   'cases' =>
+   [
+      'alianca' => 'Проект<br>"Alianca"',
+      'costa_maresme' => 'Проект<br>"Costa Maresme"',
+      'moonsters_jump' => 'Проект<br>"Moonsters Jump"',
+      'floaretelie' => 'Проект<br>"Floaretelie"',
+   ],
 ]
 
 ?>

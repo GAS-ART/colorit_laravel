@@ -65,49 +65,194 @@
    </div>
 </div>
 
-
 <div id="alianca" class="popup case-popup">
    <div class="popup__body">
       <div class="popup__content">
          <a href="#" class="popup__close close-popup"></a>
-         <div class="popup__row">
+         <div class="popup__row case-popup__row">
             <div class="case-popup__info">
                <div class="case-popup__tittle">
-                  <h4>Costa Maresme</h4>
+                  <h4>@lang('popup.alianca.tittle')</h4>
                </div>
                <div class="case-popup__text">
-                  <p>Информационно - рекламный журнал Коста Маресме презентовый в 2022 году.</p>
-                  <p>Содержит в себе истории, интервью и увлекательные места на побережье Коста Маресме, Испания </p>
+                  @lang('popup.alianca.text')
                </div>
                <div class="case-popup__works case-popup-works">
-                  <div class="case-popup-works__tittle">Выполнено:</div>
+                  <div class="case-popup-works__tittle">@lang('popup.works_tittle')</div>
                   <div class="case-popup-works__row">
                      <div class="case-popup-works__items">
-                        <div class="case-popup-works__item">Создание стратегии и концепции журнала</div>
-                        <div class="case-popup-works__item">Разработка фирменного стиля</div>
-                        <div class="case-popup-works__item">Печать на одежде</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item')</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item1')</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item2')</div>
                      </div>
                      <div class="case-popup-works__items">
-                        <div class="case-popup-works__item">Изготовление журнала</div>
-                        <div class="case-popup-works__item">Презентация</div>
-                        <div class="case-popup-works__item">Создание интернет - магазина</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item3')</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item4')</div>
+                        <div class="case-popup-works__item">@lang('popup.alianca.item5')</div>
                      </div>
                   </div>
                </div>
                <div class="case-popup__links">
-                  <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
-                     class="case-popup__link">@lang('services.identity')</a>
-                  <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
-                     class="case-popup__link">@lang('services.printing_on_clothes')</a>
-                  <a href="#" class="case-popup__link">@lang('services.polygraphy')</a>
-                  <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"
-                     class="case-popup__link">@lang('services.website_development')</a>
-                  <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
-                     class="case-popup__link">@lang('services.outdoor_advertising')</a>
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.outdoor_advertising')</a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.uv_printing')</a>
+                  </div>
                </div>
             </div>
             <div class="case-popup__img">
-               <!--    <img src="{{asset('img/cases/keys1.png')}}" alt="case">-->
+               <img src="{{asset('img/cases/keys12.jpg')}}" alt="case">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div id="moonstersJump" class="popup case-popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <a href="#" class="popup__close close-popup"></a>
+         <div class="popup__row case-popup__row">
+            <div class="case-popup__info">
+               <div class="case-popup__tittle">
+                  <h4>@lang('popup.moonsters_jump.tittle')</h4>
+               </div>
+               <div class="case-popup__text">
+                  @lang('popup.moonsters_jump.text')
+               </div>
+               <div class="case-popup__works case-popup-works">
+                  <div class="case-popup-works__tittle">@lang('popup.works_tittle')</div>
+                  <div class="case-popup-works__row">
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item')</div>
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item1')</div>
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item2')</div>
+                     </div>
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item3')</div>
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item4')</div>
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item5')</div>
+                        <div class="case-popup-works__item">@lang('popup.moonsters_jump.item6')</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="case-popup__links">
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.outdoor_advertising')</a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.uv_printing')</a>
+                  </div>
+                  <div class="case-popup__links-row">
+                     <a href="#" class="case-popup__link service-footer__item-link">@lang('services.polygraphy')</a>
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.identity')</a>
+                  </div>
+               </div>
+            </div>
+            <div class="case-popup__img">
+               <img src="{{asset('img/cases/keys3.jpg')}}" alt="case">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div id="costaMaresme" class="popup case-popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <a href="#" class="popup__close close-popup"></a>
+         <div class="popup__row case-popup__row">
+            <div class="case-popup__info">
+               <div class="case-popup__tittle">
+                  <h4>@lang('popup.costaMaresme.tittle')</h4>
+               </div>
+               <div class="case-popup__text">
+                  @lang('popup.costaMaresme.text')
+               </div>
+               <div class="case-popup__works case-popup-works">
+                  <div class="case-popup-works__tittle">@lang('popup.works_tittle')</div>
+                  <div class="case-popup-works__row">
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item')</div>
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item1')</div>
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item2')</div>
+                     </div>
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item3')</div>
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item4')</div>
+                        <div class="case-popup-works__item">@lang('popup.costaMaresme.item5')</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="case-popup__links">
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.identity')</a>
+                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.printing_on_clothes')</a>
+                  </div>
+                  <div class="case-popup__links-row">
+                     <a href="#" class="case-popup__link service-footer__item-link">@lang('services.polygraphy')</a>
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.website_development')</a>
+                  </div>
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.outdoor_advertising')</a>
+                  </div>
+               </div>
+            </div>
+            <div class="case-popup__img">
+               <img src="{{asset('img/cases/keys2.jpg')}}" alt="case">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div id="floaretelie" class="popup case-popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <a href="#" class="popup__close close-popup"></a>
+         <div class="popup__row case-popup__row">
+            <div class="case-popup__info">
+               <div class="case-popup__tittle">
+                  <h4>@lang('popup.floaretelie.tittle')</h4>
+               </div>
+               <div class="case-popup__text">
+                  @lang('popup.floaretelie.text')
+               </div>
+               <div class="case-popup__works case-popup-works">
+                  <div class="case-popup-works__tittle">@lang('popup.works_tittle')</div>
+                  <div class="case-popup-works__row">
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.floaretelie.item')</div>
+                        <div class="case-popup-works__item">@lang('popup.floaretelie.item1')</div>
+                        <div class="case-popup-works__item">@lang('popup.floaretelie.item2')</div>
+                        <div class="case-popup-works__item">@lang('popup.floaretelie.item3')</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="case-popup__links">
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.outdoor_advertising')</a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.uv_printing')</a>
+                     <a href="#" class="case-popup__link service-footer__item-link">@lang('services.polygraphy')</a>
+                  </div>
+                  <div class="case-popup__links-row">
+                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.printing_on_clothes')</a>
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="case-popup__link service-footer__item-link">@lang('services.identity')</a>
+                  </div>
+               </div>
+            </div>
+            <div class="case-popup__img">
+               <img src="{{asset('img/cases/keys4.png')}}" alt="case">
             </div>
          </div>
       </div>

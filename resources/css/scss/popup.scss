@@ -362,16 +362,27 @@
 
 /*----POP-CASES----*/
 .case-popup {
+   &__row {
+      display: flex;
+      flex-direction: column;
+   }
    &__info {
       background-color: $darckColor;
       padding: 30px 50px;
       font-family: "Muller";
       color: #ffffff;
+      max-width: 850px;
+      @media (max-width: $mobile) {
+         padding: 10px 20px;
+      }
    }
 
    &__tittle {
       @include adaptiveValueREM("font-size", 25, 20);
       margin-bottom: 30px;
+      @media (max-width: $mobile) {
+         margin-bottom: 15px;
+      }
    }
 
    &__text {
@@ -384,27 +395,78 @@
    }
 
    &__links {
+      display: flex;
+      justify-content: space-around;
+      color: #ffffff;
+      @media (max-width: $tablet) {
+         flex-direction: column;
+      }
    }
-
+   &__links-row {
+      @media (max-width: $tablet) {
+         &:not(:last-child) {
+            margin-bottom: 15px;
+         }
+      }
+      @media (max-width: $mobileSmall) {
+         display: flex;
+         flex-direction: column;
+         &:not(:last-child) {
+            margin-bottom: 10px;
+         }
+      }
+   }
    &__link {
+      position: relative;
+      padding-left: 2px;
+      &:not(:last-child) {
+         margin-right: 25px;
+      }
+      &:hover {
+         color: $hoverColor;
+      }
+      &:before {
+         content: "✓";
+         position: absolute;
+         top: 0%;
+         left: -10px;
+         color: $hoverColor;
+      }
+      @media (max-width: $mobileSmall) {
+         &:not(:last-child) {
+            margin-bottom: 10px;
+         }
+      }
    }
 
    &__img {
+      position: relative;
+      padding-bottom: 50%;
+      img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
    }
 }
 .case-popup-works {
    &__tittle {
       @include adaptiveValueREM("font-size", 20, 16);
-      color: $hoverColor;
+      color: #ffffff;
       margin-bottom: 10px;
    }
 
    &__row {
       display: flex;
       flex-direction: column;
-      border: 1px solid #000000;
       padding: 10px;
       margin-bottom: 30px;
+      @media (max-width: $mobile) {
+         margin-bottom: 10px;
+      }
    }
 
    &__items {
@@ -416,8 +478,58 @@
       &:not(:last-child) {
          margin-bottom: 15px;
       }
+      @media (max-width: $mobile) {
+         grid-template-columns: auto;
+         gap: 10px;
+         align-items: flex-start;
+         justify-content: flex-start;
+         &:not(:last-child) {
+            margin-bottom: 10px;
+         }
+      }
    }
 
    &__item {
+      position: relative;
+      font-style: italic;
+      &:before {
+         content: "";
+         position: absolute;
+         top: 38%;
+         left: -10px;
+         height: 2px;
+         background-color: #ffffff;
+         width: 5px;
+      }
+   }
+}
+
+#moonstersJump,
+#floaretelie {
+   .case-popup-works__items {
+      &:last-child {
+         grid-template-columns: repeat(4, auto);
+      }
+      @media (max-width: $mobile) {
+         grid-template-columns: auto !important;
+         gap: 10px;
+         align-items: flex-start;
+         justify-content: flex-start;
+      }
+   }
+}
+#floaretelie {
+   .case-popup__links {
+      flex-direction: column;
+      .case-popup__links-row {
+         &:not(:last-child) {
+            margin-bottom: 15px;
+         }
+         @media (max-width: $mobileSmall) {
+            &:not(:last-child) {
+               margin-bottom: 10px;
+            }
+         }
+      }
    }
 }
