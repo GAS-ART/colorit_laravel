@@ -193,3 +193,22 @@ Route::get('/{locale}/printing_on_clothes', function ($locale) {
 
    }
 })->name('printing.lang');
+
+Route::get('/{locale}/polygraphy', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('polygraphy');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('polygraphy');
+
+   }
+})->name('polygraphy.lang');

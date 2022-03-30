@@ -49,7 +49,7 @@
                         <li class="burger-service-menu__item"><a
                               href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.outdoor_advertising')</a></li>
-                        <li class="burger-service-menu__item"><a href=""
+                        <li class="burger-service-menu__item"><a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.polygraphy')</a></li>
                         <li class="burger-service-menu__item"><a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
                               class="burger-service-menu__item-link">@lang('services.identity')</a></li>

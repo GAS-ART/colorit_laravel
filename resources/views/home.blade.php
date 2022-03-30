@@ -16,8 +16,8 @@
                   <ul class="menu-service__items">
                      <li class="menu-service__item"><a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link"
                            data-img="outdoorAdvertising" data-link="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.outdoor_advertising')</a></li>
-                     <li class="menu-service__item"><a href="#" class="menu-service__item-link" data-img="polygraphy"
-                           data-link="#polygraphy">@lang('services.polygraphy')</a></li>
+                     <li class="menu-service__item"><a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="polygraphy"
+                           data-link="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.polygraphy')</a></li>
                      <li class="menu-service__item"><a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="identity"
                            data-link="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}">@lang('services.identity')</a></li>
                      <li class="menu-service__item"><a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="menu-service__item-link" data-img="smm"
@@ -50,7 +50,7 @@
                <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="smm" data-img="smm">
                <img class="service-menu__img" src="{{asset('img/header/website_development.png')}}"
                   alt="website development" data-img="websiteDevelopment">
-               <img class="service-menu__img" src="{{asset('img/header/UV_printing.jpg')}}" alt="UV printing"
+               <img class="service-menu__img" src="{{asset('img/header/UV_printing.png')}}" alt="UV printing"
                   data-img="uvPrinting">
                <img class="service-menu__img" src="{{asset('img/header/printing_on_clothes.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
@@ -89,10 +89,10 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="#"><img src="{{asset('img/service/polygraphy.jpg')}}" alt="polygraphy"></a>
+                     <a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/polygraphy.jpg')}}" alt="polygraphy"></a>
                   </div>
                   <div class="horizontal-content__link">
-                     <div class="horizontal-content__link"><a href="#" class="">@lang('services.polygraphy')</a></div>
+                     <div class="horizontal-content__link"><a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.polygraphy')</a></div>
                   </div>
                </div>
             </div>
