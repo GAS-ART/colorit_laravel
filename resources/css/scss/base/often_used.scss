@@ -34,3 +34,9 @@
       margin-bottom: 15px;
    }
 }
+
+.products-list-read-more {
+   @media (max-width: $tablet) {
+      margin-bottom: 0 !important;
+   }
+}

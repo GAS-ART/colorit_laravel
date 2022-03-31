@@ -875,6 +875,12 @@ h6 {
   margin-bottom: 15px;
 }
 
+@media (max-width: 61.99875em) {
+  .products-list-read-more {
+    margin-bottom: 0 !important;
+  }
+}
+
 .service-menu {
   position: relative;
   margin: 210px 0 60px 0;
@@ -3664,6 +3670,19 @@ h6 {
 }
 .portfolio-description__item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.polygraphy-to-top {
+  margin-bottom: 140px;
+}
+@media (max-width: 61.99875em) {
+  .polygraphy-to-top {
+    margin-bottom: 85px;
+  }
+}
+
+.polygraphy-products-tittle {
+  text-align: left;
 }
 
 .footer__body {
