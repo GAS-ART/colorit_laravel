@@ -245,7 +245,7 @@ window.onload = function () {
     event.preventDefault();
     $.ajax({
       type: 'POST',
-      url: 'http://127.0.0.1:8000/feedback',
+      url: 'https://colorit.agency/public/feedback',
       data: new FormData(this),
       contentType: false,
       cache: false,
@@ -359,7 +359,7 @@ window.onload = function () {
     event.preventDefault();
     $.ajax({
       type: 'POST',
-      url: 'http://127.0.0.1:8000/feedback_page',
+      url: 'https://colorit.agency/public/feedback_page',
       data: new FormData(this),
       contentType: false,
       cache: false,

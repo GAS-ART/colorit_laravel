@@ -20,7 +20,7 @@ Route::post('feedback_page', 'App\Http\Controllers\ContactController@feedBackFor
 Route::get('/download', 'App\Http\Controllers\downloadController@downloadPresentation')->name('download');
 
 
-Route::get('/', function () {App::setLocale('ru'); return view('home');})->name('index');
+Route::get('/', function () {App::setLocale('es'); return view('home');})->name('index');
 
 Route::get('/{locale}', function ($locale) {
    

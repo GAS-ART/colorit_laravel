@@ -29,9 +29,9 @@ class languagesController extends Controller
             $url =   Str::replaceFirst('es','ru', $url);
             return redirect($url);
 
-        } else if (!Str::contains($url, ['es','ru']) && $locale == 'es') {
+        } else if (!Str::contains($url, ['es','ru']) && $locale == 'ru') {
 
-            return redirect($url . 'es');
+            return redirect($url . 'ru');
             
         } else {
             return redirect($url);
