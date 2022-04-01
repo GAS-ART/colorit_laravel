@@ -506,9 +506,11 @@ h6 {
 }
 .language-btn__icon.ru {
   background-image: url(/images/russia.svg?08e94fd98f3e91e53d80c2640a7c7e2c);
+  background-image: url("https://colorit.agency/public/images/russia.svg");
 }
 .language-btn__icon.es {
   background-image: url(/images/spain.svg?3e79577313128149ce39296aa453f7bb);
+  background-image: url("https://colorit.agency/public/images/spain.svg");
 }
 .language-btn__select {
   display: flex;
@@ -4351,6 +4353,7 @@ h6 {
   width: 30px;
   height: 30px;
   background-image: url(/images/donwload.svg?0e4af4baccb5ddad6d743ef07d782bd6);
+  background-image: url("https://colorit.agency/public/images/donwload.svg");
   background-repeat: no-repeat;
   margin-right: 10px;
   z-index: 300;
@@ -4438,6 +4441,7 @@ h6 {
   width: 335px;
   flex: 0 0 335px;
   background-image: url(/images/Outdoor_advertising_popup-form.jpg?600271a02817699158fee98bc9d2605f);
+  background-image: url("https://colorit.agency/public/images/Outdoor_advertising_popup-form.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -4449,6 +4453,7 @@ h6 {
     background-size: contain;
     background-position: center;
     background-image: url(/images/Outdoor_advertising_popup-form-small.jpg?44d5d08a82e9dbd9c6a782943acb4ad4);
+    background-image: url("https://colorit.agency/public/images/Outdoor_advertising_popup-form-small.jpg");
   }
 }
 @media (max-width: 47.99875em) {

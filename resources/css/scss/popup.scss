@@ -253,6 +253,7 @@
       width: 30px;
       height: 30px;
       background-image: url("../../../public/img/icons/donwload.svg");
+      background-image: url("https://colorit.agency/public/images/donwload.svg");
       background-repeat: no-repeat;
       margin-right: 10px;
       z-index: 300;
@@ -341,6 +342,7 @@
    width: 335px;
    flex: 0 0 335px;
    background-image: url("../../../public/img/service/Outdoor_advertising_popup-form.jpg");
+   background-image: url("https://colorit.agency/public/images/Outdoor_advertising_popup-form.jpg");
    background-repeat: no-repeat;
    background-size: contain;
    @media (max-width: $tablet) {
@@ -350,6 +352,7 @@
       background-size: contain;
       background-position: center;
       background-image: url("../../../public/img/service/Outdoor_advertising_popup-form-small.jpg");
+      background-image: url("https://colorit.agency/public/images/Outdoor_advertising_popup-form-small.jpg");
    }
    @media (max-width: $mobile) {
       background-size: 100% 100%;
