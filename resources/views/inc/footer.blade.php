@@ -37,7 +37,7 @@
             <h5 class="footer__tittle">@lang('footer.information')</h5>
             <nav class="information-footer__list">
                <ul class="information-footer__items">
-                  <li class="information-footer__item"><a href="#"
+                  <li class="information-footer__item"><a href="{{ route('about.lang', ['locale' => __('main.set_lang')]) }}"
                         class="information-footer__item-link">@lang('footer.about_us')</a>
                   </li>
                   <!--  <li class="information-footer__item"><a href="#" class="information-footer__item-link">@lang('footer.cases')</a>

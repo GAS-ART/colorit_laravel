@@ -212,3 +212,22 @@ Route::get('/{locale}/polygraphy', function ($locale) {
 
    }
 })->name('polygraphy.lang');
+
+Route::get('/{locale}/about_us', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('about');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('about');
+
+   }
+})->name('about.lang');

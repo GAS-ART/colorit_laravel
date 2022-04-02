@@ -39,7 +39,7 @@
          <div class="burger__body">
             <nav class="burger__menu menu-burger">
                <ul class="menu-burger__list">
-                  <li class="menu-burger__item"><a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
+                  <li class="menu-burger__item"><a href="{{ route('about.lang', ['locale' => __('main.set_lang')]) }}"
                         class="menu-burger__item-link">@lang('burger.about_us')</a></li>
                  <!--<li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a> 
                   </li> -->

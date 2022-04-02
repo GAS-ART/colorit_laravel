@@ -2,7 +2,7 @@
 
 return [
    'outdoor_advertising' => 'Rotulacion',
-   'polygraphy' => 'Impresion digital',
+   'polygraphy' => 'Publicidad',
    'identity' => 'Diseño',
    'smm' => 'SMM',
    'website_development' => 'Desarrollo web',

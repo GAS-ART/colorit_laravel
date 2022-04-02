@@ -3693,6 +3693,85 @@ h6 {
   text-align: left;
 }
 
+.review__tittle {
+  text-align: left;
+}
+.review__row {
+  margin-bottom: 60px;
+}
+.review__items {
+  display: flex;
+}
+.review__items:first-child {
+  justify-content: space-between;
+}
+.review__items:nth-child(2) {
+  justify-content: center;
+  margin-top: -10px;
+}
+.review__items:last-child {
+  justify-content: space-between;
+  min-height: 180px;
+  margin-top: -15px;
+}
+.review__items:last-child .review__item:first-child {
+  align-self: flex-start;
+}
+.review__items:last-child .review__item:last-child {
+  align-self: flex-end;
+}
+.review__items:last-child {
+  margin-left: 5%;
+  margin-right: 8%;
+}
+.review__item {
+  max-width: 30%;
+}
+
+.item-review {
+  font-family: "Muler";
+  position: relative;
+}
+@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .item-review {
+    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
+  .item-review {
+    font-size: calc(
+         1rem + 0.25 * (100vw - 20rem) / 80
+      );
+  }
+}
+.item-review::before {
+  content: "”";
+  font-size: 4.5rem;
+  position: absolute;
+  top: -10px;
+  left: -2.2rem;
+}
+.item-review__text {
+  margin-bottom: 30px;
+  text-align: justify;
+  position: relative;
+}
+.item-review__text::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+  height: 1px;
+  background-color: #232322;
+}
+.item-review__author {
+  font-weight: 700;
+  text-align: center;
+}
+.item-review__author span {
+  color: #962e93;
+}
+
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;
