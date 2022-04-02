@@ -52,7 +52,7 @@
                   alt="website development" data-img="websiteDevelopment">
                <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="UV printing"
                   data-img="uvPrinting">
-               <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470s.jpg')}}"
+               <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470sq.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
                <a href="#" class="service-menu__img-link" >@lang('home.more')</a>
             </div>
@@ -119,7 +119,7 @@
             <div class="service__row">
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_310_350.jpg')}}"
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_420_520.jpg')}}"
                            alt="website development"></a>
                   </div>
                   <div class="vertical-content__link">
@@ -128,7 +128,7 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470s.jpg')}}" alt="UV printing"></a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="UV printing"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.uv_printing')</a>
@@ -139,7 +139,7 @@
             <div class="service__row">
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/print/print_1155_470.jpg')}}"
+                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/print/print_1155_470sq.jpg')}}"
                            alt="printing on clothes"></a>
                   </div>
                   <div class="horizontal-content__link">
