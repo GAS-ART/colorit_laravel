@@ -45,14 +45,14 @@
                   alt="Outdoor advertising" data-img="outdoorAdvertising">
                <img class="service-menu__img" src="{{asset('img/header/polygraphy.jpg')}}" alt="polygraphy"
                   data-img="polygraphy">
-               <img class="service-menu__img" src="{{asset('img/service/identity/identity_1155_470.jpg')}}" alt="identity"
+               <img class="service-menu__img" src="{{asset('img/service/identity/identity_1155_470s.jpg')}}" alt="identity"
                   data-img="identity">
                <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="smm" data-img="smm">
-               <img class="service-menu__img" src="{{asset('img/service/site/site_1155_470.jpg')}}"
+               <img class="service-menu__img" src="{{asset('img/service/site/site_1155_470s.jpg')}}"
                   alt="website development" data-img="websiteDevelopment">
-               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470.jpg')}}" alt="UV printing"
+               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470s.jpg')}}" alt="UV printing"
                   data-img="uvPrinting">
-               <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470.jpg')}}"
+               <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470s.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
                <a href="#" class="service-menu__img-link" >@lang('home.more')</a>
             </div>
@@ -128,7 +128,7 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470.jpg')}}" alt="UV printing"></a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470s.jpg')}}" alt="UV printing"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.uv_printing')</a>
