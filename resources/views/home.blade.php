@@ -50,7 +50,7 @@
                <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="smm" data-img="smm">
                <img class="service-menu__img" src="{{asset('img/service/site/site_1155_470s.jpg')}}"
                   alt="website development" data-img="websiteDevelopment">
-               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470s.jpg')}}" alt="UV printing"
+               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="UV printing"
                   data-img="uvPrinting">
                <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470s.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
