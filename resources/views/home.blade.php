@@ -119,7 +119,7 @@
             <div class="service__row">
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_420_520.jpg')}}"
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_310_350.jpg')}}"
                            alt="website development"></a>
                   </div>
                   <div class="vertical-content__link">
