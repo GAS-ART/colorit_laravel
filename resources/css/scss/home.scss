@@ -399,10 +399,12 @@
       position: relative;
       max-width: 100%;
       padding-bottom: 114.585%;
+      margin-bottom: 30px;
       @media (max-width: $mobile) {
          width: 100%;
          padding-bottom: 0%;
          height: 315px;
+         margin-bottom: unset;
       }
       img {
          position: absolute;
@@ -410,6 +412,7 @@
          left: 0;
          max-width: 100%;
          object-fit: cover;
+         height: 100%;
          @media (max-width: $mobile) {
             width: 100%;
             height: 315px;
@@ -460,16 +463,19 @@
       position: relative;
       max-width: 100%;
       padding-bottom: 47.254%;
+      margin-bottom: 30px;
       @media (max-width: $mobile) {
          width: 100%;
          padding-bottom: 0%;
          height: 130px;
+         margin-bottom: unset;
       }
       img {
          position: absolute;
          top: 0;
          left: 0;
          max-width: 100%;
+         height: 100%;
          object-fit: cover;
          @media (max-width: $mobile) {
             height: 130px;

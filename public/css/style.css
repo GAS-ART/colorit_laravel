@@ -1410,12 +1410,14 @@ h6 {
   position: relative;
   max-width: 100%;
   padding-bottom: 114.585%;
+  margin-bottom: 30px;
 }
 @media (max-width: 47.99875em) {
   .vertical-content__img {
     width: 100%;
     padding-bottom: 0%;
     height: 315px;
+    margin-bottom: unset;
   }
 }
 .vertical-content__img img {
@@ -1425,6 +1427,7 @@ h6 {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 100%;
 }
 @media (max-width: 47.99875em) {
   .vertical-content__img img {
@@ -1490,12 +1493,14 @@ h6 {
   position: relative;
   max-width: 100%;
   padding-bottom: 47.254%;
+  margin-bottom: 30px;
 }
 @media (max-width: 47.99875em) {
   .horizontal-content__img {
     width: 100%;
     padding-bottom: 0%;
     height: 130px;
+    margin-bottom: unset;
   }
 }
 .horizontal-content__img img {
@@ -1503,6 +1508,7 @@ h6 {
   top: 0;
   left: 0;
   max-width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }

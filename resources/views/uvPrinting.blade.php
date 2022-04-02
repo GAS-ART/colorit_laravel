@@ -18,8 +18,8 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/smm/main.jpg')}}" alt="our cases">
-      <img class="main-baner-top__small" src="{{asset('img/smm/main_small.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/service/uv/uv_1820_650.jpg')}}" alt="our cases">
+      <img class="main-baner-top__small" src="{{asset('img/service/uv/uv_310_350.jpg')}}" alt="our cases">
       <h1 class="main-baner-top__tittle">@lang('services.uv_printing')</h1>
    </div>
 </section>

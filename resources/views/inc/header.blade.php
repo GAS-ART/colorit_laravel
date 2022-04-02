@@ -83,9 +83,9 @@
                      <a href="mailto:colorit.bcn@gmail.com">colorit.bcn@gmail.com</a>
                   </div>
                   <div class="contacts-burger__social social-burger">
-                     <a href="#" class="social-burger__meta _icon-facebook">
+                     <a href="https://www.facebook.com/colorit.agency" target="_blank" class="social-burger__meta _icon-facebook">
                      </a>
-                     <a href="#" class="social-burger__instagram _icon-instagram">
+                     <a href="https://www.instagram.com/colorit.agency/" target="_blank" class="social-burger__instagram _icon-instagram">
                      </a>
                   </div>
                </div>

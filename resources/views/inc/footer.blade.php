@@ -70,9 +70,9 @@
          <div class="footer__rights rights">
             <div class="rights__text">@lang('footer.rights')</div>
             <div class="rights__social">
-               <a href="#" class="rights__meta _icon-facebook">
+               <a href="https://www.facebook.com/colorit.agency" target="_blank" class="rights__meta _icon-facebook">
                </a>
-               <a href="#" class="rights__instagram _icon-instagram">
+               <a href="https://www.instagram.com/colorit.agency/" target="_blank" class="rights__instagram _icon-instagram">
                </a>
             </div>
          </div>

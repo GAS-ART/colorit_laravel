@@ -32,9 +32,9 @@
                   </ul>
                </nav>
                <div class="service-menu__social">
-                  <a href="#" class="social-burger__meta _icon-facebook">
+                  <a href="https://www.facebook.com/colorit.agency" target="_blank" class="social-burger__meta _icon-facebook">
                   </a>
-                  <a href="#" class="social-burger__instagram _icon-instagram">
+                  <a href="https://www.instagram.com/colorit.agency/#" target="_blank" class="social-burger__instagram _icon-instagram">
                   </a>
                </div>
             </div>
@@ -45,16 +45,16 @@
                   alt="Outdoor advertising" data-img="outdoorAdvertising">
                <img class="service-menu__img" src="{{asset('img/header/polygraphy.jpg')}}" alt="polygraphy"
                   data-img="polygraphy">
-               <img class="service-menu__img" src="{{asset('img/header/identity.jpg')}}" alt="identity"
+               <img class="service-menu__img" src="{{asset('img/service/identity/identity_1155_470.jpg')}}" alt="identity"
                   data-img="identity">
                <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="smm" data-img="smm">
-               <img class="service-menu__img" src="{{asset('img/header/website_development.png')}}"
+               <img class="service-menu__img" src="{{asset('img/service/site/site_1155_470.jpg')}}"
                   alt="website development" data-img="websiteDevelopment">
-               <img class="service-menu__img" src="{{asset('img/header/UV_printing.png')}}" alt="UV printing"
+               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470.jpg')}}" alt="UV printing"
                   data-img="uvPrinting">
-               <img class="service-menu__img" src="{{asset('img/header/printing_on_clothes.jpg')}}"
+               <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470.jpg')}}"
                   alt="printing on clothes" data-img="printingOnClothes">
-               <a href="#" class="service-menu__img-link">@lang('home.more')</a>
+               <a href="#" class="service-menu__img-link" >@lang('home.more')</a>
             </div>
          </div>
       </div>
@@ -119,7 +119,7 @@
             <div class="service__row">
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/website_development.jpg')}}"
+                     <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_310_350.jpg')}}"
                            alt="website development"></a>
                   </div>
                   <div class="vertical-content__link">
@@ -128,7 +128,7 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/UV_printing.jpg')}}" alt="UV printing"></a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470.jpg')}}" alt="UV printing"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.uv_printing')</a>
@@ -139,7 +139,7 @@
             <div class="service__row">
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/printing_on_clothes.jpg')}}"
+                     <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/print/print_1155_470.jpg')}}"
                            alt="printing on clothes"></a>
                   </div>
                   <div class="horizontal-content__link">
