@@ -3727,6 +3727,18 @@ h6 {
 .help-tittle-polygraphy {
   max-width: 850px;
 }
+@supports (font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem )) {
+  .help-tittle-polygraphy {
+    font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem );
+  }
+}
+@supports not (font-size: clamp( 1.5625rem , 1.328125rem  +  1.171875vw , 2.5rem )) {
+  .help-tittle-polygraphy {
+    font-size: calc(
+         1.5625rem + 0.9375 * (100vw - 20rem) / 80
+      );
+  }
+}
 
 .review {
   margin-bottom: 130px;

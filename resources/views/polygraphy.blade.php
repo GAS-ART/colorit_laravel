@@ -34,7 +34,7 @@
 </section>
 <section class="smm-to-top polygraphy-to-top">
    <div class="smm-to-top__container">
-      <div class="smm-to-top__item">
+      <div class="smm-to-top__item smm-to-top__item-no-line">
          @lang('polygraphy.relevance.1')
       </div>
    </div>

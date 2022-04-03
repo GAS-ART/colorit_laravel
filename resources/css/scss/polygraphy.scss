@@ -35,5 +35,5 @@
 
 .help-tittle-polygraphy{
    max-width: 850px;
-   
+   @include adaptiveValueREM("font-size", 40, 25);
 }
