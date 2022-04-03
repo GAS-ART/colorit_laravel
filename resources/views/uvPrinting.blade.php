@@ -147,37 +147,43 @@
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
       </div>
-
-      <div class="outdor-advertising-products__item item-outdor-advertising-products">
-         <div class="item-outdor-advertising-products__description description-product">
-            <h2 class="description-product__tittle"> @lang('uvPrinting.products.advantages.tittle')</h2>
-            <div class="description-product__body">
-               <ul class="description-product__list">
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item1')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item2')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item3')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item4')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item5')</li>
-                  <li class="description-product__item description-product-uv-printing">
-                     @lang('uvPrinting.products.advantages.item6')</li>
-               </ul>
-               <button class="description-product__btn popup-btn">@lang('main.order')</button>
-            </div>
-         </div>
-         <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/baner.jpg')}}" alt="">
-         </div>
-         <button
-            class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
+   </div>
+</section>
+<section class="why-smm">
+   <div class="why-smm__container">
+      <div class="why-smm__body">
+         <h3 class="why-smm__tittle tittle">@lang('uvPrinting.advantages.tittle')</h3>
+         <ul class="why-smm__list">
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item')</div>
+               <div class="why-smm__count">01</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item1')</div>
+               <div class="why-smm__count">02</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item2')</div>
+               <div class="why-smm__count">03</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item3')</div>
+               <div class="why-smm__count">04</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item4')</div>
+               <div class="why-smm__count">05</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item5')</div>
+               <div class="why-smm__count">06</div>
+            </li>
+            <li class="why-smm__item">
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item6')</div>
+               <div class="why-smm__count">07</div>
+            </li>
+         </ul>
       </div>
-
    </div>
 </section>
 <section class="outdor-advertising-advantages">

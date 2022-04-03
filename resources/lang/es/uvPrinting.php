@@ -34,18 +34,18 @@ return [
          'text_more' => 'La impresión de fotografías en materiales sólidos ha aparecido recientemente, pero ha tomado con confianza una posición de liderazgo debido a la originalidad y durabilidad de los productos. Con la ayuda de la impresión UV, ahora puede transferir cualquier foto a pvc, plexiglás, vidrio, compuesto, aluminio, madera, mdf, lienzo.',
          'details' => '<p><span>Garantizamos</span> una reproducción precisa del color y calidad de impresión.</p><p><span>Tiempo de producción</span> hasta 2 días</p>',
       ],
-      'advantages' =>
+   ],
+   'advantages' =>
       [
          'tittle' => 'BENEFICIOS DE LA IMPRESIÓN UV',
-         'item' => 'tinta ecológica (no contiene impurezas químicas, no deja olor después de la impresión)',
-         'item1' => 'impresión de imágenes en relieve (realizada mediante aplicación repetida)',
-         'item2' => 'impresión de imágenes en relieve (realizada mediante aplicación repetida)',
+         'item' => 'tinta ecológica <p>(no contiene impurezas químicas, no deja olor después de la impresión)</p>',
+         'item1' => 'impresión de imágenes en relieve <p>(realizada mediante aplicación repetida)</p>',
+         'item2' => 'impresión de imágenes en relieve <p>(realizada mediante aplicación repetida)</p>',
          'item3' => 'resistencia a los impactos externos',
          'item4' => 'amplia variedad de materiales',
          'item5' => 'posibilidad de imprimir tiradas pequeñas',
          'item6' => 'producción instantánea',
       ],
-   ],
 ]
 
 ?>
