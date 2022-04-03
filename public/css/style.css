@@ -2347,9 +2347,9 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  max-height: 548px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 61.99875em) {
   .item-outdor-advertising-products__img {

@@ -35,7 +35,7 @@
    <div class="outdor-advertising-products__container">
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/letters.jpg')}}" alt="">
+            <img src="{{asset('img/uv_print/polygraphy.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -69,7 +69,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/neon_signs.jpg')}}" alt="">
+            <img src="{{asset('img/uv_print/plates.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -77,7 +77,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/led_screen.jpg')}}" alt="">
+            <img src="{{asset('img/uv_print/stends.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -114,7 +114,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/lightboxes.jpg')}}" alt="">
+            <img src="{{asset('img/uv_print/decor.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -122,7 +122,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/oracal.jpg')}}" alt="">
+            <img src="{{asset('img/uv_print/foto_print.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">

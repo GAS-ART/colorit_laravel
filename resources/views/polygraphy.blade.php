@@ -59,7 +59,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/letters.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/cards.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -117,7 +117,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/neon_signs.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/flyers.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -125,7 +125,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/led_screen.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/booklet.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -158,7 +158,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/lightboxes.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/folders.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -166,7 +166,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/oracal.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/labels.jpg')}}" alt="labels">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -204,7 +204,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/baner.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/menu.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -212,7 +212,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/letters.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/magazines.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">@lang('polygraphy.products.magazine.tittle')</h2>
@@ -244,7 +244,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/outdoor_advertising/neon_signs.jpg')}}" alt="">
+            <img src="{{asset('img/polygraphy/certificates.jpg')}}" alt="">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
