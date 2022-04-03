@@ -19,8 +19,8 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/header/polygraphy.jpg')}}" alt="our cases">
-      <img class="main-baner-top__small" src="{{asset('img/smm/main_small.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/polygraphy/baner.jpg')}}" alt="our cases">
+      <img class="main-baner-top__small" src="{{asset('img/polygraphy/baner_small.jpg')}}" alt="our cases">
       <h1 class="main-baner-top__tittle">@lang('services.polygraphy')</h1>
    </div>
 </section>
@@ -36,9 +36,6 @@
    <div class="smm-to-top__container">
       <div class="smm-to-top__item">
          @lang('polygraphy.relevance.1')
-      </div>
-      <div class="smm-to-top__item">
-         @lang('polygraphy.relevance.2')
       </div>
    </div>
 </section>
@@ -247,11 +244,8 @@
 </section>
 <section class="smm-to-top polygraphy-to-top">
    <div class="smm-to-top__container">
-      <div class="smm-to-top__item">
+      <div class="smm-to-top__item smm-to-top__item-no-line">
          @lang('polygraphy.relevance.3')
-      </div>
-      <div class="smm-to-top__item">
-         @lang('polygraphy.relevance.4')
       </div>
    </div>
 </section>
@@ -392,6 +386,39 @@
       <div class="outdor-advertising-portfolio__tittle">@lang('outdorAdvertising.portfolio.tittle')</div>
       <a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}"
          class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
+   </div>
+</section>
+<section class="help">
+   <div class="help__container">
+      <div class="help__row">
+         <div class="help__item">
+            <h3 class="help__item-tittle tittle help-tittle-polygraphy">@lang('polygraphy.relevance.4')</h3>
+            <div class="help__item-text">@lang('form.page_form.text')</div>
+         </div>
+         <div class="help__item">
+            <div class="help__item-form">
+               <form action="#" id="pageForm" class="form @lang('main.current_lang_class')" name="outdorAdvertising">
+                  @csrf
+                  <input type="hidden" name="page" value="{{__(Request::url())}}">
+                  <div class="contacts-form__item data popup-data">
+                     <input class="data__text-field" type="text" name="name" placeholder="@lang('form.name')">
+                     <p class="name-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-phone">
+                     <input class="phone" type="text" name="phone" placeholder="@lang('form.phone')">
+                     <p class="phone-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-email">
+                     <input class="email" type="text" name="email" placeholder="@lang('form.email')">
+                     <p class="email-error error"></p>
+                  </div>
+                  <div class="popup__button">
+                     <button class="submit" type="submit">@lang('form.button')</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
    </div>
 </section>
 @endsection

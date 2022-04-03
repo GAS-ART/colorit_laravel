@@ -12,3 +12,28 @@
       color: $hoverColor;
    }
 }
+
+.smm-to-top__item  {
+   .tittle-polygraphy-relevance{
+      font-family: "Russo One";
+      @include adaptiveValueREM("font-size", 60, 35) ;
+      line-height: 1.2 ;
+      margin: 0 0 40px 0;
+      color: #232322;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 15px;
+   }
+}
+
+.smm-to-top__item-no-line{
+   &::before {
+      width: 0%;
+      height: 0px;
+   }
+}
+
+.help-tittle-polygraphy{
+   max-width: 850px;
+   
+}
