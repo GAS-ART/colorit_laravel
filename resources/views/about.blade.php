@@ -126,7 +126,6 @@
       </div>
 
       <div class="review__items">
-
          <div class="review__item item-review">
             <div class="item-review__text">
                <p>Мы сотрудничаем с компанией Colorit agency уже более 1,5 лет. Наша компания занимается декором и
@@ -140,6 +139,9 @@
                <p>Svetlana <span>¨Globos bcn¨</span></p>
             </div>
          </div>
+      </div>
+
+      <div class="review__items">
 
          <div class="review__item item-review">
             <div class="item-review__text">
@@ -162,7 +164,7 @@
          </div>
       </div>
 
-      <div class="review__new-style">
+      <!--      <div class="review__new-style">
          <div class="review__item item-review">
             <div class="item-review__text">
                <p>Colorit agency - лучшее рекламное агентство в Барселоне.</p>
@@ -201,6 +203,45 @@
             </div>
          </div>
       </div>
+      <div class="review__new-style">
+         <div class="review__item item-review">
+            <div class="item-review__text">
+               <p>Colorit agency - лучшее рекламное агентство в Барселоне.</p>
+               <p>Работаем вместе уже 3 года, очень довольны.</p>
+            </div>
+            <div class="item-review__author">
+               <p>Вячеслав <span>¨Ecotown¨</span></p>
+            </div>
+         </div>
+         <div class="review__item item-review">
+            <div class="item-review__text item-price-smm">
+               <p>Я работала с ребятами по вывескам и винилу. Очень осталась довольна, ребята профессионалы,
+                  отзывчивы и быстро реагируют на просьбы! Рекомендую</p>
+            </div>
+            <div class="item-review__author">
+               <p>Анна salon de estetica <span>¨Melanta¨</span></p>
+            </div>
+         </div>
+      </div>
+      <div class="review__new-style">
+         <div class="review__item item-review">
+            <div class="item-review__text ">
+               <p>Приятно иметь дело с профессионалами! Большое спасибо за качество, быстрое исполнение и понимание!
+               </p>
+            </div>
+            <div class="item-review__author">
+               <p>Inesa <span>DUO special</span></p>
+            </div>
+         </div>
+         <div class="review__item item-review">
+            <div class="item-review__text">
+               <p>Gracias por vuestro colaboración y trabajo rápido y correcto!!! EQUIPO FLORATELIE</p>
+            </div>
+            <div class="item-review__author">
+               <p>Ksenia Chalaya <span>¨Floratelie¨</span></p>
+            </div>
+         </div>
+      </div> -->
    </div>
 </section>
 @endsection
