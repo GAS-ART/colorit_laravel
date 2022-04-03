@@ -3696,41 +3696,73 @@ h6 {
 .review__tittle {
   text-align: left;
 }
-.review__row {
-  margin-bottom: 60px;
-}
 .review__items {
   display: flex;
-}
-.review__items:first-child {
   justify-content: space-between;
+  align-items: flex-end;
 }
-.review__items:nth-child(2) {
-  justify-content: center;
-  margin-top: -10px;
+.review__items:not(:last-child) {
+  margin-bottom: 60px;
 }
-.review__items:last-child {
-  justify-content: space-between;
-  min-height: 180px;
-  margin-top: -15px;
+.review__items:last-child .review__item {
+  flex: 1 1 auto;
 }
 .review__items:last-child .review__item:first-child {
-  align-self: flex-start;
-}
-.review__items:last-child .review__item:last-child {
-  align-self: flex-end;
-}
-.review__items:last-child {
-  margin-left: 5%;
-  margin-right: 8%;
+  max-width: 45%;
 }
 .review__item {
-  max-width: 30%;
+  flex: 1 1 33.3333%;
+}
+.review__item:not(:last-child) {
+  margin-right: 60px;
+}
+.review__new-style {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  position: relative;
+}
+.review__new-style:nth-child(odd)::before {
+  content: "";
+  transform: rotate(-40deg);
+}
+.review__new-style:nth-child(odd) .review__item:first-child {
+  align-self: flex-end;
+}
+.review__new-style:nth-child(odd) .review__item:last-child {
+  align-self: flex-start;
+}
+.review__new-style::before {
+  content: "";
+  position: absolute;
+  height: 130%;
+  top: -20%;
+  width: 1px;
+  background-color: #962e93;
+  left: 48%;
+  transform: rotate(40deg);
+}
+.review__new-style .review__item:not(:last-child) {
+  margin-right: 160px;
+}
+.review__new-style .review__item:first-child {
+  align-self: flex-start;
+}
+.review__new-style .review__item:last-child {
+  align-self: flex-end;
 }
 
 .item-review {
   font-family: "Muler";
   position: relative;
+  /*  &::before{
+       content: "”";
+       font-size: 4.5rem;
+       position: absolute;
+       top: -10px;
+       left: -2.2rem;
+    }*/
 }
 @supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
   .item-review {
@@ -3744,17 +3776,13 @@ h6 {
       );
   }
 }
-.item-review::before {
-  content: "”";
-  font-size: 4.5rem;
-  position: absolute;
-  top: -10px;
-  left: -2.2rem;
-}
 .item-review__text {
-  margin-bottom: 30px;
-  text-align: justify;
   position: relative;
+  font-size: 2.1875rem;
+  line-height: 1.2;
+  color: #232322;
+  text-align: left;
+  margin-bottom: 45px;
 }
 .item-review__text::after {
   content: "";
