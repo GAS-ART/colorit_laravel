@@ -19,7 +19,7 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/smm/main.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/header/polygraphy.jpg')}}" alt="our cases">
       <img class="main-baner-top__small" src="{{asset('img/smm/main_small.jpg')}}" alt="our cases">
       <h1 class="main-baner-top__tittle">@lang('services.polygraphy')</h1>
    </div>
