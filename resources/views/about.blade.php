@@ -34,33 +34,30 @@
 </section>
 <section class="review">
    <div class="review__container">
-      <h2 class="review__tittle tittle">Отзывы</h2>
+      <h2 class="review__tittle tittle">@lang('about.reviews.title')</h2>
       <div class="review__items">
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Colorit agency - лучшее рекламное агентство в Барселоне.</p>
-               <p>Работаем вместе уже 3 года, очень довольны.</p>
+               @lang('about.reviews.ecotown.text')
             </div>
             <div class="item-review__author">
-               <p>Вячеслав <span>¨Ecotown¨</span></p>
+               @lang('about.reviews.ecotown.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text item-price-smm">
-               <p>Я работала с ребятами по вывескам и винилу. Очень осталась довольна, ребята профессионалы,
-                  отзывчивы и быстро реагируют на просьбы! Рекомендую</p>
+               @lang('about.reviews.melanta.text')
             </div>
             <div class="item-review__author">
-               <p>Анна salon de estetica <span>¨Melanta¨</span></p>
+               @lang('about.reviews.melanta.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text ">
-               <p>Приятно иметь дело с профессионалами! Большое спасибо за качество, быстрое исполнение и понимание!
-               </p>
+               @lang('about.reviews.duo.text')
             </div>
             <div class="item-review__author">
-               <p>Inesa <span>DUO special</span></p>
+               @lang('about.reviews.duo.name')
             </div>
          </div>
       </div>
@@ -68,29 +65,26 @@
       <div class="review__items">
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Gracias por vuestro colaboración y trabajo rápido y correcto!!! EQUIPO FLORATELIE</p>
+               @lang('about.reviews.floratelie.text')
             </div>
             <div class="item-review__author">
-               <p>Ksenia Chalaya <span>¨Floratelie¨</span></p>
+               @lang('about.reviews.floratelie.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Отличные и надежные ребята. Работа выполнено отлично и в срок! Рекомендую!</p>
-               <p>Buen trabajo e buen servicio! Recomiendo!</p>
+               @lang('about.reviews.kabakova.text')
             </div>
             <div class="item-review__author">
-               <p>Alina Kabakova <span></span></p>
+               @lang('about.reviews.kabakova.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Recomendable!!! lo repito hacer pedidos seguro! Trabajo excelente! Además me han hecho diseño que
-                  quería y ha quedado precioso Estoy muy contenta con el servicio y calidad Atención perfecta!!!
-                  Muchas gracias .</p>
+               @lang('about.reviews.zubko.text')
             </div>
             <div class="item-review__author">
-               <p>Maria <span>"Studio Maria Zubko"</span></p>
+               @lang('about.reviews.zubko.name')
             </div>
          </div>
       </div>
@@ -99,28 +93,26 @@
       <div class="review__items">
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Заказывали футболки с логотипом. Качество просто супер. Рекомендую</p>
+               @lang('about.reviews.gas_auto.text')
             </div>
             <div class="item-review__author">
-               <p>Tatiana <span>¨Gas Auto¨</span></p>
+               @lang('about.reviews.gas_auto.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Работа выполнена качественно и в срок , Найдено техническое решение в невероятно сложной ситуации,
-                  настоящие профессионалы! Благодарна! Удачи вам и процветания!</p>
+               @lang('about.reviews.estetica.text')
             </div>
             <div class="item-review__author">
-               <p>Anna <span>¨Laboratorio de estetica¨</span></p>
+               @lang('about.reviews.estetica.name')
             </div>
          </div>
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Пользуемся услугами Colorit уже третий год, очень довольны качеством! Ответственные исполнители и
-                  отличная и качество печати. Спасибо</p>
+               @lang('about.reviews.li_beauty.text')
             </div>
             <div class="item-review__author">
-               <p>Лидия <span>¨Li.Beauty Lounge¨</span></p>
+               @lang('about.reviews.li_beauty.name')
             </div>
          </div>
       </div>
@@ -128,15 +120,10 @@
       <div class="review__items">
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Мы сотрудничаем с компанией Colorit agency уже более 1,5 лет. Наша компания занимается декором и
-                  флористикой праздничных мероприятий и пространств, поэтому заказы наши были оооочень разными
-                  начиная от визиток и наклеек , заканчивая ростовыми фигурами и 42метровым баннером. Команда всегда
-                  на связи, относится с пониманием к экстренным заказам (а в нашей сфере форс-мажор дело привычное),
-                  дизайнеры слушают , а главное слышат все пожелания, в общем все Чётко, Качественно, Быстро и
-                  Своевременно. Рекомендуем</p>
+               @lang('about.reviews.globos.text')
             </div>
             <div class="item-review__author">
-               <p>Svetlana <span>¨Globos bcn¨</span></p>
+               @lang('about.reviews.globos.name')
             </div>
          </div>
       </div>
@@ -145,21 +132,19 @@
 
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Excelente trabajo del diseño de imagen corporativa para nuestra tienda. Da gusto tratar con los
-                  profesionales. Convertiremos al cliente fijo sin duda! 100% recomendado!</p>
+               @lang('about.reviews.bike_parts.text')
             </div>
             <div class="item-review__author">
-               <p>Diana <span>¨Bike Parts BCN¨</span></p>
+               @lang('about.reviews.bike_parts.name')
             </div>
          </div>
 
          <div class="review__item item-review">
             <div class="item-review__text">
-               <p>Все качественно и в обозначенные сроки! Хотим поблагодарить команду Colorit agency за предоставленные
-                  услуги в изготовлении подарочных сертификатов.</p>
+               @lang('about.reviews.detailing.text')
             </div>
             <div class="item-review__author">
-               <p>Vitaliy <span>¨SV Detailing¨</span></p>
+               @lang('about.reviews.detailing.name')
             </div>
          </div>
       </div>
@@ -242,6 +227,148 @@
             </div>
          </div>
       </div> -->
+   </div>
+</section>
+<section class="slider">
+   <div class="slider__container">
+      <div class="swiper">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/consulado.png')}}" alt="Our clients">
+               </div>
+
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/consulado.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/moonsters.jpg')}}" alt="Our clients">
+               </div>
+
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/moonsters.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/1.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/1.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/marista.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/marista.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/2.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/2.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/3.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/3.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/4.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/4.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/5.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/5_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/6.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/6_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/7.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/7.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/8.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/8_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/10.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/10.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/11.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/11.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/12.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/12_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+         </div>
+         <!--pagination -->
+         <div class="swiper-pagination"></div>
+
+         <!--navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+   </div>
+</section>
+<section class="smm-portfolio">
+   <div class="smm-portfolio__body">
+      <div class="smm-portfolio__img">
+         <img src="{{asset('img/smm/portfolio.jpg')}}" alt="">
+      </div>
+      <div class="smm-portfolio__content">
+         <div class="smm-portfolio__tittle tittle">@lang('smm.portfolio.tittle')</div>
+         <a class=" smm-portfolio__link"
+            href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}">@lang('smm.portfolio.btn')</a>
+      </div>
    </div>
 </section>
 @endsection

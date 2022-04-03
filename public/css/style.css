@@ -3694,6 +3694,7 @@ h6 {
 }
 
 .review {
+  margin-bottom: 100px;
   /*  &__new-style{
        &:nth-child(odd){
           &::before{
@@ -3730,6 +3731,11 @@ h6 {
           }
        }
     }*/
+}
+@media (max-width: 61.99875em) {
+  .review {
+    margin-bottom: 60px;
+  }
 }
 .review__tittle {
   text-align: left;
