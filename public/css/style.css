@@ -3761,15 +3761,15 @@ h6 {
        left: -2.2rem;
     }*/
 }
-@supports (font-size: clamp( 1.125rem , 0.859375rem  +  1.328125vw , 2.1875rem )) {
+@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
   .item-review {
-    font-size: clamp( 1.125rem , 0.859375rem  +  1.328125vw , 2.1875rem );
+    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
   }
 }
-@supports not (font-size: clamp( 1.125rem , 0.859375rem  +  1.328125vw , 2.1875rem )) {
+@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
   .item-review {
     font-size: calc(
-         1.125rem + 1.0625 * (100vw - 20rem) / 80
+         1rem + 0.25 * (100vw - 20rem) / 80
       );
   }
 }

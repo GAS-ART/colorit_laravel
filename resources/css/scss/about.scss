@@ -62,7 +62,7 @@
 }
 .item-review {
    font-family: "MulLer";
-  @include adaptiveValueREM('font-size',35 ,18);
+  @include adaptiveValueREM('font-size',20 ,16);
     line-height: 1.2;
    position: relative;
  /*  &::before{
