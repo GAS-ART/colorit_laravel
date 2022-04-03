@@ -353,4 +353,37 @@
       </div>
    </div>
 </section>
+<section class="help">
+   <div class="help__container">
+      <div class="help__row">
+         <div class="help__item">
+            <h3 class="help__item-tittle tittle">@lang('form.page_form.polygraphy')</h3>
+            <div class="help__item-text">@lang('form.page_form.text')</div>
+         </div>
+         <div class="help__item">
+            <div class="help__item-form">
+               <form action="#" id="pageForm" class="form @lang('main.current_lang_class')" name="outdorAdvertising">
+                  @csrf
+                  <input type="hidden" name="page" value="{{__(Request::url())}}">
+                  <div class="contacts-form__item data popup-data">
+                     <input class="data__text-field" type="text" name="name" placeholder="@lang('form.name')">
+                     <p class="name-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-phone">
+                     <input class="phone" type="text" name="phone" placeholder="@lang('form.phone')">
+                     <p class="phone-error error"></p>
+                  </div>
+                  <div class="contacts-form__item data popup-email">
+                     <input class="email" type="text" name="email" placeholder="@lang('form.email')">
+                     <p class="email-error error"></p>
+                  </div>
+                  <div class="popup__button">
+                     <button class="submit" type="submit">@lang('form.button')</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 @endsection

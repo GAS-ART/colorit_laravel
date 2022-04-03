@@ -12,7 +12,7 @@ return [
       ],
       'plates' =>
       [
-         'tittle' => 'LETREROS',
+         'tittle' => 'CARTELES',
          'text' => 'La producción de placas, letreros, rótulos para oficina o exteriores es uno de los detalles importantes para cada empresa. Mediante la impresión UV, realizamos letreros de cualquier tamaño, forma y color hechos de PVC, compuesto, metal, aluminio, madera, plexiglás o vidrio. Tiempo de producción hasta 2 días.',
       ],
       'stands' =>

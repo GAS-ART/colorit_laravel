@@ -13,6 +13,7 @@ return [
    [
       'outdorAdvertising' => 'Rótulos luminos en Barcelona?',
       'smm' => 'Te podemos ayudar en SMM. Contáctanos',
+      'polygraphy' => 'Impresion digital en Barcelona',
       'text' => 'No dudes en contactar con nosotros',
    ],
 ]
