@@ -3693,6 +3693,10 @@ h6 {
   text-align: left;
 }
 
+.smm-to-top__item span {
+  color: #962e93;
+}
+
 .review {
   margin-bottom: 130px;
   /*  &__new-style{
