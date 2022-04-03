@@ -3789,7 +3789,7 @@ h6 {
 }
 .item-review__author {
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 .item-review__author span {
   color: #962e93;
