@@ -39,7 +39,13 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img portfolio-description">
-                     <img src="{{asset('img/portfolio/1.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/1.jpg')}}" src="#" alt="">
+                     <div class="loading">
+                        <div class="blue ball"></div>
+                        <div class="red ball"></div>
+                        <div class="yellow ball"></div>
+                        <div class="green ball"></div>
+                     </div>
                      <div class="portfolio-description__body">
                         <div class="portfolio-description__tittle">
                            <p>Проект</p>
@@ -59,14 +65,26 @@
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/4.jpg')}}" alt="">
+                     <div class="loading">
+                        <div class="blue ball"></div>
+                        <div class="red ball"></div>
+                        <div class="yellow ball"></div>
+                        <div class="green ball"></div>
+                     </div>
+                     <img data-src="{{asset('img/portfolio/4.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/7.jpg')}}" alt="">
+                     <div class="loading">
+                        <div class="blue ball"></div>
+                        <div class="red ball"></div>
+                        <div class="yellow ball"></div>
+                        <div class="green ball"></div>
+                     </div>
+                     <img data-src="{{asset('img/portfolio/7.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
                   </div>
@@ -75,21 +93,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/2.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/2.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/5.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/5.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/8.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/8.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
@@ -98,21 +116,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/3.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/3.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/6.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/6.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/9.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/9.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
@@ -124,21 +142,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/10.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/10.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/13.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/13.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/16.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/16.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
                   </div>
@@ -147,21 +165,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/11.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/11.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/14.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/14.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/17.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/17.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
@@ -170,21 +188,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/12.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/12.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/15.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/15.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/18.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/18.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
@@ -196,21 +214,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/19.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/19.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/22.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/22.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/25.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/25.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
                   </div>
@@ -219,21 +237,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/20.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/20.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/23.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/23.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/26.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/26.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
@@ -242,21 +260,21 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/21.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/21.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/24.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/24.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/27.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/27.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
@@ -268,14 +286,14 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/28.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/28.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/31.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/31.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
                   </div>
@@ -284,14 +302,14 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/29.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/29.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/32.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/32.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
                   </div>
@@ -300,14 +318,14 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/30.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/30.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img src="{{asset('img/portfolio/33.jpg')}}" alt="">
+                     <img data-src="{{asset('img/portfolio/33.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
                   </div>
@@ -319,7 +337,7 @@
       <div class="portfolio__body-mobile mobile-portfolio">
          <div class="mobile-portfolio__item">
             <div class="portfolio__img portfolio-description">
-               <img src="{{asset('img/portfolio/1.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/1.jpg')}}" src="#" alt="">
                <div class="portfolio-description__body">
                   <div class="portfolio-description__tittle">
                      <p>Проект</p>
@@ -339,56 +357,56 @@
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/2.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/2.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/3.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/3.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/4.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/4.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/5.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/5.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/6.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/6.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/7.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/7.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/8.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/8.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/9.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/9.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
@@ -396,63 +414,63 @@
 
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/10.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/10.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/11.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/11.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/12.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/12.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/13.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/13.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/14.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/14.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/15.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/15.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/16.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/16.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/17.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/17.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/18.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/18.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
@@ -460,63 +478,63 @@
 
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/19.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/19.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/20.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/20.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/21.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/21.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/22.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/22.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/23.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/23.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/24.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/24.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/25.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/25.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/26.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/26.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/27.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/27.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
@@ -524,42 +542,42 @@
 
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/28.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/28.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/29.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/29.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/30.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/30.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/31.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/31.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/32.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/32.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
             </div>
          </div>
          <div class="mobile-portfolio__item">
             <div class="portfolio__img">
-               <img src="{{asset('img/portfolio/33.jpg')}}" alt="">
+               <img data-src="{{asset('img/portfolio/33.jpg')}}" src="#" alt="">
             </div>
             <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
             </div>

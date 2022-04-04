@@ -42,6 +42,14 @@
       margin-bottom: 30px;
       position: relative;
       cursor: pointer;
+      
+      transition: opacity 0.3s ease 0.5s 1s;
+      &.active{
+         img{
+            opacity: 1;
+            z-index: 10;
+         }
+      }
       img {
          position: relative;
          top: 0;
@@ -49,6 +57,49 @@
          width: 100%;
          height: 100%;
          object-fit: fill;
+         z-index: 0;
+         opacity: 0;
+      }
+      .loading {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         z-index: 5;
+      }
+     
+      .ball {
+         width: 44px;
+         height: 44px;
+         border-radius: 50%;
+         &:not(:last-child){
+            margin-right: 20px;
+         }
+         animation: 2s bounce ease infinite;
+      }
+      .blue {
+         background-color: #4285f5;
+      }
+      .red {
+         background-color: #ea4436;
+         animation-delay: .25s;
+      }
+      .yellow {
+         background-color: #fbbd06;
+         animation-delay: .5s;
+      }
+      .green {
+         background-color: #34a952;
+         animation-delay: .75s;
+      }
+      @keyframes bounce {
+         50%{
+            transform: translateY(25px);
+         }
       }
    }
 

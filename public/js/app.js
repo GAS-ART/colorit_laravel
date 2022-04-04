@@ -497,6 +497,45 @@ window.onload = function () {
   windowSize();
   /*OUTDOR-ADVERTISING*/
   //==================================================================
+
+  /*PORTFOLIO*/
+  //==================================================================
+  //Загрузка картинок при прокрутке страницы
+
+  var portfolioImages = document.querySelectorAll('.portfolio__img');
+
+  if (portfolioImages.length > 0) {
+    var loadImage = function loadImage(tag, src) {
+      var newImage = new Image();
+      newImage.addEventListener('load', function () {
+        tag.src = src;
+      });
+      newImage.src = src;
+    };
+
+    var observePortfolioImages = function observePortfolioImages(entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          var img = el.querySelector('img');
+          el.classList.add('active');
+          loadImage(img, img.dataset.src);
+        }
+      });
+    };
+
+    var options = {
+      threshold: 0.5
+    };
+    var observer = new IntersectionObserver(observePortfolioImages, options);
+    portfolioImages.forEach(function (image) {
+      return observer.observe(image);
+    });
+  }
+
+  ;
+  /*PORTFOLIO*/
+  //==================================================================
 };
 
 /***/ }),
