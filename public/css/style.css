@@ -3740,6 +3740,10 @@ h6 {
   }
 }
 
+.why-smm-identity {
+  max-width: 1000px;
+}
+
 .review {
   margin-bottom: 130px;
   /*  &__new-style{

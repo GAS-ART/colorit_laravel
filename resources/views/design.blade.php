@@ -35,7 +35,7 @@
 <section class="why-smm">
    <div class="why-smm__container">
       <div class="why-smm__body">
-         <h3 class="why-smm__tittle tittle">@lang('design.why.tittle')</h3>
+         <h3 class="why-smm__tittle tittle why-smm-identity">@lang('design.why.tittle')</h3>
          <ul class="why-smm__list">
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.1')</div>
@@ -176,7 +176,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/4_web_design.jpg')}}" alt="">
+            <img src="{{asset('img/design/2_web_design.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -238,5 +238,134 @@
       </div>
    </div>
 </section>
+<section class="slider">
+   <div class="slider__container">
+      <div class="swiper">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/consulado.png')}}" alt="Our clients">
+               </div>
 
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/consulado.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/moonsters.jpg')}}" alt="Our clients">
+               </div>
+
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/moonsters.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/1.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/1.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/marista.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/marista.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/2.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/2.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/3.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/3.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/4.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/4.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/5.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/5_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/6.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/6_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/7.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/7.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/8.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/8_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/10.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/10.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/11.png')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/11.png')}}" alt="Our clients">
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="black-image">
+                  <img src="{{asset('img/clients/black/12.jpg')}}" alt="Our clients">
+               </div>
+               <div class="color-image">
+                  <img src="{{asset('img/clients/color/12_black.jpg')}}" alt="Our clients">
+               </div>
+            </div>
+         </div>
+         <!--pagination -->
+         <div class="swiper-pagination"></div>
+
+         <!--navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+   </div>
+</section>
 @endsection

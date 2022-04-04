@@ -61,7 +61,7 @@ return [
       'top' => [
          'tittle' => '<span>NÚMEROS</span>',
          '1' => 'Más de 1000!<p>Precisamente esta cantidad de diseños fue creada durante la existencia de "Agencia Colorit"</p>',
-         '2' => '05 <p>Nuestro equipo está formado por 5 diseñadores.</p><p>- Gráfico</p> <p>- WEB</p> <p>- Ilustrador</p>',
+         '2' => '05 <p>Nuestro equipo está formado por 5 diseñadores.</p><p>Gráfico, WEB, Ilustrador</p>',
          '3' => '03 <p>La experiencia mínima de cada diseñador es de 3 años. Contamos con excelentes especialistas</p>',
          '4' => '87% <p>Los clientes leales son la clave del éxito de cualquier negocio. ¡El 87% de los clientes vuelven a nosotros! ¡Somos de confianza!</p>',
          'tittle_end' => 'No hay nada imposible para nosotros en el mundo creativo.<p><span>Estamos listos para mostrártelo.</span></p>',
