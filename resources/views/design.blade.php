@@ -69,7 +69,7 @@
    <div class="outdor-advertising-products__container">
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/2_web_design.jpg')}}" alt="">
+            <img src="{{asset('img/design/1.jpg')}}" alt="">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
