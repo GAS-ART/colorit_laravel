@@ -2,10 +2,10 @@
    border: 1px solid $mainColor;
    padding: 40px 30px;
    @media (max-width: $mobile) {
-      padding: 20px 10px;
+      padding: 40px 10px;
    }
    @media (max-width: em(350)) {
-      padding: 20px 0px;
+      padding: 40px 0px;
       border: unset;
    }
 }
@@ -29,7 +29,12 @@
    min-height: 84px;
    position: relative;
    span {
-      position: relative;
+      position: absolute;
+      top: -30px;
+      right: 10px;
+      @media (max-width: $mobile) {
+         right: 20px;
+      }
       &::after {
          content: "?";
          position: absolute;
@@ -60,7 +65,7 @@
    visibility: hidden;
    pointer-events: none;
    transition: all 0.5s ease 0s;
-   font-family: "Muler";
+   font-family: "Muller";
    line-height: 1.2;
    letter-spacing: 2px;
    transform: scale(0);
@@ -81,4 +86,8 @@
       color: #ffffff;
       font-size: rem(16);
    }
+}
+
+.why-web-tittle{
+   @include adaptiveValueREM("font-size", 50, 35);
 }

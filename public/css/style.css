@@ -3275,12 +3275,12 @@ h6 {
 }
 @media (max-width: 47.99875em) {
   .item-price-web {
-    padding: 20px 10px;
+    padding: 40px 10px;
   }
 }
 @media (max-width: 21.875em) {
   .item-price-web {
-    padding: 20px 0px;
+    padding: 40px 0px;
     border: unset;
   }
 }
@@ -3311,7 +3311,14 @@ h6 {
   position: relative;
 }
 .price-details span {
-  position: relative;
+  position: absolute;
+  top: -30px;
+  right: 10px;
+}
+@media (max-width: 47.99875em) {
+  .price-details span {
+    right: 20px;
+  }
 }
 .price-details span::after {
   content: "?";
@@ -3342,7 +3349,7 @@ h6 {
   visibility: hidden;
   pointer-events: none;
   transition: all 0.5s ease 0s;
-  font-family: "Muler";
+  font-family: "Muller";
   line-height: 1.2;
   letter-spacing: 2px;
   transform: scale(0);
@@ -3360,6 +3367,19 @@ h6 {
 }
 .price-details-text__item:not(:last-child) {
   margin-bottom: 15px;
+}
+
+@supports (font-size: clamp( 2.1875rem , 1.953125rem  +  1.171875vw , 3.125rem )) {
+  .why-web-tittle {
+    font-size: clamp( 2.1875rem , 1.953125rem  +  1.171875vw , 3.125rem );
+  }
+}
+@supports not (font-size: clamp( 2.1875rem , 1.953125rem  +  1.171875vw , 3.125rem )) {
+  .why-web-tittle {
+    font-size: calc(
+         2.1875rem + 0.9375 * (100vw - 20rem) / 80
+      );
+  }
 }
 
 .printing .outdor-advertising__item {

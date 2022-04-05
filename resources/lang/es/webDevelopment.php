@@ -11,10 +11,10 @@ return [
    ],
    'numbers' =>
    [
-      'tittle' => 'ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ',
+      'tittle' => 'SERVICIOS ADICIONALES',
       'ads' =>
       [
-         'tittle' => 'GOOGLE ADWORS',
+         'tittle' => 'GOOGLE&nbsp ADWORS',
          'text' => '<p>Conseguir rápidamente que el sitio esté en el TOP 10 de Google con la ayuda de la publicidad contextual es más que real</p><p>Una forma instantánea de recibir una solicitud al día siguiente.</p><br><p>Público objetivo/target seleccionado con precisión.</p><p>No pagues de más, solo paga por las transiciones al sitio</p><p>Estadísticas completas de publicidad en tiempo real</p>',
       ],
       'seo' =>
@@ -49,7 +49,7 @@ return [
       ],
       'card' =>
       [
-         'tittle' => 'Sitio web - tarjeta de visita<span class="price-details-item"></span>',
+         'tittle' => 'Pagina web - Micrositio<span class="price-details-item"></span>',
          '1' => 'Conexión de dominio y hosting<br>(el servicio se paga por separado)',
          '2' => 'Hasta 5 páginas',
          '3' => 'Diseño personalizado',
