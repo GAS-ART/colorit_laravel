@@ -502,7 +502,7 @@ window.onload = function () {
   //==================================================================
   //Загрузка картинок при прокрутке страницы
 
-  var portfolioImages = document.querySelectorAll('.portfolio__img');
+  var portfolioImages = document.querySelectorAll('.portfolio__images');
 
   if (portfolioImages.length > 0) {
     var loadImage = function loadImage(tag, src) {
@@ -517,17 +517,15 @@ window.onload = function () {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           var el = entry.target;
-          var img = el.querySelector('img');
-          el.classList.add('active');
-          loadImage(img, img.dataset.src);
+          var img = el.querySelectorAll('img');
+          img.forEach(function (item) {
+            return loadImage(item, item.dataset.src);
+          });
         }
       });
     };
 
-    var options = {
-      threshold: 0.5
-    };
-    var observer = new IntersectionObserver(observePortfolioImages, options);
+    var observer = new IntersectionObserver(observePortfolioImages);
     portfolioImages.forEach(function (image) {
       return observer.observe(image);
     });

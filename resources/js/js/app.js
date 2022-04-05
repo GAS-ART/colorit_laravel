@@ -479,11 +479,8 @@ window.onload = function () {
    /*PORTFOLIO*/
    //==================================================================
    //Загрузка картинок при прокрутке страницы
-   const portfolioImages = document.querySelectorAll('.portfolio__img');
+   const portfolioImages = document.querySelectorAll('.portfolio__images');
    if (portfolioImages.length > 0) {
-      const options = {
-         threshold: 0.5,
-      }
       function loadImage(tag, src) {
          const newImage = new Image();
          newImage.addEventListener('load', function () {
@@ -495,16 +492,14 @@ window.onload = function () {
          entries.forEach(entry => {
             if (entry.isIntersecting) {
                const el = entry.target;
-               const img = el.querySelector('img');
-               el.classList.add('active');
-               loadImage(img, img.dataset.src);
+               const img = el.querySelectorAll('img');
+               img.forEach(item => loadImage(item, item.dataset.src));
             }
          });
       }
-      const observer = new IntersectionObserver(observePortfolioImages, options);
+      const observer = new IntersectionObserver(observePortfolioImages);
       portfolioImages.forEach(image => observer.observe(image));
    };
-
    /*PORTFOLIO*/
    //==================================================================
 }
