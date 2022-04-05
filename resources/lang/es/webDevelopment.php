@@ -35,7 +35,6 @@ return [
    ],
    'price' => 
    [
-      'tittle' => 'Доступные пакеты',
       'landing' =>
       [
          'tittle' => 'Landing page<span class="price-details-item"></span>',

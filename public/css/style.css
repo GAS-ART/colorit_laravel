@@ -3428,6 +3428,19 @@ h6 {
     margin-bottom: 0px;
   }
 }
+.printing-products__row:last-child {
+  min-height: 760px;
+}
+@media (max-width: 106.9375em) {
+  .printing-products__row:nth-child(4) .printing-products__item {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 92.4375em) {
+  .printing-products__row:nth-child(4) .printing-products__item {
+    margin-top: 0px;
+  }
+}
 @supports (width: clamp( 29.6875rem , 24.6767241379rem  +  8.0818965517vw , 34.375rem )) {
   .printing-products__item {
     width: clamp( 29.6875rem , 24.6767241379rem  +  8.0818965517vw , 34.375rem );
