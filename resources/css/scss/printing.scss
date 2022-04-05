@@ -15,6 +15,9 @@
 
    &__row {
       min-height: 1000px;
+      &.es{
+         min-height: 1040px;
+      }
       display: flex;
       justify-content: space-evenly;
       position: relative;
@@ -139,4 +142,15 @@
    @media (max-width: $tablet) {
       flex-direction: column;
    }
+}
+
+.why-smm-printing{
+   &.not-show-es{
+      &.es{
+         display: none;
+      }
+   }
+}
+.printing-advantages{
+   gap: 30px;
 }

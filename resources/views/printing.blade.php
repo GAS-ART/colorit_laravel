@@ -112,26 +112,26 @@
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('printing.sercices.6')</div>
-               <div class="why-smm__count">6</div>
+               <div class="why-smm__count">06</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('printing.sercices.7')</div>
-               <div class="why-smm__count">7</div>
+               <div class="why-smm__count">07</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('printing.sercices.8')</div>
-               <div class="why-smm__count">8</div>
+               <div class="why-smm__count">08</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('printing.sercices.9')</div>
-               <div class="why-smm__count">9</div>
+               <div class="why-smm__count">09</div>
             </li>
-            <li class="why-smm__item">
+            <li class="why-smm__item why-smm-printing not-show-es @lang('main.current_lang_class')">
                <div class="why-smm__text">@lang('printing.sercices.10')</div>
                <div class="why-smm__count">10</div>
             </li>
-            <li class="why-smm__item">
-               <div class="why-smm__text">@lang('printing.sercices.11')</div>
+            <li class="why-smm__item why-smm-printing not-show-es @lang('main.current_lang_class')">
+               <div class="why-smm__text ">@lang('printing.sercices.11')</div>
                <div class="why-smm__count">11</div>
             </li>
          </ul>
@@ -141,66 +141,66 @@
 <section class="printing-products">
    <div class="printing-products__container">
       <div class="printing-products__body">
-         <div class="printing-products__row">
+         <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Печать на футболках</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.1')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/1.jpg')}}" alt="printing on clothes">
                </div>
             </div>
 
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Печать на свитшотах</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.2')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/2.jpg')}}" alt="printing on clothes">
                </div>
             </div>
          </div>
-         <div class="printing-products__row">
+         <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Печать на толстовках</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.3')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/3.jpg')}}" alt="printing on clothes">
                </div>
             </div>
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Печать на худи</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.4')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/4.jpg')}}" alt="printing on clothes">
                </div>
             </div>
          </div>
-         <div class="printing-products__row">
+         <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Одежда и спецодежда для салонов красоты</div>
+               <div class="printing-products__tittle">О@lang('printing.sercices.5')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/5.jpeg')}}" alt="printing on clothes">
                </div>
             </div>
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Одежда для медицинских клиник</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.6')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/6.jpeg')}}" alt="printing on clothes">
                </div>
             </div>
          </div>
-         <div class="printing-products__row">
+         <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Печать на одежде для пекарен</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.7')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/7.jpeg')}}" alt="printing on clothes">
                </div>
             </div>
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Одежда для ресторанов и баров</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.8')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/8.jpeg')}}" alt="printing on clothes">
                </div>
             </div>
          </div>
-         <div class="printing-products__row">
+         <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">Одежда для строительных компаний</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.9')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/9.jpg')}}" alt="printing on clothes">
                </div>
@@ -214,7 +214,7 @@
 <section class="outdor-advertising-advantages">
    <div class="outdor-advertising-advantages__container">
       <h3 class="outdor-advertising-advantages__tittle tittle">@lang('printing.advantages.tittle')</h3>
-      <div class="outdor-advertising-advantages__body ">
+      <div class="outdor-advertising-advantages__body printing-advantages">
          <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
             <div class="outdor-advertising-advantages-item__tittle">@lang('printing.advantages.equipment_tittle')
             </div>

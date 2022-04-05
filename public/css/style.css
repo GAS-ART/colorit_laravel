@@ -3413,6 +3413,9 @@ h6 {
   justify-content: space-evenly;
   position: relative;
 }
+.printing-products__row.es {
+  min-height: 1040px;
+}
 .printing-products__row:not(:first-child) {
   margin-top: -150px;
 }
@@ -3566,6 +3569,14 @@ h6 {
   .why-printing-body {
     flex-direction: column;
   }
+}
+
+.why-smm-printing.not-show-es.es {
+  display: none;
+}
+
+.printing-advantages {
+  gap: 30px;
 }
 
 .portfolio__images {
