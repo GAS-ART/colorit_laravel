@@ -464,7 +464,7 @@
             <div class="portfolio__row">
                <div class="portfolio__item">
                   <div class="portfolio__img">
-                     <img data-src="{{asset('img/portfolio/48.jpg')}}" src="#" alt="">
+                     <img data-src="{{asset('img/portfolio/64.jpg')}}" src="#" alt="">
                   </div>
                   <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
                   </div>
@@ -558,17 +558,6 @@
             </div>
          </div>
 
-         <div class="portfolio__images">
-            <div class="portfolio__row">
-               <div class="portfolio__item">
-                  <div class="portfolio__img">
-                     <img data-src="{{asset('img/portfolio/64.jpg')}}" src="#" alt="">
-                  </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
-                  </div>
-               </div>
-            </div>
-         </div>
       </div>
    </div>
 </secttion>
