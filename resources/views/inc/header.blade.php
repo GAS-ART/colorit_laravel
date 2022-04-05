@@ -44,7 +44,7 @@
                  <!--<li class="menu-burger__item"><a href="#" class="menu-burger__item-link">@lang('burger.recall')</a> 
                   </li> -->
                   <li class="menu-burger__item"><a href="#"
-                        class="menu-burger__item-link burger-service-menu">@lang('burger.services')<span></span></a>
+                        class="menu-burger__item-link burger-service-menu @lang('main.current_lang_class')">@lang('burger.services')<span></span></a>
                      <ul class="burger-service-menu__list">
                         <li class="burger-service-menu__item"><a
                               href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"

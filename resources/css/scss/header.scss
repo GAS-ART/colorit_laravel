@@ -356,6 +356,9 @@
 				width: 230px;
 				@media (max-width: $mobileSmall) {
 					width: 140px;
+					&.es{
+						width: 170px;
+					}
 				}
 				@media (pointer: fine) {
 					&:hover {

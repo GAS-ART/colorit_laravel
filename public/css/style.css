@@ -600,6 +600,9 @@ h6 {
   .menu-burger__item:nth-child(2) .menu-burger__item-link {
     width: 140px;
   }
+  .menu-burger__item:nth-child(2) .menu-burger__item-link.es {
+    width: 170px;
+  }
 }
 @media (pointer: fine) {
   .menu-burger__item:nth-child(2) .menu-burger__item-link:hover span::before {
