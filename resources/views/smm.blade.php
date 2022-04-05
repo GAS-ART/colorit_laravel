@@ -200,7 +200,7 @@
       <div class="smm-to-top__item">
       @lang('smm.top.4')
       </div>
-      <div class="smm-to-top__item">
+      <div class="smm-to-top__item smm-to-top__item-no-line">
       @lang('smm.top.5')
       </div>
    </div>
@@ -335,7 +335,7 @@
       </div>
    </div>
 </section>
-<section class="help">
+<section class="help smm-help">
    <div class="help__container">
       <div class="help__row">
          <div class="help__item">

@@ -430,3 +430,10 @@
 
 /*SMM-TO-TOP*/
 //==================================================================
+
+.smm-help{
+   margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
+}

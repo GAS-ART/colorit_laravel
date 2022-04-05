@@ -3269,6 +3269,15 @@ h6 {
 }
 
 /*SMM-TO-TOP*/
+.smm-help {
+  margin-bottom: 100px;
+}
+@media (max-width: 61.99875em) {
+  .smm-help {
+    margin-bottom: 60px;
+  }
+}
+
 .item-price-web {
   border: 1px solid #000000;
   padding: 40px 30px;
