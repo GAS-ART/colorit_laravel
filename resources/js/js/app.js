@@ -199,7 +199,11 @@ window.onload = function () {
          }
       }
       reader.onerror = function (e) {
-         console.log(e.target.error.code);
+         if (bookingForm.classList.contains('ru')) {
+            alert("Ошибка загрузки файла");
+         } else if (bookingForm.classList.contains('es')) {
+            alert("Error al cargar el archivo");
+         }
       };
       if (file?.size) {
          reader.readAsDataURL(file);
@@ -337,6 +341,7 @@ window.onload = function () {
             $(".send-load").removeClass('active');
          },
          error: function (err) {
+            console.log(err);
             $(".send-load").removeClass('active');
             if (bookingForm.classList.contains('es')) {
                if (err.responseJSON.errors?.email) {
