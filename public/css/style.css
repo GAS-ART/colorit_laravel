@@ -3670,35 +3670,23 @@ h6 {
       );
   }
 }
-.portfolio__link .information-footer__item-link {
+.portfolio__link p {
+  font-family: "Muller";
   font-weight: 300;
   line-height: 1;
   color: #000000;
 }
 @supports (font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem )) {
-  .portfolio__link .information-footer__item-link {
+  .portfolio__link p {
     font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem );
   }
 }
 @supports not (font-size: clamp( 1.125rem , 1.015625rem  +  0.546875vw , 1.5625rem )) {
-  .portfolio__link .information-footer__item-link {
+  .portfolio__link p {
     font-size: calc(
          1.125rem + 0.4375 * (100vw - 20rem) / 80
       );
   }
-}
-.portfolio .mobile-portfolio {
-  display: none;
-}
-@media (max-width: 61.99875em) {
-  .portfolio .mobile-portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.portfolio .mobile-portfolio__item {
-  max-width: 430px;
 }
 
 .portfolio-description {

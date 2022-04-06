@@ -60,21 +60,24 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Neon_sign_for_beauty_salon')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/4.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Production_of_a_signboard_with_illuminated_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/7.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Printing_on_plastic')</p>
                   </div>
                </div>
             </div>
@@ -83,21 +86,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/2.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_making')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/5.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.PVC_logo')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/8.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.T-shirt_branding')</p>
                   </div>
                </div>
             </div>
@@ -106,21 +112,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/3.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Installation_of_a_sign')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/6.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Illuminated_sign')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/9.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Signboard_for_a_real_estate_agency')</p>
                   </div>
                </div>
             </div>
@@ -132,21 +141,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/10.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Volumetric_illuminated_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/13.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.UV_Printing_on_plastic')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/16.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_development')</p>
                   </div>
                </div>
             </div>
@@ -155,21 +167,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/11.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Neon')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/14.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.led_signboard')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/17.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_stickers')</p>
                   </div>
                </div>
             </div>
@@ -178,21 +193,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/12.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_development')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/15.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.brand_wall_print')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/18.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Creation_of_a_logo')</p>
                   </div>
                </div>
             </div>
@@ -204,21 +222,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/19.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_a_sign')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/22.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Volumetric_illuminated_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/25.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_beauty_salon')</p>
                   </div>
                </div>
             </div>
@@ -227,21 +248,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/20.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.light_box_sign')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/23.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_development')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/26.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.UV_printing_on_plastic')</p>
                   </div>
                </div>
             </div>
@@ -250,21 +274,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/21.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Volumetric_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/24.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_letters_from_aluminum')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/27.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Creating_a_corporate_identity')</p>
                   </div>
                </div>
             </div>
@@ -276,21 +303,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/28.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_a_neon_sign')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/31.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_beauty_salon')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/34.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.window_dressing')</p>
                   </div>
                </div>
             </div>
@@ -299,21 +329,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/29.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Embossed_business_cards')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/32.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_clinic')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/35.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Manufacture_of_the_stand_arch')</p>
                   </div>
                </div>
             </div>
@@ -322,21 +355,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/30.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Vinyl_film')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/33.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Acrylic_plate_making')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/36.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Production_of_floor_stands')</p>
                   </div>
                </div>
             </div>
@@ -348,21 +384,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/37.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_letters_from_PVC')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/40.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Stand_for_event_agency')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/43.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_development')</p>
                   </div>
                </div>
             </div>
@@ -371,21 +410,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/38.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Sponsor_stands')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/41.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Production_of_a_signboard_illuminated_with_three_dimensional_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/44.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Wood_print_Menu_making')</p>
                   </div>
                </div>
             </div>
@@ -394,21 +436,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/39.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_doctor')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/42.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Car_branding')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/45.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_a_light_box')</p>
                   </div>
                </div>
             </div>
@@ -420,21 +465,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/46.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Black_acrylic_logo')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/49.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_construction_company')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/52.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Printing_on_plastic_and_installation')</p>
                   </div>
                </div>
             </div>
@@ -443,21 +491,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/47.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_a_cafeteria')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/50.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Illuminated_signboard_with_three_dimensional_letters')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/53.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.T_shirt_production')</p>
                   </div>
                </div>
             </div>
@@ -466,21 +517,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/64.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Business_cards_with_3D_varnish_gold')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/51.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Signboard_for_a_beauty_salon')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/54.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Reception_visualization')</p>
                   </div>
                </div>
             </div>
@@ -492,21 +546,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/55.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Наружная Реклама</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Film_window_dressing')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/58.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Айдентика</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Magazine_development')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/61.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Печать на Одежде</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Signboard_with_light_and_letters')</p>
                   </div>
                </div>
             </div>
@@ -515,21 +572,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/56.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_development')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/59.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Создание Сайтов</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Corporate_identity_development_for_the_catalog')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/62.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Making_a_logo_from_acrylic')</p>
                   </div>
                </div>
             </div>
@@ -538,21 +598,24 @@
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/57.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">СММ</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_Ukrainian_association')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/60.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">УФ Печать</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Embossed_business_cards')</p>
                   </div>
                </div>
                <div class="portfolio__item">
                   <div class="portfolio__img">
                      <img data-src="{{asset('img/portfolio/63.jpg')}}" src="#" alt="">
                   </div>
-                  <div class="portfolio__link"><a class="information-footer__item-link" href="#">Полиграфия</a>
+                  <div class="portfolio__link">
+                     <p>@lang('portfolio.Logo_design_for_an_event_agency')</p>
                   </div>
                </div>
             </div>
