@@ -33,7 +33,7 @@ class ContactController extends Controller
 
       /*ОТПРАВКА ДАННЫХ ИЗ ФОРМЫ И ФАЙЛА НА ПОЧТУ*/
       mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message) use ($pathToFile){
-         $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ')->attach($pathToFile);
+         $message->to('colorit.bcn@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ')->attach($pathToFile);
          });
 
       /*УДАЛЯЕМ ЗАГРУЖЕННЫЙ ФАЙЛ*/
@@ -48,7 +48,7 @@ class ContactController extends Controller
       $page = $req->input('page');
 
       mail::send(['html' => 'mail'], ['name' => $name, 'service' => $service, 'text' => $text, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message){
-         $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
+         $message->to('colorit.bcn@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
          });
    }
 
@@ -63,7 +63,7 @@ class ContactController extends Controller
     $page = $req->input('page');
     
     mail::send(['html' => 'mail_page_form'], ['name' => $name, 'email' => $email, 'phone' => $phone, 'page' => $page, ], function($message){
-      $message->to('temoha1386@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
+      $message->to('colorit.bcn@gmail.com')->subject('ЗАЯВКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
       });
  }
    
