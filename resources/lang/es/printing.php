@@ -14,9 +14,9 @@ return [
       'advantages' => 
       [
          'tittle' => 'Beneficios de trabajar con la agencia Colorit',
-         'equipment_tittle' => 'Equipo',
+         'equipment_tittle' => 'Tecnologias',
          'equipment_text' => 'Equipo moderno que permite cumplir con pedidos complejos de manera rápida y eficiente.',
-         'team_tittle' => 'Команда',
+         'team_tittle' => 'Equipo',
          'team_text' => 'Crearemos un diseño, aconsejaremos qué tipo de ropa es preferible para su negocio.',
          'clothes_tittle' => 'Ropa',
          'clothes_text' => 'Hay más de 200 modelos de ropa variada y de alta calidad, para todos los gustos y colores.',

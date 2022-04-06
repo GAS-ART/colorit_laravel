@@ -172,7 +172,7 @@
          </div>
          <div class="printing-products__row @lang('main.current_lang_class')">
             <div class="printing-products__item">
-               <div class="printing-products__tittle">О@lang('printing.sercices.5')</div>
+               <div class="printing-products__tittle">@lang('printing.sercices.5')</div>
                <div class="printing-products__item-img">
                   <img src="{{asset('img/printing/5.jpeg')}}" alt="printing on clothes">
                </div>
