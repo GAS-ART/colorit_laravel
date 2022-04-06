@@ -215,17 +215,21 @@ window.onload = function () {
       closePopup(popup);
    })
    function closePopup(popup) {
-      popup.classList.remove('open');
-      popup.classList.remove('send');
-      body.classList.remove('lock');
-      $(".email-error").html('');
-      $(".name-error").html('');
-      $(".phone-error").html('');
-      $(".file-error").html('');
-      $(".service-error").html('');
-      formPreview.innerHTML = '';
-      formPreview.classList.remove('load');
-      $(".send-load").removeClass('active');
+      if ($(".send-load").hasClass("active")) {
+         return false;
+      } else {
+         popup.classList.remove('open');
+         popup.classList.remove('send');
+         body.classList.remove('lock');
+         $(".email-error").html('');
+         $(".name-error").html('');
+         $(".phone-error").html('');
+         $(".file-error").html('');
+         $(".service-error").html('');
+         formPreview.innerHTML = '';
+         formPreview.classList.remove('load');
+         $(".send-load").removeClass('active');
+      }
    }
 
    //popup cases
