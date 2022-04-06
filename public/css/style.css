@@ -4660,7 +4660,7 @@ h6 {
   left: 0;
   width: 30px;
   height: 30px;
-  background-image: url(/images/load.gif?90672f1deffccbcdf4f1be54ee7cd7ea);
+  background-image: url("https://colorit.agency/public/img/form/load.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

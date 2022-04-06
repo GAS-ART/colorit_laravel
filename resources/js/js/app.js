@@ -156,34 +156,34 @@ window.onload = function () {
             formPreview.innerHTML = `<video src="${e.target.result}" controls></video>`;
             formPreview.classList.remove('load');
          } else if (file.type.match('application/pdf')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/pdf.svg" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/pdf.svg" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.type.match('application/msword')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/word.png" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/word.png" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.type.match('application/vnd.openxmlformats-officedocument.wordprocessingml.document')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/word.png" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/word.png" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.type.match('application/vnd.ms-excel')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/excel.svg" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/excel.svg" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.type.match('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/excel.svg" alt="">`;
+            formPreview.innerHTML = `<img src="/https://colorit.agency/public/img/form/excel.svg" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.name.slice(-4) == ".rar") {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/rar.png" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/rar.png" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.name.slice(-4) == ".zip") {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/zip.png" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/zip.png" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.name.slice(-4) == ".psd") {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/psd.png" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/psd.png" alt="">`;
             formPreview.classList.remove('load');
          } else if (file.type.match('text/plain')) {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/txt.svg" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/txt.svg" alt="">`;
             formPreview.classList.remove('load');
          } else {
-            formPreview.innerHTML = `<img src="//localhost:3000/img/form/file.svg" alt="">`;
+            formPreview.innerHTML = `<img src="https://colorit.agency/public/img/form/file.svg" alt="">`;
             formPreview.classList.remove('load');
          }
       }
