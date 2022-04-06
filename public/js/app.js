@@ -182,7 +182,7 @@ window.onload = function () {
         formPreview.innerHTML = "<img src=\"https://colorit.agency/public/img/form/excel.svg\" alt=\"\">";
         formPreview.classList.remove('load');
       } else if (file.type.match('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')) {
-        formPreview.innerHTML = "<img src=\"/https://colorit.agency/public/img/form/excel.svg\" alt=\"\">";
+        formPreview.innerHTML = "<img src=\"https://colorit.agency/public/img/form/excel.svg\" alt=\"\">";
         formPreview.classList.remove('load');
       } else if (file.name.slice(-4) == ".rar") {
         formPreview.innerHTML = "<img src=\"https://colorit.agency/public/img/form/rar.png\" alt=\"\">";
