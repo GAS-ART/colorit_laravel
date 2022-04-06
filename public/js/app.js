@@ -215,11 +215,7 @@ window.onload = function () {
     };
 
     reader.onerror = function (e) {
-      if (bookingForm.classList.contains('ru')) {
-        alert("Ошибка загрузки файла");
-      } else if (bookingForm.classList.contains('es')) {
-        alert("Error al cargar el archivo");
-      }
+      console.log(e.target.error.code);
     };
 
     if (file !== null && file !== void 0 && file.size) {
