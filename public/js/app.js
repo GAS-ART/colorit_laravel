@@ -359,9 +359,9 @@ window.onload = function () {
         $(".send-load").removeClass('active');
 
         if (bookingForm.classList.contains('es')) {
-          var _err$responseJSON$err, _err$responseJSON$err2, _err$responseJSON$err3, _err$responseJSON$err4;
+          var _err$responseJSON, _err$responseJSON$err, _err$responseJSON2, _err$responseJSON2$er, _err$responseJSON3, _err$responseJSON3$er, _err$responseJSON4, _err$responseJSON4$er;
 
-          if ((_err$responseJSON$err = err.responseJSON.errors) !== null && _err$responseJSON$err !== void 0 && _err$responseJSON$err.email) {
+          if (err !== null && err !== void 0 && (_err$responseJSON = err.responseJSON) !== null && _err$responseJSON !== void 0 && (_err$responseJSON$err = _err$responseJSON.errors) !== null && _err$responseJSON$err !== void 0 && _err$responseJSON$err.email) {
             var text = err.responseJSON.errors.email[0];
 
             if (text == 'Не заполнено поле "email"') {
@@ -373,7 +373,7 @@ window.onload = function () {
             $(".email-error").html('');
           }
 
-          if ((_err$responseJSON$err2 = err.responseJSON.errors) !== null && _err$responseJSON$err2 !== void 0 && _err$responseJSON$err2.name) {
+          if (err !== null && err !== void 0 && (_err$responseJSON2 = err.responseJSON) !== null && _err$responseJSON2 !== void 0 && (_err$responseJSON2$er = _err$responseJSON2.errors) !== null && _err$responseJSON2$er !== void 0 && _err$responseJSON2$er.name) {
             var _text = err.responseJSON.errors.name[0];
 
             if (_text == 'Не заполнено поле "Имя"') {
@@ -389,7 +389,7 @@ window.onload = function () {
             $(".name-error").html('');
           }
 
-          if ((_err$responseJSON$err3 = err.responseJSON.errors) !== null && _err$responseJSON$err3 !== void 0 && _err$responseJSON$err3.phone) {
+          if (err !== null && err !== void 0 && (_err$responseJSON3 = err.responseJSON) !== null && _err$responseJSON3 !== void 0 && (_err$responseJSON3$er = _err$responseJSON3.errors) !== null && _err$responseJSON3$er !== void 0 && _err$responseJSON3$er.phone) {
             var _text2 = err.responseJSON.errors.phone[0];
 
             if (_text2 == 'Не заполнено поле "Номер телефона"') {
@@ -401,7 +401,7 @@ window.onload = function () {
             $(".phone-error").html('');
           }
 
-          if ((_err$responseJSON$err4 = err.responseJSON.errors) !== null && _err$responseJSON$err4 !== void 0 && _err$responseJSON$err4.service) {
+          if (err !== null && err !== void 0 && (_err$responseJSON4 = err.responseJSON) !== null && _err$responseJSON4 !== void 0 && (_err$responseJSON4$er = _err$responseJSON4.errors) !== null && _err$responseJSON4$er !== void 0 && _err$responseJSON4$er.service) {
             var _text3 = err.responseJSON.errors.service[0];
 
             if (_text3 == 'Пожалуйста выберете тип услуги из списка') {
@@ -410,38 +410,46 @@ window.onload = function () {
           } else {
             $(".service-error").html('');
           }
-        } else {
-          var _err$responseJSON$err5, _err$responseJSON$err6, _err$responseJSON$err7, _err$responseJSON$err8, _err$responseJSON$err9;
 
-          if ((_err$responseJSON$err5 = err.responseJSON.errors) !== null && _err$responseJSON$err5 !== void 0 && _err$responseJSON$err5.email) {
+          if (!(err !== null && err !== void 0 && err.responseJSON) && err.statusText) {
+            alert("Error al cargar el archivo");
+          }
+        } else {
+          var _err$responseJSON5, _err$responseJSON5$er, _err$responseJSON6, _err$responseJSON6$er, _err$responseJSON7, _err$responseJSON7$er, _err$responseJSON8, _err$responseJSON8$er, _err$responseJSON9, _err$responseJSON9$er;
+
+          if (err !== null && err !== void 0 && (_err$responseJSON5 = err.responseJSON) !== null && _err$responseJSON5 !== void 0 && (_err$responseJSON5$er = _err$responseJSON5.errors) !== null && _err$responseJSON5$er !== void 0 && _err$responseJSON5$er.email) {
             $(".email-error").html(err.responseJSON.errors.email[0]);
           } else {
             $(".email-error").html('');
           }
 
-          if ((_err$responseJSON$err6 = err.responseJSON.errors) !== null && _err$responseJSON$err6 !== void 0 && _err$responseJSON$err6.name) {
+          if (err !== null && err !== void 0 && (_err$responseJSON6 = err.responseJSON) !== null && _err$responseJSON6 !== void 0 && (_err$responseJSON6$er = _err$responseJSON6.errors) !== null && _err$responseJSON6$er !== void 0 && _err$responseJSON6$er.name) {
             $(".name-error").html(err.responseJSON.errors.name[0]);
           } else {
             $(".name-error").html('');
           }
 
-          if ((_err$responseJSON$err7 = err.responseJSON.errors) !== null && _err$responseJSON$err7 !== void 0 && _err$responseJSON$err7.phone) {
+          if (err !== null && err !== void 0 && (_err$responseJSON7 = err.responseJSON) !== null && _err$responseJSON7 !== void 0 && (_err$responseJSON7$er = _err$responseJSON7.errors) !== null && _err$responseJSON7$er !== void 0 && _err$responseJSON7$er.phone) {
             $(".phone-error").html(err.responseJSON.errors.phone[0]);
           } else {
             $(".phone-error").html('');
             ;
           }
 
-          if ((_err$responseJSON$err8 = err.responseJSON.errors) !== null && _err$responseJSON$err8 !== void 0 && _err$responseJSON$err8.filename) {
+          if (err !== null && err !== void 0 && (_err$responseJSON8 = err.responseJSON) !== null && _err$responseJSON8 !== void 0 && (_err$responseJSON8$er = _err$responseJSON8.errors) !== null && _err$responseJSON8$er !== void 0 && _err$responseJSON8$er.filename) {
             $(".file-error").html(err.responseJSON.errors.filename[0]);
           } else {
             $(".file-error").html('');
           }
 
-          if ((_err$responseJSON$err9 = err.responseJSON.errors) !== null && _err$responseJSON$err9 !== void 0 && _err$responseJSON$err9.service) {
+          if (err !== null && err !== void 0 && (_err$responseJSON9 = err.responseJSON) !== null && _err$responseJSON9 !== void 0 && (_err$responseJSON9$er = _err$responseJSON9.errors) !== null && _err$responseJSON9$er !== void 0 && _err$responseJSON9$er.service) {
             $(".service-error").html(err.responseJSON.errors.service[0]);
           } else {
             $(".service-error").html('');
+          }
+
+          if (!(err !== null && err !== void 0 && err.responseJSON) && err.statusText) {
+            alert("Ошибка загрузки файла");
           }
         }
       }
@@ -467,9 +475,9 @@ window.onload = function () {
       },
       error: function error(err) {
         if (formPage.classList.contains('es')) {
-          var _err$responseJSON$err10, _err$responseJSON$err11, _err$responseJSON$err12;
+          var _err$responseJSON$err2, _err$responseJSON$err3, _err$responseJSON$err4;
 
-          if ((_err$responseJSON$err10 = err.responseJSON.errors) !== null && _err$responseJSON$err10 !== void 0 && _err$responseJSON$err10.email) {
+          if ((_err$responseJSON$err2 = err.responseJSON.errors) !== null && _err$responseJSON$err2 !== void 0 && _err$responseJSON$err2.email) {
             var text = err.responseJSON.errors.email[0];
 
             if (text == 'Не заполнено поле "email"') {
@@ -481,7 +489,7 @@ window.onload = function () {
             $(".email-error").html('');
           }
 
-          if ((_err$responseJSON$err11 = err.responseJSON.errors) !== null && _err$responseJSON$err11 !== void 0 && _err$responseJSON$err11.name) {
+          if ((_err$responseJSON$err3 = err.responseJSON.errors) !== null && _err$responseJSON$err3 !== void 0 && _err$responseJSON$err3.name) {
             var _text4 = err.responseJSON.errors.name[0];
 
             if (_text4 == 'Не заполнено поле "Имя"') {
@@ -497,7 +505,7 @@ window.onload = function () {
             $(".name-error").html('');
           }
 
-          if ((_err$responseJSON$err12 = err.responseJSON.errors) !== null && _err$responseJSON$err12 !== void 0 && _err$responseJSON$err12.phone) {
+          if ((_err$responseJSON$err4 = err.responseJSON.errors) !== null && _err$responseJSON$err4 !== void 0 && _err$responseJSON$err4.phone) {
             var _text5 = err.responseJSON.errors.phone[0];
 
             if (_text5 == 'Не заполнено поле "Номер телефона"') {
@@ -509,21 +517,21 @@ window.onload = function () {
             $(".phone-error").html('');
           }
         } else {
-          var _err$responseJSON$err13, _err$responseJSON$err14, _err$responseJSON$err15;
+          var _err$responseJSON$err5, _err$responseJSON$err6, _err$responseJSON$err7;
 
-          if ((_err$responseJSON$err13 = err.responseJSON.errors) !== null && _err$responseJSON$err13 !== void 0 && _err$responseJSON$err13.email) {
+          if ((_err$responseJSON$err5 = err.responseJSON.errors) !== null && _err$responseJSON$err5 !== void 0 && _err$responseJSON$err5.email) {
             $(".email-error").html(err.responseJSON.errors.email[0]);
           } else {
             $(".email-error").html('');
           }
 
-          if ((_err$responseJSON$err14 = err.responseJSON.errors) !== null && _err$responseJSON$err14 !== void 0 && _err$responseJSON$err14.name) {
+          if ((_err$responseJSON$err6 = err.responseJSON.errors) !== null && _err$responseJSON$err6 !== void 0 && _err$responseJSON$err6.name) {
             $(".name-error").html(err.responseJSON.errors.name[0]);
           } else {
             $(".name-error").html('');
           }
 
-          if ((_err$responseJSON$err15 = err.responseJSON.errors) !== null && _err$responseJSON$err15 !== void 0 && _err$responseJSON$err15.phone) {
+          if ((_err$responseJSON$err7 = err.responseJSON.errors) !== null && _err$responseJSON$err7 !== void 0 && _err$responseJSON$err7.phone) {
             $(".phone-error").html(err.responseJSON.errors.phone[0]);
           } else {
             $(".phone-error").html('');

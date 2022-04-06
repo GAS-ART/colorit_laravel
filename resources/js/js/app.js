@@ -344,7 +344,7 @@ window.onload = function () {
             console.log(err);
             $(".send-load").removeClass('active');
             if (bookingForm.classList.contains('es')) {
-               if (err.responseJSON.errors?.email) {
+               if (err?.responseJSON?.errors?.email) {
                   let text = err.responseJSON.errors.email[0]
                   if (text == 'Не заполнено поле "email"') {
                      $(".email-error").html('El campo no esta rellenado "email"');
@@ -354,7 +354,7 @@ window.onload = function () {
                } else {
                   $(".email-error").html('');
                }
-               if (err.responseJSON.errors?.name) {
+               if (err?.responseJSON?.errors?.name) {
                   let text = err.responseJSON.errors.name[0]
                   if (text == 'Не заполнено поле "Имя"') {
                      $(".name-error").html('El campo Nombre no esta rellenado');
@@ -370,7 +370,7 @@ window.onload = function () {
                } else {
                   $(".name-error").html('');
                }
-               if (err.responseJSON.errors?.phone) {
+               if (err?.responseJSON?.errors?.phone) {
                   let text = err.responseJSON.errors.phone[0]
                   if (text == 'Не заполнено поле "Номер телефона"') {
                      $(".phone-error").html('El campo no esta rellenado telefono');
@@ -379,7 +379,7 @@ window.onload = function () {
                   }
                } else {
                   $(".phone-error").html('');
-               } if (err.responseJSON.errors?.service) {
+               } if (err?.responseJSON?.errors?.service) {
                   let text = err.responseJSON.errors.service[0]
                   if (text == 'Пожалуйста выберете тип услуги из списка') {
                      $(".service-error").html('Por favor, elige el servicio');
@@ -387,31 +387,37 @@ window.onload = function () {
                } else {
                   $(".service-error").html('');
                }
+               if (!err?.responseJSON && err.statusText) {
+                  alert("Error al cargar el archivo");
+               }
             } else {
-               if (err.responseJSON.errors?.email) {
+               if (err?.responseJSON?.errors?.email) {
                   $(".email-error").html(err.responseJSON.errors.email[0]);
                } else {
                   $(".email-error").html('');
                }
-               if (err.responseJSON.errors?.name) {
+               if (err?.responseJSON?.errors?.name) {
                   $(".name-error").html(err.responseJSON.errors.name[0]);
                } else {
                   $(".name-error").html('');
                }
-               if (err.responseJSON.errors?.phone) {
+               if (err?.responseJSON?.errors?.phone) {
                   $(".phone-error").html(err.responseJSON.errors.phone[0]);
                } else {
                   $(".phone-error").html('');;
                }
-               if (err.responseJSON.errors?.filename) {
+               if (err?.responseJSON?.errors?.filename) {
                   $(".file-error").html(err.responseJSON.errors.filename[0]);
                } else {
                   $(".file-error").html('');
                }
-               if (err.responseJSON.errors?.service) {
+               if (err?.responseJSON?.errors?.service) {
                   $(".service-error").html(err.responseJSON.errors.service[0]);
                } else {
                   $(".service-error").html('');
+               }
+               if (!err?.responseJSON && err.statusText) {
+                  alert("Ошибка загрузки файла");
                }
             }
          }
