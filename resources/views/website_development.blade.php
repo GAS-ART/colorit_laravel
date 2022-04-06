@@ -1,9 +1,9 @@
 @extends('layout')
-@section('title','Заголовок страницы')
-@section('description', 'Описание страницы')
-@section('ogTitle','Заголовок страницы для месенджеров')
-@section('ogDescription','Описание страницы для месенджеров')
-@section('ogUrl','https://colorit.com')
+@section('title', __('tittles.web.title'))
+@section('description', __('tittles.web.description'))
+@section('ogTitle', __('tittles.web.ogTitle'))
+@section('ogDescription', __('tittles.web.ogDescription'))
+@section('ogUrl', __('tittles.web.ogUrl'))
 
 
 @section('content')

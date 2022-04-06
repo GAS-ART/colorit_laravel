@@ -20,8 +20,8 @@
    <meta property="og:type" content="website" />
    <meta property="og:title" content="@yield('ogTitle')" />
    <meta property="og:description" content="@yield('ogDescription')" />
-   <meta property="og:site_name" content="colorit.com.ua" />
-   <meta property="og:image" content="" />
+   <meta property="og:site_name" content="colorit.agency" />
+   <meta property="og:image" content="https://colorit.agency/public/img/logo1.png" />
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
