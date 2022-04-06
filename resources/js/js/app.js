@@ -138,6 +138,7 @@ window.onload = function () {
    //file preview
    const formImage = document.getElementById('fileImage');
    const formPreview = document.getElementById('filePreview');
+   const bookingForm = document.querySelector('#bookingform');
    formImage.addEventListener('change', function () {
       formPreview.innerHTML = '';
       formPreview.classList.add('load');
@@ -147,6 +148,16 @@ window.onload = function () {
       uploadFile(formImage.files[0]);
    });
    function uploadFile(file) {
+      if (file?.size > 2.5e+7 && bookingForm.classList.contains('ru')) {
+         alert("Максимум 25 мегабайт");
+         formPreview.classList.remove('load');
+         $(".send-load").removeClass('active');
+         return
+      } else if (file?.size > 2.5e+7 && bookingForm.classList.contains('es')) {
+         alert("el tamaño maximo 25");
+         formPreview.classList.remove('load');
+         return
+      }
       let reader = new FileReader();
       reader.onload = function (e) {
          if (file.type.match('image.*')) {
@@ -187,7 +198,17 @@ window.onload = function () {
             formPreview.classList.remove('load');
          }
       }
-      reader.readAsDataURL(file);
+      reader.onerror = function (e) {
+         if (bookingForm.classList.contains('ru')) {
+            alert("Ошибка загрузки файла");
+         } else if (bookingForm.classList.contains('es')) {
+            alert("Error al cargar el archivo");
+         }
+      };
+      if (file?.size) {
+         reader.readAsDataURL(file);
+      }
+
    }
 
    //popup
@@ -294,7 +315,6 @@ window.onload = function () {
 
 
    // Отпарвка данных из формы
-   const bookingForm = document.querySelector('#bookingform');
    $("#bookingform").submit(function (event) {
       event.preventDefault();
       $(".send-load").addClass('active');
