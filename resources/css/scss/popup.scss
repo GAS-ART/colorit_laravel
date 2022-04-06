@@ -318,7 +318,7 @@
    }
 }
 
-.popup__button {
+.popup__button, .popup__button-form {
    button {
       padding: 17px 47px;
       background-color: $hoverColor;
@@ -328,6 +328,12 @@
       line-height: 1;
       color: #ffffff;
    }
+}
+.popup__button-form{
+   button{
+      width: 100%;
+   }
+   
 }
 .error {
    font-family: "Muller";

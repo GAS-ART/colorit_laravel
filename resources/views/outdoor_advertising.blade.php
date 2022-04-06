@@ -445,7 +445,7 @@
                      <input class="email" type="text" name="email" placeholder="@lang('form.email')">
                      <p class="email-error error"></p>
                   </div>
-                  <div class="popup__button">
+                  <div class="popup__button-form">
                      <button class="submit" type="submit">@lang('form.button')</button>
                   </div>
                </form>
