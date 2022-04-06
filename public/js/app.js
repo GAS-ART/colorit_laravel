@@ -355,7 +355,6 @@ window.onload = function () {
         $(".send-load").removeClass('active');
       },
       error: function error(err) {
-        console.log(err);
         $(".send-load").removeClass('active');
 
         if (bookingForm.classList.contains('es')) {
@@ -413,6 +412,7 @@ window.onload = function () {
 
           if (!(err !== null && err !== void 0 && err.responseJSON) && err.statusText) {
             alert("Error al cargar el archivo");
+            formPreview.innerHTML = '';
           }
         } else {
           var _err$responseJSON5, _err$responseJSON5$er, _err$responseJSON6, _err$responseJSON6$er, _err$responseJSON7, _err$responseJSON7$er, _err$responseJSON8, _err$responseJSON8$er, _err$responseJSON9, _err$responseJSON9$er;
@@ -450,6 +450,7 @@ window.onload = function () {
 
           if (!(err !== null && err !== void 0 && err.responseJSON) && err.statusText) {
             alert("Ошибка загрузки файла");
+            formPreview.innerHTML = '';
           }
         }
       }
