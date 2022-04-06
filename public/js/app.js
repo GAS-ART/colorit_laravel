@@ -470,8 +470,8 @@ window.onload = function () {
         $(".email-error").html('');
         $(".name-error").html('');
         $(".phone-error").html('');
-        $(".popup").addClass("open");
-        $(".popup").addClass("send");
+        $("#popup").addClass("open");
+        $("#popup").addClass("send");
         formPage.reset();
       },
       error: function error(err) {
