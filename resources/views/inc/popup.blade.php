@@ -4,6 +4,9 @@
       <div class="popup__content">
          <a href="#" class="popup__close close-popup"></a>
          <div class="popup__row">
+            <div class="send-load">
+               <img src="{{asset('img/form/load.gif')}}" alt="">
+            </div>
             <div class="popup__form">
                <div class="popup__title">
                   <h4>@lang('form.tittle')</h4>
@@ -42,9 +45,12 @@
                         <textarea name="text" placeholder="@lang('form.text')"></textarea>
                      </div>
                      <div class="contacts-form__item data popup-download">
-                        <input type="file" name="filename" class="popup-file">
-                        <div class="file-button">@lang('form.file')</div>
-                        <p class="file-error error"></p>
+                        <div class="file">
+                           <input id="fileImage" type="file" name="filename" class="popup-file">
+                           <div class="file-button">@lang('form.file')</div>
+                           <p class="file-error error"></p>
+                        </div>
+                        <div id="filePreview" class="preview-file"></div>
                      </div>
                      <div class="popup__button">
                         <button class="submit" type="submit">@lang('form.button')</button>
