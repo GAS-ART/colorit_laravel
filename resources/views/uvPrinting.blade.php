@@ -163,24 +163,20 @@
                <div class="why-smm__count">02</div>
             </li>
             <li class="why-smm__item">
-               <div class="why-smm__text">@lang('uvPrinting.advantages.item2')</div>
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item3')</div>
                <div class="why-smm__count">03</div>
             </li>
             <li class="why-smm__item">
-               <div class="why-smm__text">@lang('uvPrinting.advantages.item3')</div>
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item4')</div>
                <div class="why-smm__count">04</div>
             </li>
             <li class="why-smm__item">
-               <div class="why-smm__text">@lang('uvPrinting.advantages.item4')</div>
+               <div class="why-smm__text">@lang('uvPrinting.advantages.item5')</div>
                <div class="why-smm__count">05</div>
             </li>
             <li class="why-smm__item">
-               <div class="why-smm__text">@lang('uvPrinting.advantages.item5')</div>
-               <div class="why-smm__count">06</div>
-            </li>
-            <li class="why-smm__item">
                <div class="why-smm__text">@lang('uvPrinting.advantages.item6')</div>
-               <div class="why-smm__count">07</div>
+               <div class="why-smm__count">06</div>
             </li>
          </ul>
       </div>

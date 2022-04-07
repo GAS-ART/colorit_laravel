@@ -27,7 +27,7 @@ return [
       ],
       'sercices' =>
       [
-         'tittle' => 'Podemos realizar bajo encargo',
+         'tittle' => 'Que podemos ofrecer',
          '1' => 'Impresión en camisetas',
          '2' => 'Impresión en sudaderas',
          '3' => 'Impresión en polo',
@@ -40,7 +40,7 @@ return [
       ],
       'whom' =>
       [
-         'tittle' => 'mpresión en camisetas y otras prendas de vestir, impresión en accesorios. ¿Quién la necesita?',
+         'tittle' => 'Impresión en camisetas y otras prendas de vestir, impresión en accesorios. ¿Quién la necesita?',
          '1' => 'Contactando con la agencia de publicidad Colorit puedes elegir cualquier tipo de ropa para cualquier negocio<p>estampación de ropa para salones de belleza, estampación de ropa para restaurantes, estampación de ropa para bares y cafeterías, estampación de ropa para clubes deportivos y gimnasios, estampación de ropa para centros médicos, monos para pescaderías y carnicerías.</p>',
       ],
    ]

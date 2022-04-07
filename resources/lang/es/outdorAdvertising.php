@@ -19,7 +19,7 @@ return [
          'text' => 'Las letras corpóreas (luminosas) son un tipo de publicidad exterior y en los últimos años uno de los más buscados en el mercado. <span class="description-product__text-more"> Su enorme ventaja consiste en que se pueden utilizar tanto en fachadas de edificios o tiendas como en interiores.</span>',
          'text_more' => 'Su enorme ventaja consiste en que se pueden utilizar tanto en fachadas de edificios o tiendas como en interiores.',
          'item' => '- letras luminosas',
-         'item1' => '- luminosas sin iluminación ',
+         'item1' => '- letras sin iluminación ',
          'item2' => '- letras para interiores',
          'item3' => '- letras corporeas',
          'details' => '<p><span>El tiempo de producción</span> puede ser de 10 a 25 días</p> <p><span>Materiales utilizados: </span>aluminio (composite), metacrilato, pvc, madera o vinilo.</p>',
@@ -61,8 +61,8 @@ return [
       'baner' => 
       [
          'tittle' => 'Lonas',
-         'text' => 'Impresión de lonas en Barcelona. La fabricación de lonas es un servicio de impresión de gran formato. La tela de las pancartas tiene una serie de ventajas: son duraderas, resistentes a la intemperie y económicas. <span class="description-product__text-more"> Las imágenes de gran formato en las fachadas de los edificios, en los centros comerciales, roll up, x-banners, o banderas en general, están hechas de un banner estándar o perforado, Podéis solicitar banners para exteriores o interiores, a todo color o monocromáticas: pancartas publicitarias de cualquier tamaño para cualquier propósito.</span>',
-         'text_more' => 'Las imágenes de gran formato en las fachadas de los edificios, en los centros comerciales, roll up, x-banners, o banderas en general, están hechas de un banner estándar o perforado, Podéis solicitar banners para exteriores o interiores, a todo color o monocromáticas: pancartas publicitarias de cualquier tamaño para cualquier propósito.',
+         'text' => 'Impresión de lonas en Barcelona. La fabricación de lonas es un servicio de impresión de gran formato. La tela de las pancartas tiene una serie de ventajas: son duraderas, resistentes a la intemperie y económicas. <span class="description-product__text-more"> Las imágenes de gran formato en las fachadas de los edificios, en los centros comerciales, roll up, x-banners, o banderas en general, están hechas de un banner estándar o perforado. Podéis solicitar banners para exteriores o interiores, a todo color o monocromáticas: pancartas publicitarias de cualquier tamaño para cualquier propósito.</span>',
+         'text_more' => 'Las imágenes de gran formato en las fachadas de los edificios, en los centros comerciales, roll up, x-banners, o banderas en general, están hechas de un banner estándar o perforado. Podéis solicitar banners para exteriores o interiores, a todo color o monocromáticas: pancartas publicitarias de cualquier tamaño para cualquier propósito.',
          'details' => '<p><span>Tiempo de producción</span> 1-3 días</p>',
       ],
       'read_more' => 'Mas',

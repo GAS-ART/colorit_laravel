@@ -37,29 +37,29 @@
       <div class="why-smm__body">
          <h3 class="why-smm__tittle tittle why-smm-identity">@lang('design.why.tittle')</h3>
          <ul class="why-smm__list">
-            <li class="why-smm__item">
+            <li class="why-smm__item identity-why">
                <div class="why-smm__text">@lang('design.why.1')</div>
-               <div class="why-smm__count">01</div>
+               <div class="why-smm__count"></div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.2')</div>
-               <div class="why-smm__count">02</div>
+               <div class="why-smm__count">01</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.3')</div>
-               <div class="why-smm__count">03</div>
+               <div class="why-smm__count">02</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.4')</div>
-               <div class="why-smm__count">04</div>
+               <div class="why-smm__count">03</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.5')</div>
-               <div class="why-smm__count">05</div>
+               <div class="why-smm__count">04</div>
             </li>
             <li class="why-smm__item">
                <div class="why-smm__text">@lang('design.why.6')</div>
-               <div class="why-smm__count">06</div>
+               <div class="why-smm__count">05</div>
             </li>
          </ul>
       </div>

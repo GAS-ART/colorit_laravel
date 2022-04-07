@@ -1,3 +1,11 @@
 .why-smm-identity{
    max-width: 1000px;
 }
+.identity-why{
+   &::before{display: none;}
+   .why-smm__text{
+      &::before{display: none;}
+      color: $hoverColor;
+   }
+
+}

@@ -3824,6 +3824,16 @@ h6 {
   max-width: 1000px;
 }
 
+.identity-why::before {
+  display: none;
+}
+.identity-why .why-smm__text {
+  color: #962e93;
+}
+.identity-why .why-smm__text::before {
+  display: none;
+}
+
 .review {
   margin-bottom: 130px;
   /*  &__new-style{

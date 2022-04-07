@@ -1,11 +1,11 @@
 <?php
 
 return [
-   'about' => 'La parte más importante y brillante del trabajo de una agencia creativa es la creación de un diseño o el desarrollo de una identidad corporativa (identity). Por ella empieza la vida de cualquier empresa. El diseño no es solo un dibujo trasladado a la pantalla de una tablet, es una identificación visual, donde el estilo, el carácter y la imagen de la marca se forman con la ayuda de todos los elementos. La creación de un logotipo, tarjetas de presentación, carpetas, flayers y folletos, el desarrollo de un letrero y el diseño exterior de una oficina son procesos de marketing estándar para cualquier empresa. Los diseños de venta y target siempre captan la atención del comprador desde el primer segundo y nuestro equipo está listo para ayudarte a encontrar tu identidad corporativa.',
+   'about' => 'La parte más importante y brillante del trabajo de una agencia creativa es la creación de un diseño o el desarrollo de una identidad corporativa (identity). Por ella empieza la vida de cualquier empresa. El diseño no es solo un dibujo trasladado a la pantalla de una tablet, es una identificación visual, donde el estilo, el carácter y la imagen de la marca se forman con la ayuda de todos los elementos. La creación de un logotipo, tarjetas de presentación, carpetas, flyers y folletos, el desarrollo de un letrero y el diseño exterior de una oficina son procesos de marketing estándar para cualquier empresa. Los diseños de venta y target siempre captan la atención del comprador desde el primer segundo y nuestro equipo está listo para ayudarte a encontrar tu identidad corporativa.',
    'why' => 
    [
       'tittle' => 'Nuestro principal objetivo es hacer que el proyecto sea efectivo y reconocible.',
-      '1' => 'SERVICIOS DE DISEÑO',
+      '1' => 'TIPOS DE DISEÑO:',
       '2' => 'DISEÑO GRÁFICO',
       '3' => 'DISEÑO POLIGRAFÍA',
       '4' => 'REALIZACIÓN DEL LOGO',

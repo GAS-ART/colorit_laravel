@@ -31,7 +31,7 @@ return [
          'flyers' => 
          [
             'tittle' => 'Los flyers',
-            'text' => '<p>Realizamos los folletos en diferentes tamaños: а6 (10*15).</p><p>euroformato (10*21)</p><p>formato а5 (15*21)</p><p>а4 формат (21*29).</p>',
+            'text' => '<p>Realizamos los folletos en diferentes tamaños: а6 (10*15).</p><p>euroformato (10*21)</p><p>formato а5 (15*21)</p><p>а4 formato (21*29).</p>',
             'details' => '<p><span>Gramaje</span> de 130 hasta 210 gr.</p>',
          ],
          'booklet' => 
@@ -58,7 +58,7 @@ return [
          'menu' => 
          [
             'tittle' => 'Menus Cartas',
-            'text' => '<p>Fabricamos munes para restaurantes</p>',
+            'text' => '<p>Fabricamos menus para restaurantes</p>',
             'details' => '<p>De espirales o de grapas con cubierta dura</p><p><span>Gramaje de papel</span> de 150 hasta 350 gr</p><p><span>Laminación </span> mate o brillo</p>',
          ],
          'magazine' => 
@@ -71,7 +71,7 @@ return [
          [
             'tittle' => 'Certificados',
             'text' => '<p>Pedir certificados de regalo</p>',
-            'details' => '<p>Don el cartón especial</p><p><span>Gramaje</span> de 300 gr</p>',
+            'details' => '<p>Con el cartón especial</p><p><span>Gramaje</span> de 300 gr</p>',
          ],
       ],
    ]

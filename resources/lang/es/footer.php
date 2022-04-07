@@ -4,7 +4,7 @@ return [
    'information' => 'Informacion',
    'about_us' => 'Sobre nosotros',
    'cases' => 'Casos ',
-   'lead' => 'Enviar',
+   'lead' => 'Contactar',
    'clients' => 'Clientos',
    'rights' => 'Todos los derechos reservados',
 ]
