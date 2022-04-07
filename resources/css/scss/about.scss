@@ -16,6 +16,13 @@
      &:not(:last-child){
       margin-bottom: 60px;
      }
+     @media (max-width: $tablet) {
+      flex-direction: column;
+      align-items: flex-start;
+      &:not(:last-child){
+         margin-bottom: 45px;
+      }
+     }
    }
 
    &__item {
@@ -23,6 +30,13 @@
    flex: 1 1 33.3333%;
    &:not(:last-child){
       margin-right: 60px;
+   }
+   @media (max-width: $tablet) {
+      
+      &:not(:last-child){
+         margin-bottom: 45px;
+         margin-right: 0;
+      }  
    }
 
    }
@@ -89,6 +103,9 @@
          width: 100%;
          height: 1px;
          background-color: $darckColor;
+     }
+     @media (max-width: $tablet) {
+      margin-bottom: 25px;
      }
    }
 
