@@ -46,7 +46,7 @@
                         <div class="yellow ball"></div>
                         <div class="green ball"></div>
                      </div>-->
-                     <div class="portfolio-description__body">
+                     <!--   <div class="portfolio-description__body">
                         <div class="portfolio-description__tittle">
                            <p>Проект</p>
                            <p>MARISTA</p>
@@ -58,7 +58,7 @@
                            <li class="portfolio-description__item">Наружная реклама</li>
                            <li class="portfolio-description__item">СММ</li>
                         </ul>
-                     </div>
+                     </div> -->
                   </div>
                   <div class="portfolio__link">
                      <p>@lang('portfolio.Neon_sign_for_beauty_salon')</p>

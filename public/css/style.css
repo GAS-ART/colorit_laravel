@@ -3582,6 +3582,9 @@ h6 {
 .portfolio__images {
   display: flex;
 }
+.portfolio__images:nth-child(6) .portfolio__row:last-child .portfolio__item:first-child .portfolio__img img {
+  width: 100%;
+}
 @media (max-width: 47.99875em) {
   .portfolio__images {
     flex-direction: column;
@@ -3603,7 +3606,6 @@ h6 {
 .portfolio__img {
   margin-bottom: 30px;
   position: relative;
-  cursor: pointer;
   /*  .loading {
        position: absolute;
        width: 100%;
@@ -3650,7 +3652,6 @@ h6 {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
