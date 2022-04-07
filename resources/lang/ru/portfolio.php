@@ -15,7 +15,7 @@ return [
    
    'Printing_on_plastic' => 'Печать на пластике',
    'T-shirt_branding' => 'Брендирование футболки',
-   'Signboard_for_a_real_estate_agency' => 'Вывеска для агенства недвижимости',
+   'Signboard_for_a_real_estate_agency' => 'Вывеска для агентства недвижимости',
    
    'Volumetric_illuminated_letters' => 'Объемные световые буквы',
    'Neon' => 'Неон',
@@ -57,7 +57,7 @@ return [
    'Sponsor_stands' => 'Спонсорские стенды',
    'Logo_design_for_a_doctor' => 'Разработка логотипа для доктора',
 
-   'Stand_for_event_agency' => 'Стенд для ивент агенства',
+   'Stand_for_event_agency' => 'Стенд для ивент агентства',
    'Production_of_a_signboard_illuminated_with_three_dimensional_letters' => 'Изготовление вывески световой, с объемными буквами',
    'Car_branding' => 'Брендирование авто',
 
