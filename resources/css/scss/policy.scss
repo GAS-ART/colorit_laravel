@@ -1,0 +1,45 @@
+.tittle-policy{
+   margin-top: 161px;
+   @media (max-width: $mobileSmall) {
+      margin-top: 126px;
+   }
+   margin-bottom: 100px;
+}
+.policy-tittle-mini{
+   font-family: "Muller";
+   @include adaptiveValueREM('font-size', 20,18 );
+   margin-bottom: 60px;
+}
+.policy-tittle{
+   @include adaptiveValueREM('font-size', 20,18 );
+   text-decoration: underline;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.policy{
+   font-family: "Muller";
+   line-height: rem(30);
+   font-size: rem(16);
+   span{
+      font-family: "Russo One";
+   }
+   margin-bottom: 30px;
+}
+.policy-tittle-item{
+      @include adaptiveValueREM('font-size', 20,18 );
+      text-decoration: underline;
+      text-align: left;
+   }
+   .policy-list-item{
+      list-style-type: disc;
+      list-style-position: inside;
+      text-indent: 0px;
+      .policy-list-item-link{
+         text-decoration: underline;
+         color:blue;
+      }
+   }
+   .policy-link{
+      text-decoration: underline !important;
+      color:blue;
+   }

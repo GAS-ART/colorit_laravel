@@ -4023,6 +4023,93 @@ h6 {
   color: #962e93;
 }
 
+.tittle-policy {
+  margin-top: 161px;
+  margin-bottom: 100px;
+}
+@media (max-width: 29.99875em) {
+  .tittle-policy {
+    margin-top: 126px;
+  }
+}
+
+.policy-tittle-mini {
+  font-family: "Muller";
+  margin-bottom: 60px;
+}
+@supports (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle-mini {
+    font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle-mini {
+    font-size: calc(
+         1.125rem + 0.125 * (100vw - 20rem) / 80
+      );
+  }
+}
+
+.policy-tittle {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@supports (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle {
+    font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle {
+    font-size: calc(
+         1.125rem + 0.125 * (100vw - 20rem) / 80
+      );
+  }
+}
+
+.policy {
+  font-family: "Muller";
+  line-height: 1.875rem;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.policy span {
+  font-family: "Russo One";
+}
+
+.policy-tittle-item {
+  text-decoration: underline;
+  text-align: left;
+}
+@supports (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle-item {
+    font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem );
+  }
+}
+@supports not (font-size: clamp( 1.125rem , 1.09375rem  +  0.15625vw , 1.25rem )) {
+  .policy-tittle-item {
+    font-size: calc(
+         1.125rem + 0.125 * (100vw - 20rem) / 80
+      );
+  }
+}
+
+.policy-list-item {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: 0px;
+}
+.policy-list-item .policy-list-item-link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.policy-link {
+  text-decoration: underline !important;
+  color: blue;
+}
+
 .footer__body {
   position: relative;
   padding: 50px 0 100px 0;

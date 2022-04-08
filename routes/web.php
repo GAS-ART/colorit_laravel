@@ -118,7 +118,7 @@ Route::get('/{locale}/design', function ($locale) {
    }
 })->name('design.lang');
 
-Route::get('/{locale}/uv-printing', function ($locale) {
+Route::get('/{locale}/uv_printing', function ($locale) {
    
    if (! in_array($locale, ['ru', 'es'])) {
 
@@ -137,7 +137,7 @@ Route::get('/{locale}/uv-printing', function ($locale) {
    }
 })->name('uvPrinting.lang');
 
-Route::get('/{locale}/website-development', function ($locale) {
+Route::get('/{locale}/website_development', function ($locale) {
    
    if (! in_array($locale, ['ru', 'es'])) {
 
@@ -231,3 +231,41 @@ Route::get('/{locale}/about_us', function ($locale) {
 
    }
 })->name('about.lang');
+
+Route::get('/{locale}/cookies_policy', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('cookies');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('cookies');
+
+   }
+})->name('cookies.lang');
+
+Route::get('/{locale}/privacy_policy', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('privacy');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('privacy');
+
+   }
+})->name('privacy.lang');
