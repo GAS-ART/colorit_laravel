@@ -82,7 +82,7 @@ return [
       'support_tittle' => 'Soporte técnico ',
       'support_text' => 'Estamos aquí para apoyar su negocio. Ofrecemos servicio técnico completo para productos de exterior.',
       'price_tittle' => 'Precio justo',
-      'price_text' => 'No tratamos de hacer carteles baratos, ya que esto conduce a la pérdida de calidad y fallas técnicas constantes. Nuestra prioridad es una excelente calidad y un precio razonable para cada cliente.',
+      'price_text' => 'No tratamos de utilizar las tintas o material baratos, ya que esto conduce a la pérdida de calidad y fallas técnicas constantes. Nuestra prioridad es una excelente calidad y un precio razonable para cada cliente.',
       'creative_tittle' => 'Creatividad',
       'creative_text' => 'Nuestro equipo está formado por diseñadores jóvenes y creativos que no tienen miedo de probar y experimentar. Queremos que los productos de publicidad exterior sean brillantes y evoquen emociones.',
       'convenient_tittle' => 'Con nosotros, es cómodo!',
