@@ -99,6 +99,13 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: Muller;
+  font-display: swap;
+  src: url(/fonts/MullerLight.woff2?1ead00b17d9bfd3216a3f14c53bfaeae) format("woff2"), url(/fonts/MullerLight.woff?d2769648f88e6650a9d965c2ad9e91f5) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
 [class*=_icon-]:before {
   font-family: "icons";
   font-style: normal;
@@ -4957,6 +4964,7 @@ h6 {
 .case-popup__row {
   display: flex;
   flex-direction: column;
+  max-width: 700px;
 }
 .case-popup__info {
   background-color: #232322;
@@ -4972,6 +4980,7 @@ h6 {
 }
 .case-popup__tittle {
   margin-bottom: 30px;
+  font-weight: 700;
 }
 @supports (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
   .case-popup__tittle {
@@ -4994,6 +5003,7 @@ h6 {
   margin-bottom: 20px;
   font-size: 16px;
   letter-spacing: 1px;
+  font-weight: 300;
 }
 .case-popup__links {
   display: flex;
@@ -5106,6 +5116,7 @@ h6 {
 .case-popup-works__item {
   position: relative;
   font-style: italic;
+  font-weight: 300;
 }
 .case-popup-works__item:before {
   content: "";
