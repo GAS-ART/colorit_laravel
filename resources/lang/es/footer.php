@@ -7,6 +7,8 @@ return [
    'lead' => 'Contactar',
    'clients' => 'Clientos',
    'rights' => 'Todos los derechos reservados',
+   'privacy' => 'Política de privacidad',
+   'cookies' => 'Política de cookies',
 ]
 
 ?>

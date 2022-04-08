@@ -48,6 +48,10 @@
                         class="information-footer__item-link popup-btn">@lang('footer.lead')</button></li>
                   <li class="information-footer__item"><a href="{{route('download')}}"
                         class="information-footer__item-link">@lang('contacts.presentation')</a></li>
+                        <li class="information-footer__item"><a href="{{ route('privacy.lang', ['locale' => __('main.set_lang')]) }}" class="information-footer__item-link">@lang('footer.privacy')</a>
+                     </li>
+                        <li class="information-footer__item"><a href="{{ route('cookies.lang', ['locale' => __('main.set_lang')]) }}" class="information-footer__item-link">@lang('footer.cookies')</a>
+                     </li>
                </ul>
             </nav>
          </div>
