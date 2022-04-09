@@ -4988,15 +4988,15 @@ h6 {
   margin-bottom: 30px;
   font-weight: 900;
 }
-@supports (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
+@supports (font-size: clamp( 1.25rem , 1.09375rem  +  0.78125vw , 1.875rem )) {
   .case-popup__tittle {
-    font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem );
+    font-size: clamp( 1.25rem , 1.09375rem  +  0.78125vw , 1.875rem );
   }
 }
-@supports not (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.09375rem  +  0.78125vw , 1.875rem )) {
   .case-popup__tittle {
     font-size: calc(
-         1.25rem + 0.3125 * (100vw - 20rem) / 80
+         1.25rem + 0.625 * (100vw - 20rem) / 80
       );
   }
 }
@@ -5110,6 +5110,7 @@ h6 {
 }
 .case-popup-works__item {
   position: relative;
+  font-size: 1rem;
 }
 .case-popup-works__item:before {
   content: "";

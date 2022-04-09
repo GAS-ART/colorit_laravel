@@ -449,7 +449,7 @@
    }
 
    &__tittle {
-      @include adaptiveValueREM("font-size", 25, 20);
+      @include adaptiveValueREM("font-size", 30, 20);
       margin-bottom: 30px;
       font-weight: 900;
       @media (max-width: $mobile) {
@@ -564,6 +564,7 @@
 
    &__item {
       position: relative;
+      font-size: rem(16);
       &:before {
          content: "";
          position: absolute;
