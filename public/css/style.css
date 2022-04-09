@@ -5109,8 +5109,6 @@ h6 {
 }
 .case-popup-works__item {
   position: relative;
-  font-style: italic;
-  font-weight: 300;
 }
 .case-popup-works__item:before {
   content: "";
