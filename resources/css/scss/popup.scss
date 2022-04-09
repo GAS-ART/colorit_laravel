@@ -450,7 +450,7 @@
 
    &__tittle {
       @include adaptiveValueREM("font-size", 40, 20);
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       font-weight: 900;
       @media (max-width: $mobile) {
          margin-bottom: 15px;

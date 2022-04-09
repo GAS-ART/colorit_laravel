@@ -45,5 +45,10 @@ return [
          'item2' => 'figuras de pvc, lonas',
          'item3' => 'ropa personalizada',
       ],
+      'links' => 
+      [
+         'clothes' => 'Ropa personalizada',
+         'site' => 'Desarrollo web',
+      ],
    ];
    ?>

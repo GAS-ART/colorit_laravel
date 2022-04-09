@@ -197,12 +197,12 @@
                      <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
                         class="case-popup__link service-footer__item-link">@lang('services.identity')</a>
                      <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
-                        class="case-popup__link service-footer__item-link">@lang('services.printing_on_clothes')</a>
+                        class="case-popup__link service-footer__item-link">@lang('popup.links.clothes')</a>
                   </div>
                   <div class="case-popup__links-row">
                      <a href="#" class="case-popup__link service-footer__item-link">@lang('services.polygraphy')</a>
                      <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"
-                        class="case-popup__link service-footer__item-link">@lang('services.website_development')</a>
+                        class="case-popup__link service-footer__item-link">@lang('popup.links.site')</a>
                   </div>
                   <div class="case-popup__links-row">
                      <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"

@@ -4985,7 +4985,7 @@ h6 {
   }
 }
 .case-popup__tittle {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 900;
 }
 @supports (font-size: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.5rem )) {
