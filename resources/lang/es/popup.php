@@ -6,7 +6,7 @@ return [
       [
          'tittle' => 'Costa Maresme',
          'text' => '<p>La revista informativa sobre la vida y negocios en Costa Maresme que había presentado en febrero de 2022.</p>',
-         'item' => 'Estrategia de comunicación y marketing',
+         'item' => 'Estrategia y marketing',
          'item1' => 'Diseño',
          'item2' => 'Ropa personalizada',
          'item3' => 'Producción de revista',
@@ -38,12 +38,13 @@ return [
       ],
       'floaretelie' => 
       [
-         'tittle' => 'Floaretelie',
+         'tittle' => 'Floratelie',
          'text' => '<p>Decor Production Floratelie especializada en Luxury Decoración & Arte floral</p>',
          'item' => 'Rotulacion',
          'item1' => 'Impresion digital',
-         'item2' => 'figuras de pvc, lonas',
-         'item3' => 'ropa personalizada',
+         'item2' => 'Figuras de pvc',
+         'item3' => 'Ropa personalizada',
+         'item4' => 'Lonas',
       ],
       'links' => 
       [

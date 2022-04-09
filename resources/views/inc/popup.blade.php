@@ -237,6 +237,10 @@
                         <div class="case-popup-works__item">@lang('popup.floaretelie.item')</div>
                         <div class="case-popup-works__item">@lang('popup.floaretelie.item1')</div>
                         <div class="case-popup-works__item">@lang('popup.floaretelie.item2')</div>
+
+                     </div>
+                     <div class="case-popup-works__items">
+                        <div class="case-popup-works__item">@lang('popup.floaretelie.item4')</div>
                         <div class="case-popup-works__item">@lang('popup.floaretelie.item3')</div>
                      </div>
                   </div>
@@ -248,12 +252,8 @@
                      <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"
                         class="case-popup__link service-footer__item-link">@lang('services.uv_printing')</a>
                      <a href="#" class="case-popup__link service-footer__item-link">@lang('services.polygraphy')</a>
-                  </div>
-                  <div class="case-popup__links-row">
                      <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"
                         class="case-popup__link service-footer__item-link">@lang('services.printing_on_clothes')</a>
-                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"
-                        class="case-popup__link service-footer__item-link">@lang('services.identity')</a>
                   </div>
                </div>
             </div>
