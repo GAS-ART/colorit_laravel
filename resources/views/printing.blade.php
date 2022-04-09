@@ -130,10 +130,6 @@
                <div class="why-smm__text">@lang('printing.sercices.10')</div>
                <div class="why-smm__count">10</div>
             </li>
-            <li class="why-smm__item why-smm-printing not-show-es @lang('main.current_lang_class')">
-               <div class="why-smm__text ">@lang('printing.sercices.11')</div>
-               <div class="why-smm__count">11</div>
-            </li>
          </ul>
       </div>
    </div>

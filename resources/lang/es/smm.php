@@ -45,7 +45,7 @@ return [
          '3' => 'elaboración de un plan de contenidos y diseño de produccion  fotográfico',
          '4' => 'desarrollo de estrategias',
          '5' => '12 publicaciones por mes',
-         '6' => 'Pibljcación de 14 historias',
+         '6' => 'Piblicación de 14 historias',
          '7' => 'Configuración de publicidad dirigida (sin presupuesto)',
       ],
       'zoom' =>
@@ -68,7 +68,7 @@ return [
    [
       'tittle' => 'SERVICIOS ADICIONALES',
       '1' => 'Administración en diferentes idiomas',
-      '2' => 'Foto, grabación de',
+      '2' => 'Foto, grabación de video',
       '3' => 'Videos animados',
       '4' => 'Administración de grupos en instagram y facebook',
       '5' => 'Contabilizaciones de cuentas adicionales',

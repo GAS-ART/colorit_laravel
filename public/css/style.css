@@ -4406,6 +4406,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 999;
 }
 .scroll-top span {
   display: block;
