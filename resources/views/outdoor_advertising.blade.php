@@ -280,7 +280,7 @@
          <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
             <div class="outdor-advertising-advantages-item__tittle">@lang('outdorAdvertising.advantages.price_tittle')
             </div>
-            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.price_text')</div>
+            <div class="outdor-advertising-advantages-item__text">@lang('outdorAdvertising.advantages.price_text_1')</div>
          </div>
          <div class="outdor-advertising-advantages__item outdor-advertising-advantages-item">
             <div class="outdor-advertising-advantages-item__tittle">
