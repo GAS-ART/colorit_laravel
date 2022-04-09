@@ -432,7 +432,10 @@
    &__row {
       display: flex;
       flex-direction: column;
-      max-width: 700px;
+      width: 700px;
+      @media (max-width: $tablet) {
+         width: unset;
+      }
    }
    &__info {
       background-color: $darckColor;
@@ -448,7 +451,7 @@
    &__tittle {
       @include adaptiveValueREM("font-size", 25, 20);
       margin-bottom: 30px;
-      font-weight: 700;
+      font-weight: 900;
       @media (max-width: $mobile) {
          margin-bottom: 15px;
       }
@@ -458,7 +461,7 @@
       margin-bottom: 20px;
       font-size: 16px;
       letter-spacing: 1px;
-      font-weight: 300;
+      font-weight: 400;
    }
 
    &__works {
@@ -524,7 +527,7 @@
 }
 .case-popup-works {
    &__tittle {
-      @include adaptiveValueREM("font-size", 20, 16);
+      font-size: rem(16);
       color: #ffffff;
       margin-bottom: 10px;
    }

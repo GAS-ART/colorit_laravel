@@ -4964,7 +4964,12 @@ h6 {
 .case-popup__row {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  width: 700px;
+}
+@media (max-width: 61.99875em) {
+  .case-popup__row {
+    width: unset;
+  }
 }
 .case-popup__info {
   background-color: #232322;
@@ -4980,7 +4985,7 @@ h6 {
 }
 .case-popup__tittle {
   margin-bottom: 30px;
-  font-weight: 700;
+  font-weight: 900;
 }
 @supports (font-size: clamp( 1.25rem , 1.171875rem  +  0.390625vw , 1.5625rem )) {
   .case-popup__tittle {
@@ -5003,7 +5008,7 @@ h6 {
   margin-bottom: 20px;
   font-size: 16px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .case-popup__links {
   display: flex;
@@ -5066,20 +5071,9 @@ h6 {
 }
 
 .case-popup-works__tittle {
+  font-size: 1rem;
   color: #ffffff;
   margin-bottom: 10px;
-}
-@supports (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
-  .case-popup-works__tittle {
-    font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem );
-  }
-}
-@supports not (font-size: clamp( 1rem , 0.9375rem  +  0.3125vw , 1.25rem )) {
-  .case-popup-works__tittle {
-    font-size: calc(
-         1rem + 0.25 * (100vw - 20rem) / 80
-      );
-  }
 }
 .case-popup-works__row {
   display: flex;
