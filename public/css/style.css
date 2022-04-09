@@ -5013,7 +5013,6 @@ h6 {
 }
 .case-popup__links {
   display: flex;
-  justify-content: space-around;
   color: #ffffff;
 }
 @media (max-width: 61.99875em) {
@@ -5021,9 +5020,13 @@ h6 {
     flex-direction: column;
   }
 }
+.case-popup__links-row:not(:last-child) {
+  margin-right: 30px;
+}
 @media (max-width: 61.99875em) {
   .case-popup__links-row:not(:last-child) {
     margin-bottom: 15px;
+    margin-right: 0;
   }
 }
 @media (max-width: 29.99875em) {
@@ -5091,7 +5094,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 50px;
 }
 .case-popup-works__items:not(:last-child) {

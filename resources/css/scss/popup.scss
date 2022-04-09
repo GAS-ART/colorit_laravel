@@ -469,16 +469,19 @@
 
    &__links {
       display: flex;
-      justify-content: space-around;
       color: #ffffff;
       @media (max-width: $tablet) {
          flex-direction: column;
       }
    }
    &__links-row {
+      &:not(:last-child){
+         margin-right: 30px;
+      }
       @media (max-width: $tablet) {
          &:not(:last-child) {
             margin-bottom: 15px;
+            margin-right: 0;
          }
       }
       @media (max-width: $mobileSmall) {
@@ -546,7 +549,7 @@
       display: grid;
       grid-template-columns: repeat(3, auto);
       align-items: center;
-      justify-content: center;
+      justify-content: start;
       gap: 50px;
       &:not(:last-child) {
          margin-bottom: 15px;

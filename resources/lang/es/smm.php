@@ -45,7 +45,7 @@ return [
          '3' => 'elaboración de un plan de contenidos y diseño de produccion  fotográfico',
          '4' => 'desarrollo de estrategias',
          '5' => '12 publicaciones por mes',
-         '6' => 'Piblicación de 14 historias',
+         '6' => 'Publicación de 14 historias',
          '7' => 'Configuración de publicidad dirigida (sin presupuesto)',
       ],
       'zoom' =>
