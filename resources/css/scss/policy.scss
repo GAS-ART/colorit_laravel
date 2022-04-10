@@ -1,9 +1,8 @@
 .tittle-policy{
-   margin-top: 161px;
-   @media (max-width: $mobileSmall) {
-      margin-top: 126px;
-   }
    margin-bottom: 100px;
+   @media (max-width: $tablet) {
+      margin-bottom: 60px;
+   }
 }
 .policy-tittle-mini{
    font-family: "Muller";

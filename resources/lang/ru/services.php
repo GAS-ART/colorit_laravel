@@ -11,6 +11,8 @@ return [
    'services' => 'Услуги',
    'our_services' => 'Наши услуги',
    'main_link' => 'Главная',
+   'cookies_link' => 'Политика cookie',
+   'privacy_link' => 'Политика конфиденциальности',
 ]
 
 ?>

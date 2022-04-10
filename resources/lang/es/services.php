@@ -11,6 +11,8 @@ return [
    'services' => 'Servicios',
    'our_services' => 'Nuestros servicios',
    'main_link' => 'Inicio',
+   'cookies_link' => 'Política de cookies',
+   'privacy_link' => 'Política de privacidad',
 ]
 
 ?>

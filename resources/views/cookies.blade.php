@@ -6,6 +6,16 @@
 @section('ogUrl', __('tittles.cookie.ogUrl'))
 
 @section('content')
+<section class="links">
+   <div class="links__container">
+      <div class="links__body">
+         <a href="{{ route('home.lang', ['locale' => __('main.set_lang')]) }}"
+            class="links__previous">@lang('services.main_link')</a>
+         <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"
+            class="links__current">@lang('services.cookies_link')</a>
+      </div>
+   </div>
+</section>
 <div class="policy__container">
    <h1 class="tittle-policy tittle">POLÍTICA DE COOKIES</h1>
 

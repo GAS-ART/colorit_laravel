@@ -4035,12 +4035,11 @@ h6 {
 }
 
 .tittle-policy {
-  margin-top: 161px;
   margin-bottom: 100px;
 }
-@media (max-width: 29.99875em) {
+@media (max-width: 61.99875em) {
   .tittle-policy {
-    margin-top: 126px;
+    margin-bottom: 60px;
   }
 }
 
