@@ -37,7 +37,8 @@
             <h5 class="footer__tittle">@lang('footer.information')</h5>
             <nav class="information-footer__list">
                <ul class="information-footer__items">
-                  <li class="information-footer__item"><a href="{{ route('about.lang', ['locale' => __('main.set_lang')]) }}"
+                  <li class="information-footer__item"><a
+                        href="{{ route('about.lang', ['locale' => __('main.set_lang')]) }}"
                         class="information-footer__item-link">@lang('footer.about_us')</a>
                   </li>
                   <!--  <li class="information-footer__item"><a href="#" class="information-footer__item-link">@lang('footer.cases')</a>
@@ -48,15 +49,19 @@
                         class="information-footer__item-link popup-btn">@lang('footer.lead')</button></li>
                   <li class="information-footer__item"><a href="{{route('download')}}"
                         class="information-footer__item-link">@lang('contacts.presentation')</a></li>
-                        <li class="information-footer__item"><a href="{{ route('privacy.lang', ['locale' => __('main.set_lang')]) }}" class="information-footer__item-link">@lang('footer.privacy')</a>
-                     </li>
-                        <li class="information-footer__item"><a href="{{ route('cookies.lang', ['locale' => __('main.set_lang')]) }}" class="information-footer__item-link">@lang('footer.cookies')</a>
-                     </li>
+                  <li class="information-footer__item"><a
+                        href="{{ route('privacy.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="information-footer__item-link">@lang('footer.privacy')</a>
+                  </li>
+                  <li class="information-footer__item"><a
+                        href="{{ route('cookies.lang', ['locale' => __('main.set_lang')]) }}"
+                        class="information-footer__item-link">@lang('footer.cookies')</a>
+                  </li>
                </ul>
             </nav>
          </div>
 
-         <div class="footer__contacts contacts-footer">
+         <div id="contacts" class="footer__contacts contacts-footer">
             <h5 class="footer__tittle">@lang('contacts.contacts')</h5>
             <div class="contacts-footer__address">
                <p>@lang('contacts.address')</p>
@@ -76,7 +81,8 @@
             <div class="rights__social">
                <a href="https://www.facebook.com/colorit.agency" target="_blank" class="rights__meta _icon-facebook">
                </a>
-               <a href="https://www.instagram.com/colorit.agency/" target="_blank" class="rights__instagram _icon-instagram">
+               <a href="https://www.instagram.com/colorit.agency/" target="_blank"
+                  class="rights__instagram _icon-instagram">
                </a>
             </div>
          </div>
