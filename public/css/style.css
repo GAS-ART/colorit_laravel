@@ -4392,7 +4392,7 @@ h6 {
 }
 .scroll-top {
   position: fixed;
-  right: 20px;
+  right: 50px;
   bottom: 50px;
   display: block;
   cursor: pointer;
@@ -4424,14 +4424,28 @@ h6 {
 .scroll-top span::before {
   content: "";
   position: absolute;
-  bottom: 2px;
-  width: 0%;
+  bottom: 0px;
+  width: 100%;
+  right: 0;
   height: 2px;
   background: #962e93;
-  transition: all 0.5s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.scroll-top span::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0%;
+  left: 0;
+  height: 2px;
+  background: #962e93;
+  transition: all 0.3s ease 0.3s;
 }
 @media (pointer: fine) {
   .scroll-top span:hover::before {
+    width: 0%;
+  }
+  .scroll-top span:hover::after {
     width: 100%;
   }
 }

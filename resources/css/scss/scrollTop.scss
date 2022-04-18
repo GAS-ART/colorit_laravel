@@ -1,6 +1,6 @@
 .scroll-top {
    position: fixed;
-   right: 20px;
+   right: 50px;
    bottom: 50px;
    display: block;
    cursor: pointer;
@@ -29,18 +29,34 @@
    &::before {
       content: "";
       position: absolute;
-      bottom: 2px;
-      width: 0%;
+      bottom: 0px;
+      width: 100%;
+      right: 0;
       height: 2px;
       background: $hoverColor;
-      transition: all 0.5s ease 0s;
+      transition: all 0.3s ease 0s;
+   }
+   &::after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      width: 0%;
+      left: 0;
+      height: 2px;
+      background: $hoverColor;
+      transition: all 0.3s ease 0.3s;
    }
    @media (pointer: fine) {
    &:hover {
             &::before {
-               width: 100%;
+               width: 0%;
             }
+            &::after{
+            width: 100%;
          }
+         }
+         
       }
    }
+   
 }
