@@ -68,12 +68,7 @@
 </section>
 <section class="map">
    <div class="map__container">
-      @if(app()->getLocale() == 'ru')
-      <div class="map__body"><img src="https://colorit.agency/img/contacts/map_ru.jpg" alt=""></div>
-      @endif
-      @if(app()->getLocale() == 'es')
-      <div class="map__body"><img src="https://colorit.agency/img/contacts/map_es.jpg" alt=""></div>
-      @endif
+      <div class="map__body"><img src="{{asset('img/contacts/map_es1.jpg')}}" alt=""></div>
    </div>
 </section>
 @endsection

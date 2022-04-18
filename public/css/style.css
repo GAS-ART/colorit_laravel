@@ -4172,6 +4172,12 @@ h6 {
 }
 .map__body {
   position: relative;
+  max-width: 1200px;
+}
+@media (max-width: 47.99875em) {
+  .map__body {
+    max-width: 400px;
+  }
 }
 .map__body img {
   position: relative;
@@ -4181,6 +4187,13 @@ h6 {
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+@media (max-width: 47.99875em) {
+  .map__body img {
+    transform: scale(3);
+    margin: 100px 0;
+    max-width: 300px;
+  }
 }
 
 .footer__body {
