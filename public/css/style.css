@@ -686,6 +686,14 @@ h6 {
     top: 50%;
   }
 }
+.menu-burger__item:last-child {
+  display: none;
+}
+@media (max-width: 47.99875em) {
+  .menu-burger__item:last-child {
+    display: block;
+  }
+}
 .menu-burger__item-link {
   transition: color 0.3s ease 0s;
 }

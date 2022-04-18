@@ -65,6 +65,8 @@
                   </li>
                   <li class="menu-burger__item"><a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('burger.portfolio')</a>
                   </li>
+                  <li class="menu-burger__item"><a href="{{ route('contacts.lang', ['locale' => __('main.set_lang')]) }}" class="menu-burger__item-link">@lang('header.contacts')</a>
+                  </li>
                </ul>
             </nav>
             <div class="burger__contacts contacts-burger">

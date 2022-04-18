@@ -433,6 +433,12 @@
 				}
 			}
 		}
+		&:last-child{
+			display: none;
+			@media (max-width: $mobile) {
+				display: block;
+			}
+		}
 	}
 
 	&__item-link {
