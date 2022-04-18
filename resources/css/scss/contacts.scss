@@ -1,8 +1,7 @@
 .contacts-help-tittle{
-   color: $hoverColor;
+   @include adaptiveValueREM("font-size", 70, 35);
 }
 .help-contacts-text{
-//margin-top: 40px;
 p{
    font-family: 'Muller';
    font-size: 17px;
@@ -28,4 +27,24 @@ p{
    letter-spacing: 0;
    font-weight: 400;
    margin: 25px 0;
+}
+.map {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   @media (max-width: $mobile) {
+      margin-top: 60px;
+      margin-bottom: 60px;
+   }
+
+   &__body {
+      position: relative;
+      img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      }
+   }
 }

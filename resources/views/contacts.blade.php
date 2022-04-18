@@ -66,4 +66,9 @@
       </div>
    </div>
 </section>
+<section class="map">
+   <div class="map__container">
+      <div class="map__body"><img src="{{asset('img/contacts/map_ru.jpg')}}" alt=""></div>
+   </div>
+</section>
 @endsection
