@@ -4395,11 +4395,10 @@ h6 {
   right: 20px;
   bottom: 50px;
   display: block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #962e93;
-  border-radius: 50%;
   cursor: pointer;
+  font-family: "Muller";
+  font-weight: 600;
+  color: #962e93;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -4411,39 +4410,30 @@ h6 {
   pointer-events: auto;
   z-index: 2;
 }
+@media (max-width: 106.25em) {
+  .scroll-top {
+    right: -36px;
+  }
+}
 .scroll-top span {
   display: block;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  font-size: 1.125rem;
   position: relative;
-  width: 35px;
-  top: 21px;
-  left: 4px;
-  text-align: center;
-  height: 3px;
-  border-radius: 5px;
-  background-color: #962e93;
-  transform: rotate(90deg);
 }
 .scroll-top span::before {
   content: "";
   position: absolute;
-  top: -7px;
-  left: -1.5px;
-  width: 20px;
-  height: 3px;
-  background-color: #962e93;
-  border-radius: 5px;
-  transform: rotate(-45deg);
+  bottom: 2px;
+  width: 0%;
+  height: 2px;
+  background: #962e93;
+  transition: all 0.5s ease 0s;
 }
-.scroll-top span::after {
-  content: "";
-  position: absolute;
-  top: 7px;
-  left: -1.5px;
-  width: 20px;
-  height: 3px;
-  background-color: #962e93;
-  border-radius: 5px;
-  transform: rotate(45deg);
+@media (pointer: fine) {
+  .scroll-top span:hover::before {
+    width: 100%;
+  }
 }
 
 /*----POP-UP----*/

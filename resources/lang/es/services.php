@@ -13,6 +13,7 @@ return [
    'main_link' => 'Inicio',
    'cookies_link' => 'Política de cookies',
    'privacy_link' => 'Política de privacidad',
+   'scrollTop' => 'Arriba',
 ]
 
 ?>

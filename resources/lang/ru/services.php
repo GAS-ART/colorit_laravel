@@ -13,6 +13,7 @@ return [
    'main_link' => 'Главная',
    'cookies_link' => 'Политика cookie',
    'privacy_link' => 'Политика конфиденциальности',
+   'scrollTop' => 'Вверх',
 ]
 
 ?>

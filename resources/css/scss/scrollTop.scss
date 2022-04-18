@@ -3,11 +3,10 @@
    right: 20px;
    bottom: 50px;
    display: block;
-   width: 50px;
-   height: 50px;
-   border: 3px solid $hoverColor;
-   border-radius: 50%;
    cursor: pointer;
+   font-family: "Muller";
+   font-weight: 600;
+   color: $hoverColor;
    opacity: 0;
    visibility: hidden;
    pointer-events: none;
@@ -18,38 +17,30 @@
       pointer-events: auto;
       z-index: 2;
    }
+   @media (max-width: em(1700)) {
+      right: -36px;
+   }
    span {
-      display: block;
-      position: relative;
-      width: 35px;
-      top: 21px;
-      left: 4px;
-      text-align: center;
-      height: 3px;
-      border-radius: 5px;
-      background-color: $hoverColor;
-      transform: rotate(90deg);
-      &::before {
-         content: "";
-         position: absolute;
-         top: -7px;
-         left: -1.5px;
-         width: 20px;
-         height: 3px;
-         background-color: $hoverColor;
-         border-radius: 5px;
-         transform: rotate(-45deg);
-      }
-      &::after {
-         content: "";
-         position: absolute;
-         top: 7px;
-         left: -1.5px;
-         width: 20px;
-         height: 3px;
-         background-color: $hoverColor;
-         border-radius: 5px;
-         transform: rotate(45deg);
+   display: block;
+   transform: translate(-50%, -50%) rotate(-90deg);
+   font-size: rem(18);
+   position: relative;
+   
+   &::before {
+      content: "";
+      position: absolute;
+      bottom: 2px;
+      width: 0%;
+      height: 2px;
+      background: $hoverColor;
+      transition: all 0.5s ease 0s;
+   }
+   @media (pointer: fine) {
+   &:hover {
+            &::before {
+               width: 100%;
+            }
+         }
       }
    }
 }
