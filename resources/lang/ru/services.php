@@ -14,6 +14,7 @@ return [
    'cookies_link' => 'Политика cookie',
    'privacy_link' => 'Политика конфиденциальности',
    'scrollTop' => 'Вверх',
+   'contacts' => 'Контакты',
 ]
 
 ?>

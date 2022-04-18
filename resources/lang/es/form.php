@@ -15,6 +15,8 @@ return [
       'smm' => 'Te podemos ayudar en SMM. Contáctanos',
       'polygraphy' => 'Impresion digital en Barcelona',
       'text' => 'No dudes en contactar con nosotros',
+      'contacts' => 'Creamos un proyecto?',
+      'contacts_text' => '"Colorit agency" es una agencia creativa de servicio completo con sede en Barcelona. Cumplimos cualquier objetivo relacionado con la publicidad: desde el desarrollo de una identidad y estrategia corporativa, hasta el diseño de publicidad exterior y la creación de páginas web.',
    ],
 ]
 

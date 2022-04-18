@@ -97,5 +97,13 @@
          'ogDescription' => 'Описание условий политики конфиденциальности',
          'ogUrl' => 'https://colorit.agency/ru/privacy_policy',
       ],
+      'contacts' => 
+      [
+         'title' => 'Контакты рекламного агентства "Colorit agency" в Барселоне.',
+         'description' => 'Контакты для заказа печати и рекламной продукции в Испании',
+         'ogTitle' => 'Контакты рекламного агентства "Colorit agency"',
+         'ogDescription' => 'Контакты для заказа печати и рекламной продукции в Испании',
+         'ogUrl' => 'https://colorit.agency/ru/contacts',
+      ],
    ];
 ?>

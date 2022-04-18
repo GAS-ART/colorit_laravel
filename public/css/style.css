@@ -2084,7 +2084,7 @@ h6 {
   margin-right: 50px;
   font-size: 9.375rem;
 }
-@media (max-width: 29.99875em) {
+@media (max-width: 47.99875em) {
   .main-baner-top__body {
     padding-bottom: 109.375%;
     margin-left: 0px;
@@ -4118,6 +4118,37 @@ h6 {
 .policy-link {
   text-decoration: underline !important;
   color: blue;
+}
+
+.contacts-help-tittle {
+  color: #962e93;
+}
+
+.help-contacts-text p {
+  font-family: "Muller";
+  font-size: 17px;
+  line-height: 1.29em;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+.help-contacts-text p a {
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+}
+@media (pointer: fine) {
+  .help-contacts-text p a:hover {
+    color: #962e93;
+  }
+}
+
+.help-item-contact-text {
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin: 25px 0;
 }
 
 .footer__body {

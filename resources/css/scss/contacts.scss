@@ -1,0 +1,31 @@
+.contacts-help-tittle{
+   color: $hoverColor;
+}
+.help-contacts-text{
+//margin-top: 40px;
+p{
+   font-family: 'Muller';
+   font-size: 17px;
+   line-height: 1.29em;
+   letter-spacing: .04em;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin: 25px 0;
+   a{
+      transition: all 0.3s ease 0s;
+      display: inline-block;
+     @media (pointer: fine) {
+     &:hover {
+      color: $hoverColor;
+     }
+     }
+   }
+}
+}
+.help-item-contact-text{
+   font-size: 18px;
+   line-height: 1.5em;
+   letter-spacing: 0;
+   font-weight: 400;
+   margin: 25px 0;
+}

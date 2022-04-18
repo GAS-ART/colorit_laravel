@@ -269,3 +269,22 @@ Route::get('/{locale}/privacy_policy', function ($locale) {
 
    }
 })->name('privacy.lang');
+
+Route::get('/{locale}/contacts', function ($locale) {
+   
+   if (! in_array($locale, ['ru', 'es'])) {
+
+      abort(404);
+
+   } else if ($locale == 'ru') {
+
+      App::setLocale('ru');
+      return view('contacts');
+
+   } else if ($locale == 'es') {
+
+      App::setLocale('es');
+      return view('contacts');
+
+   }
+})->name('contacts.lang');

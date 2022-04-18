@@ -97,5 +97,13 @@
          'ogDescription' => 'Política de privacidad',
          'ogUrl' => 'https://colorit.agency/es/privacy_policy',
       ],
+      'contacts' => 
+      [
+         'title' => 'Contactos de Colorit agency agencia de publicidad y marketing en Barcelona',
+         'description' => 'Contactos para realizar el pedido de publicidad y rotulos en España',
+         'ogTitle' => 'Contactos de Colorit agency agencia de publicidad y marketing en Barcelona',
+         'ogDescription' => 'Contactos para realizar el pedido de publicidad y rotulos en España',
+         'ogUrl' => 'https://colorit.agency/es/contacts',
+      ],
    ];
 ?>
