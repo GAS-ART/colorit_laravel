@@ -1627,11 +1627,6 @@ h6 {
   position: relative;
   padding: 0 0 57.292% 0;
 }
-@media (max-width: 47.99875em) {
-  .cases__body {
-    min-height: 286px;
-  }
-}
 .cases__body img {
   position: absolute;
   top: 0;
