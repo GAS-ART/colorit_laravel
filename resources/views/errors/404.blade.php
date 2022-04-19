@@ -5,7 +5,7 @@
 {{app()->setLocale('ru')}}
 @endif
 @if(!Str::contains(url()->current(), ['/es','/ru']))
-<script>window.location = "<?php echo Str::of(url()->current())->substrReplace('es/',22,0) ?>";</script>
+<script>window.location = "<?php echo Str::of(url()->current())->substrReplace('/es/',22,0) ?>";</script>
 {{app()->setLocale('es')}}
 @endif
 @extends('layout')
