@@ -9,11 +9,11 @@
 {{app()->setLocale('es')}}
 @endif
 @extends('layout')
-@section('title', '404')
-@section('description', __('tittles.contacts.description'))
-@section('ogTitle', __('tittles.contacts.ogTitle'))
-@section('ogDescription', __('tittles.contacts.ogDescription'))
-@section('ogUrl', __('tittles.contacts.ogUrl'))
+@section('title', __('404.tittle'))
+@section('description', __('404.text'))
+@section('ogTitle', __('404.text'))
+@section('ogDescription', __('404.tittle'))
+@section('ogUrl', __(url()->current()))
 
 
 @section('content')
