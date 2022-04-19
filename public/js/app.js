@@ -703,6 +703,10 @@ function initSliders() {
       slidesPerGroup: 1,
       slidesPerColumn: 1,
       spaceBetween: 120.5,
+      preloadImages: false,
+      lazy: {
+        loadPrevNext: true
+      },
       //  autoHeight: true,
       speed: 800,
       //touchRatio: 1,

@@ -222,116 +222,116 @@
                <!-- Slides -->
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/consulado.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/consulado.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
 
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/consulado.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/consulado.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/moonsters.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/moonsters.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
 
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/moonsters.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/moonsters.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/1.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/1.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/1.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/1.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/marista.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/marista.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/marista.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/marista.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/2.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/2.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/2.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/2.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/3.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/3.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/3.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/3.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/4.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/4.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/4.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/4.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/5.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/5.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/5_black.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/5_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/6.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/6.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/6_black.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/6_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/7.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/7.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/7.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/7.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/8.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/8.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/8_black.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/8_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/10.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/10.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/10.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/10.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/11.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/11.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/11.png')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/11.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="black-image">
-                     <img src="{{asset('img/clients/black/12.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/black/12.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                   <div class="color-image">
-                     <img src="{{asset('img/clients/color/12_black.jpg')}}" alt="Our clients">
+                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/12_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
                   </div>
                </div>
             </div>
