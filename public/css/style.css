@@ -2876,6 +2876,7 @@ h6 {
   font-size: 1.25rem;
   flex: 0 0 auto;
   padding-bottom: 10px;
+  min-height: 46px;
 }
 @supports (margin-right: clamp( 1.875rem , -6.9949324324rem  +  12.027027027vw , 7.4375rem )) {
   .why-smm__text {
