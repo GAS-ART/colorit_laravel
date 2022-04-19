@@ -37,3 +37,7 @@
    max-width: 850px;
    @include adaptiveValueREM("font-size", 40, 25);
 }
+
+.details-no-text{
+margin-bottom: 47px;
+}

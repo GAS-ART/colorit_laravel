@@ -3895,6 +3895,10 @@ h6 {
   }
 }
 
+.details-no-text {
+  margin-bottom: 47px;
+}
+
 .why-smm-identity {
   max-width: 1000px;
 }

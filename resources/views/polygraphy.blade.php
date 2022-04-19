@@ -100,7 +100,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.flyers.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.flyers.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -124,7 +124,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.booklet.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.booklet.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -141,7 +141,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.folders.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.folders.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -170,7 +170,7 @@
                   <li class="description-product__item">@lang('polygraphy.products.stickers.item')</li>
                   <li class="description-product__item">@lang('polygraphy.products.stickers.item1')</li>
                </ul>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.stickers.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -187,7 +187,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.menu.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.menu.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -210,7 +210,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.magazine.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.magazine.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
@@ -227,7 +227,7 @@
                <div class="description-product__text">
                   @lang('polygraphy.products.certificate.text')
                </div>
-               <div class="description-product__details">
+               <div class="description-product__details details-no-text">
                   @lang('polygraphy.products.certificate.details')
                </div>
                <button class="description-product__btn popup-btn">@lang('main.order')</button>
