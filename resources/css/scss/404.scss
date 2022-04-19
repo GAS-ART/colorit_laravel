@@ -20,7 +20,7 @@
    }
 
    &__tittle {
-      @include adaptiveValueREM('font-size', 60,18 );
+      @include adaptiveValueREM('font-size', 180,54 );
       margin-bottom: 15px;
    }
 
@@ -33,6 +33,23 @@
       @include adaptiveValueREM('font-size', 30,18 );
       font-family: "Muller";
       color: $hoverColor;
+      a{
+         position: relative;
+         &::after{
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0%;
+            height: 1px;
+            background: $hoverColor;
+            transition: width 0.3s ease-in-out;
+         }
+         &:hover::after{
+            width: 100%;
+         }
+      }
+      
    }
 }
 .button {

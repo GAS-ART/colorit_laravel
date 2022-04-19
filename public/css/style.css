@@ -4225,15 +4225,15 @@ h6 {
 .page-404__tittle {
   margin-bottom: 15px;
 }
-@supports (font-size: clamp( 1.125rem , 0.46875rem  +  3.28125vw , 3.75rem )) {
+@supports (font-size: clamp( 3.375rem , 1.40625rem  +  9.84375vw , 11.25rem )) {
   .page-404__tittle {
-    font-size: clamp( 1.125rem , 0.46875rem  +  3.28125vw , 3.75rem );
+    font-size: clamp( 3.375rem , 1.40625rem  +  9.84375vw , 11.25rem );
   }
 }
-@supports not (font-size: clamp( 1.125rem , 0.46875rem  +  3.28125vw , 3.75rem )) {
+@supports not (font-size: clamp( 3.375rem , 1.40625rem  +  9.84375vw , 11.25rem )) {
   .page-404__tittle {
     font-size: calc(
-         1.125rem + 2.625 * (100vw - 20rem) / 80
+         3.375rem + 7.875 * (100vw - 20rem) / 80
       );
   }
 }
@@ -4267,6 +4267,22 @@ h6 {
          1.125rem + 0.75 * (100vw - 20rem) / 80
       );
   }
+}
+.page-404__button a {
+  position: relative;
+}
+.page-404__button a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: #962e93;
+  transition: width 0.3s ease-in-out;
+}
+.page-404__button a:hover::after {
+  width: 100%;
 }
 
 .footer__body {
