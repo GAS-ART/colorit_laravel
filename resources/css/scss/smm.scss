@@ -24,6 +24,9 @@
       span {
          color: $hoverColor;
       }
+      @media (max-width: $mobile) {
+         margin-bottom: 50px !important;
+      }
    }
 
    &__list {
@@ -204,6 +207,11 @@
 
    &__tittle {
       text-align: right;
+      @media (max-width: $mobile) {
+         text-align: left;
+         color: $hoverColor;
+         margin-bottom: 50px !important;
+      }
    }
 
    &__body {

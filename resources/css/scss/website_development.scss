@@ -91,3 +91,7 @@
 .why-web-tittle{
    @include adaptiveValueREM("font-size", 50, 35);
 }
+.web-price-tittle{
+   color: $mainColor;
+   text-align: center;
+}

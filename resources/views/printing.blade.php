@@ -245,7 +245,7 @@
 <section class="smm-to-top">
    <div class="smm-to-top__container">
       <div class="smm-to-top__tittle tittle">@lang('printing.whom.tittle')</div>
-      <div class="smm-to-top__item smm-to-top__item-no-line">
+      <div class="smm-to-top__item smm-to-top__item-no-line printing-to-top">
          @lang('printing.whom.1')
       </div>
    </div>

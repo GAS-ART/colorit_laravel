@@ -38,7 +38,7 @@
          }
       }
       &:last-child {
-         min-height: 760px;
+         min-height: unset;
         // @include adaptiveValueREM('height', 850, 850, 1920, 992, 1);
       }
   /*   @media (max-width: em(1711)) {
@@ -153,4 +153,7 @@
 }
 .printing-advantages{
    gap: 30px;
+}
+.printing-to-top{
+   @include adaptiveValueREM("font-size", 35, 26);
 }

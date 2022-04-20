@@ -34,7 +34,7 @@
 </section>
 <section class="smm-price">
    <div class="smm-price__container">
-      <div class="smm-price__tittle tittle">@lang('smm.price.tittle')</div>
+      <div class="smm-price__tittle tittle web-price-tittle">@lang('smm.price.tittle')</div>
       <div class="smm-price__body price-body-website">
 
          <div class="smm-price__item item-price-smm item-price-web">

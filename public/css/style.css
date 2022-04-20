@@ -2850,6 +2850,11 @@ h6 {
 .why-smm__tittle span {
   color: #962e93;
 }
+@media (max-width: 47.99875em) {
+  .why-smm__tittle {
+    margin-bottom: 50px !important;
+  }
+}
 .why-smm__item {
   position: relative;
   display: flex;
@@ -3042,6 +3047,13 @@ h6 {
 }
 .smm-price__tittle {
   text-align: right;
+}
+@media (max-width: 47.99875em) {
+  .smm-price__tittle {
+    text-align: left;
+    color: #962e93;
+    margin-bottom: 50px !important;
+  }
 }
 .smm-price__body {
   display: grid;
@@ -3406,6 +3418,11 @@ h6 {
   }
 }
 
+.web-price-tittle {
+  color: #000000;
+  text-align: center;
+}
+
 .printing .outdor-advertising__item {
   max-width: unset;
   flex: 1 1 33.333%;
@@ -3470,7 +3487,7 @@ h6 {
   }
 }
 .printing-products__row:last-child {
-  min-height: 760px;
+  min-height: unset;
 }
 @supports (width: clamp( 29.6875rem , 24.6767241379rem  +  8.0818965517vw , 34.375rem )) {
   .printing-products__item {
@@ -3593,6 +3610,19 @@ h6 {
 
 .printing-advantages {
   gap: 30px;
+}
+
+@supports (font-size: clamp( 1.625rem , 1.484375rem  +  0.703125vw , 2.1875rem )) {
+  .printing-to-top {
+    font-size: clamp( 1.625rem , 1.484375rem  +  0.703125vw , 2.1875rem );
+  }
+}
+@supports not (font-size: clamp( 1.625rem , 1.484375rem  +  0.703125vw , 2.1875rem )) {
+  .printing-to-top {
+    font-size: calc(
+         1.625rem + 0.5625 * (100vw - 20rem) / 80
+      );
+  }
 }
 
 .portfolio__images {
