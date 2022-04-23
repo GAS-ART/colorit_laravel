@@ -142,19 +142,19 @@ window.onload = function () {
    }
 
    //Цвет логотипов компаний при наведении
-   const logosBlack = document.querySelectorAll('.black-image > img');
-
-   logosBlack.forEach((logo) => {
-      logo.addEventListener('mouseover', function (e) {
-         e.target.closest('.black-image').nextElementSibling.firstElementChild.classList.add('active');
-      });
-   });
-
-   logosBlack.forEach((logo) => {
-      logo.addEventListener('mouseout', function (e) {
-         e.target.closest('.black-image').nextElementSibling.firstElementChild.classList.remove('active');
-      });
-   });
+   /* const logosBlack = document.querySelectorAll('.black-image > img');
+ 
+    logosBlack.forEach((logo) => {
+       logo.addEventListener('mouseover', function (e) {
+          e.target.closest('.black-image').nextElementSibling.firstElementChild.classList.add('active');
+       });
+    });
+ 
+    logosBlack.forEach((logo) => {
+       logo.addEventListener('mouseout', function (e) {
+          e.target.closest('.black-image').nextElementSibling.firstElementChild.classList.remove('active');
+       });
+    });*/
 
    //file preview
    const formImage = document.getElementById('fileImage');

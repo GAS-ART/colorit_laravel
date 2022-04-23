@@ -738,7 +738,7 @@
       }
    }
 }
-.black-image {
+.color-image {
    position: absolute;
    top: 0;
    left: 0;
@@ -747,16 +747,25 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: all 0.5s ease 0s;
+   
    img {
       position: relative;
+      filter: grayscale(100%);
+      transition: all 0.5s ease 0s;
+      &:hover {
+         filter: grayscale(0);
+      }
    }
    @media (max-width: $tablet) {
-      display: none;
+     // display: none;
+     img {
+      filter: grayscale(0);
+     }
+     
    }
 }
 
-.color-image {
+/*.color-image {
    position: absolute;
    top: 0;
    left: 0;
@@ -781,7 +790,7 @@
          visibility: visible;
       }
    }
-}
+}*/
 
 .swiper-slide-active {
 }
