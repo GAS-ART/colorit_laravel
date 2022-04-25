@@ -21,9 +21,9 @@ Route::post('feedback_page', 'App\Http\Controllers\ContactController@feedBackFor
 
 Route::get('/download/{locale}', function ($locale){
    if($locale == 'es'){
-       return download(storage_path("app/public/download/Presentation_es.pdf"));
+       return response()->download(storage_path("app/public/download/Presentation_es.pdf"));
    } else{
-       return download(storage_path("app/public/download/Presentation_ru.pdf"));
+       return response()->download(storage_path("app/public/download/Presentation_ru.pdf"));
    }
 })->name('download.lang');
 
