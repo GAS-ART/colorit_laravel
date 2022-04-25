@@ -10,7 +10,7 @@
             <nav class="header__menu menu-header">
                <ul class="menu-header__list">
                   <li class="menu-header__item"><a class="menu-header__item-link"
-                        href="{{route('download')}}">@lang('header.presentation')</a></li>
+                        href="{{ route('download.lang', ['locale' => __('main.set_lang')]) }}">@lang('header.presentation')</a></li>
                   <li class="menu-header__item"><a class="menu-header__item-link" href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}">@lang('burger.portfolio')</a>
                   </li>
                   <li class="menu-header__item"><a class="menu-header__item-link" href="{{ route('contacts.lang', ['locale' => __('main.set_lang')]) }}">@lang('header.contacts')</a>
@@ -93,7 +93,7 @@
                </div>
             </div>
             <div class="burger__presentation">
-               <a href="{{route('download')}}">@lang('contacts.presentation')</a>
+               <a href="{{ route('download.lang', ['locale' => __('main.set_lang')]) }}">@lang('contacts.presentation')</a>
             </div>
          </div>
       </div>

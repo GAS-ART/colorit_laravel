@@ -47,7 +47,7 @@
                      </li> -->
                   <li class="information-footer__item"><button
                         class="information-footer__item-link popup-btn">@lang('footer.lead')</button></li>
-                  <li class="information-footer__item"><a href="{{route('download')}}"
+                  <li class="information-footer__item"><a href="{{ route('download.lang', ['locale' => __('main.set_lang')]) }}"
                         class="information-footer__item-link">@lang('contacts.presentation')</a></li>
                   <li class="information-footer__item"><a
                         href="{{ route('privacy.lang', ['locale' => __('main.set_lang')]) }}"

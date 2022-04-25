@@ -17,8 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@changeLocale')->name('locale');
 Route::post('feedback', 'App\Http\Controllers\ContactController@feedBackForm')->name('contactForm');
 Route::post('feedback_page', 'App\Http\Controllers\ContactController@feedBackFormPage')->name('contactFormPage');
-Route::get('/download', 'App\Http\Controllers\downloadController@downloadPresentation')->name('download');
 
+
+Route::get('/download/{locale}', function ($locale){
+   if($locale == 'es'){
+       return download(storage_path("app/public/download/Presentation_es.pdf"));
+   } else{
+       return download(storage_path("app/public/download/Presentation_ru.pdf"));
+   }
+})->name('download.lang');
 
 Route::get('/', function () {App::setLocale('es'); return view('home');})->name('index');
 
