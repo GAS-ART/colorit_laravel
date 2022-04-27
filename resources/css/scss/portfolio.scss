@@ -16,15 +16,16 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      flex: 1 1 33.3333%;
+      //flex: 1 1 33.3333%;
       &:not(:last-child) {
          margin-right: 56px;
       }
       &:first-child{
+         flex-basis: 32.157%;
          .portfolio__item{
             &:first-child{
                .portfolio__img{
-                  padding-bottom: 100.842%;
+                  padding-bottom:115.095%;
                   @media (max-width: $mobile) {
                   padding-bottom: unset;
                   }
@@ -32,7 +33,7 @@
             }
             &:nth-child(2), &:nth-child(3){
                .portfolio__img{
-                  padding-bottom: 84.035%;
+                  padding-bottom: 83.705%;
                   @media (max-width: $mobile) {
                      padding-bottom: unset;
                      }
@@ -41,18 +42,23 @@
          }
       }
       &:nth-child(2){
+         flex-basis: 28.935%;
          .portfolio__item{
             &:first-child, &:nth-child(2){
+               max-height: 455px;
                .portfolio__img{
-                  padding-bottom: 84.035%;
+                  padding-bottom: 93.025%;
                   @media (max-width: $mobile) {
                      padding-bottom: unset;
                      }
                }
             }
+            &:nth-child(2){
+              // margin-top: -78px;
+            }
             &:nth-child(3){
                .portfolio__img{
-                  padding-bottom: 100.842%;
+                  padding-bottom: 127.91%;
                   @media (max-width: $mobile) {
                      padding-bottom: unset;
                      }
@@ -61,10 +67,11 @@
          }
       }
       &:last-child{
+         flex-basis: 35%;
          .portfolio__item{
             &:first-child, &:nth-child(3){
                .portfolio__img{
-                  padding-bottom: 84.035%;
+                  padding-bottom: 76.905%;
                   @media (max-width: $mobile) {
                      padding-bottom: unset;
                      }
@@ -72,7 +79,7 @@
             }
             &:nth-child(2){
                .portfolio__img{
-                  padding-bottom: 100.842%;
+                  padding-bottom: 105.742%;
                   @media (max-width: $mobile) {
                      padding-bottom: unset;
                      }
