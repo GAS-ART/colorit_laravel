@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="@lang('main.set_lang')">
 @include('inc.head')
 <body id="body">
    <div class="wrapper">
