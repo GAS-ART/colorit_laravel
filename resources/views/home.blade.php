@@ -42,18 +42,18 @@
             <div class="service-menu__images">
                <div class="service-menu__shadow-text-mobile">@lang('services.outdoor_advertising')</div>
                <img class="service-menu__img active" src="{{asset('img/header/Outdoor_advertising.jpg')}}"
-                  alt="Outdoor advertising" data-img="outdoorAdvertising">
-               <img class="service-menu__img" src="{{asset('img/header/polygraphy.jpg')}}" alt="polygraphy"
+                  alt="@lang('altTag.home.main-baner.outdoorAdvertasing')" data-img="outdoorAdvertising">
+               <img class="service-menu__img" src="{{asset('img/header/polygraphy.jpg')}}" alt="@lang('altTag.home.main-baner.polygraphy')"
                   data-img="polygraphy">
-               <img class="service-menu__img" src="{{asset('img/service/identity/identity_1155_470s.jpg')}}" alt="identity"
+               <img class="service-menu__img" src="{{asset('img/service/identity/identity_1155_470s.jpg')}}" alt="@lang('altTag.home.main-baner.identity')"
                   data-img="identity">
-               <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="smm" data-img="smm">
+               <img class="service-menu__img" src="{{asset('img/header/smm.jpg')}}" alt="@lang('altTag.home.main-baner.smm')" data-img="smm">
                <img class="service-menu__img" src="{{asset('img/service/site/site_1155_470s.jpg')}}"
-                  alt="website development" data-img="websiteDevelopment">
-               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="UV printing"
+                  alt="@lang('altTag.home.main-baner.site')" data-img="websiteDevelopment">
+               <img class="service-menu__img" src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="@lang('altTag.home.main-baner.uv-printing')"
                   data-img="uvPrinting">
                <img class="service-menu__img" src="{{asset('img/service/print/print_1155_470sq.jpg')}}"
-                  alt="printing on clothes" data-img="printingOnClothes">
+                  alt="@lang('altTag.home.main-baner.printing-on-clothes')" data-img="printingOnClothes">
                <a href="#" class="service-menu__img-link" >@lang('home.more')</a>
             </div>
          </div>
@@ -81,7 +81,7 @@
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
                      <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/Outdoor_advertising.jpg')}}"
-                           alt="Outdoor advertising"></a>
+                           alt="@lang('altTag.home.services.outdoorAdvertasing')"></a>
                   </div>
                   <div class="vertical-content__link">
                      <a href="{{ route('outdoor_advertising.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.outdoor_advertising')</a>
@@ -89,7 +89,7 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/polygraphy.jpg')}}" alt="polygraphy"></a>
+                     <a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/polygraphy.jpg')}}" alt="@lang('altTag.home.services.polygraphy')"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <div class="horizontal-content__link"><a href="{{ route('polygraphy.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.polygraphy')</a></div>
@@ -100,7 +100,7 @@
             <div class="service__row">
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/identity.jpg')}}" alt="identity"></a>
+                     <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/identity.jpg')}}" alt="@lang('altTag.home.services.identity')"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('design.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.identity')</a>
@@ -108,7 +108,7 @@
                </div>
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
-                     <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/smm.jpg')}}" alt="smm"></a>
+                     <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/smm.jpg')}}" alt="@lang('altTag.home.services.smm')"></a>
                   </div>
                   <div class="vertical-content__link">
                      <a href="{{ route('smm.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.smm')</a>
@@ -120,7 +120,7 @@
                <div class="service__vertical vertical-content">
                   <div class="vertical-content__img">
                      <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/site/site_310_350.jpg')}}"
-                           alt="website development"></a>
+                           alt="@lang('altTag.home.services.site')"></a>
                   </div>
                   <div class="vertical-content__link">
                      <a href="{{ route('webDevelopment.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.website_development')</a>
@@ -128,7 +128,7 @@
                </div>
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
-                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="UV printing"></a>
+                     <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/uv/uv_1155_470sq.jpg')}}" alt="@lang('altTag.home.services.uv-printing')"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('uvPrinting.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.uv_printing')</a>
@@ -140,7 +140,7 @@
                <div class="service__horizontal horizontal-content">
                   <div class="horizontal-content__img">
                      <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}"><img src="{{asset('img/service/print/print_1155_470sq.jpg')}}"
-                           alt="printing on clothes"></a>
+                           alt="@lang('altTag.home.services.printing-on-clothes')"></a>
                   </div>
                   <div class="horizontal-content__link">
                      <a href="{{ route('printing.lang', ['locale' => __('main.set_lang')]) }}" class="">@lang('services.printing_on_clothes')</a>
@@ -168,7 +168,7 @@
             <div class="cases__body">
                <picture>
                   <source srcset="{{asset('img/cases/keys12.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/keys12.jpg')}}" alt="our cases">
+                  <img src="{{asset('img/cases/keys12.jpg')}}" alt="@lang('altTag.home.cases.alianca')">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
@@ -179,7 +179,7 @@
             <div class="cases__body">
                <picture>
                   <source srcset="{{asset('img/cases/keys2.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/keys2.jpg')}}" alt="our cases">
+                  <img src="{{asset('img/cases/keys2.jpg')}}" alt="@lang('altTag.home.cases.costa-maresme')">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
@@ -192,7 +192,7 @@
             <div class="cases__body">
                <picture>
                   <source srcset="{{asset('img/cases/keys3.jpg')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/keys3.jpg')}}" alt="our cases">
+                  <img src="{{asset('img/cases/keys3.jpg')}}" alt="@lang('altTag.home.cases.moonsters-jump')">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
@@ -203,7 +203,7 @@
             <div class="cases__body">
                <picture>
                   <source srcset="{{asset('img/cases/keys4.png')}}" sizes="(max-width: 767.98px)">
-                  <img src="{{asset('img/cases/keys4.png')}}" alt="our cases">
+                  <img src="{{asset('img/cases/keys4.png')}}" alt="@lang('altTag.home.cases.floaretelie')">
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
@@ -214,107 +214,7 @@
          </div>
       </div>
    </section>
-   <section class="slider">
-      <div class="slider__container">
-         <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-               <!-- Slides -->
-               <div class="swiper-slide">
-
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/consulado.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/moonsters.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/1.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/marista.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/2.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/3.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/4.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/5_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/6_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/7.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/8_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/10.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/11.png')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                 
-                  <div class="color-image">
-                     <img class="swiper-lazy" data-src="{{asset('img/clients/color/12_black.jpg')}}" src="{{asset('img/1px.jpg')}}" alt="Our clients">
-                  </div>
-               </div>
-            </div>
-            <!--pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!--navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-         </div>
-      </div>
-   </section>
+   @include('inc.slider')
    <section class="experience">
       <div class="experience__container">
          <div class="experience__body">

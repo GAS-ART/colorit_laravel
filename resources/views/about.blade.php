@@ -20,8 +20,8 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/about_us/about.jpg')}}" alt="our cases">
-      <img class="main-baner-top__small" src="{{asset('img/about_us/about_small.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/about_us/about.jpg')}}" alt="@lang('altTag.about.baner')">
+      <img class="main-baner-top__small" src="{{asset('img/about_us/about_small.jpg')}}" alt="@lang('altTag.about.baner')">
       <h1 class="main-baner-top__tittle">@lang('burger.about_us')</h1>
    </div>
 </section>
@@ -230,125 +230,11 @@
       </div> -->
    </div>
 </section>
-<section class="slider">
-   <div class="slider__container">
-      <div class="swiper">
-         <!-- Additional required wrapper -->
-         <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/consulado.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/moonsters.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/1.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/marista.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/2.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/3.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/4.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/5_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/6_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/7.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/8_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/10.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/11.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/12_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-         </div>
-         <!--pagination -->
-         <div class="swiper-pagination"></div>
-
-         <!--navigation buttons -->
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-button-next"></div>
-      </div>
-   </div>
-</section>
+@include('inc.slider')
 <section class="smm-portfolio">
    <div class="smm-portfolio__body">
       <div class="smm-portfolio__img">
-         <img src="{{asset('img/smm/portfolio.jpg')}}" alt="">
+         <img src="{{asset('img/smm/portfolio.jpg')}}" alt="@lang('altTag.about.lead')">
       </div>
       <div class="smm-portfolio__content">
          <div class="smm-portfolio__tittle tittle">@lang('smm.portfolio.tittle')</div>

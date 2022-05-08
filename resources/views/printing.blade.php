@@ -19,8 +19,8 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/service/print/print_1820_650s.jpg')}}" alt="our cases">
-      <img class="main-baner-top__small" src="{{asset('img/service/print/print_310_350.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/service/print/print_1820_650s.jpg')}}" alt="@lang('altTag.clothes.baner')">
+      <img class="main-baner-top__small" src="{{asset('img/service/print/print_310_350.jpg')}}" alt="@lang('altTag.clothes.baner')">
       <h1 class="main-baner-top__tittle">@lang('services.printing_on_clothes')</h1>
    </div>
 </section>
@@ -70,22 +70,22 @@
             <h3 class="why-smm__tittle tittle">@lang('printing.sercices.tittle')</h3>
             <div class="printing-services__images">
                <div class="printing-services__img">
-                  <img src="{{asset('img/printing/1.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/1.jpg')}}" alt="@lang('altTag.clothes.min_imge_srvice.1')">
                </div>
                <div class="printing-services__img">
-                  <img src="{{asset('img/printing/2.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/2.jpg')}}" alt="@lang('altTag.clothes.min_imge_srvice.2')">
                </div>
                <div class="printing-services__img">
-                  <img src="{{asset('img/printing/3.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/3.jpg')}}" alt="@lang('altTag.clothes.min_imge_srvice.3')">
                </div>
                <div class="printing-services__img">
-                  <img src="{{asset('img/printing/4.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/4.jpg')}}" alt="@lang('altTag.clothes.min_imge_srvice.4')">
                </div>
                <div class="printing-services__img printing-services__img-big">
-                  <img src="{{asset('img/printing/11.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/11.jpg')}}" alt="@lang('altTag.clothes.min_imge_srvice.5')">
                </div>
                <div class="printing-services__img">
-                  <img src="{{asset('img/printing/7.jpeg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/7.jpeg')}}" alt="@lang('altTag.clothes.min_imge_srvice.6')">
                </div>
             </div>
          </div>
@@ -141,14 +141,14 @@
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.1')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/1.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/1.jpg')}}" alt="@lang('altTag.clothes.services.t-shorts')">
                </div>
             </div>
 
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.2')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/2.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/2.jpg')}}" alt="@lang('altTag.clothes.services.sweatshirt')">
                </div>
             </div>
          </div>
@@ -156,13 +156,13 @@
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.3')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/3.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/3.jpg')}}" alt="@lang('altTag.clothes.services.hoody')">
                </div>
             </div>
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.4')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/4.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/4.jpg')}}" alt="@lang('altTag.clothes.services.hoody_1')">
                </div>
             </div>
          </div>
@@ -170,13 +170,13 @@
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.5')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/5.jpeg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/5.jpeg')}}" alt="@lang('altTag.clothes.services.beauty')">
                </div>
             </div>
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.6')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/6.jpeg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/6.jpeg')}}" alt="@lang('altTag.clothes.services.medical')">
                </div>
             </div>
          </div>
@@ -190,7 +190,7 @@
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.8')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/8.jpeg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/8.jpeg')}}" alt="@lang('altTag.clothes.services.restaurant')">
                </div>
             </div>
          </div>
@@ -198,7 +198,7 @@
             <div class="printing-products__item">
                <div class="printing-products__tittle">@lang('printing.sercices.9')</div>
                <div class="printing-products__item-img">
-                  <img src="{{asset('img/printing/9.jpg')}}" alt="printing on clothes">
+                  <img src="{{asset('img/printing/9.jpg')}}" alt="@lang('altTag.clothes.services.build')">
                </div>
             </div>
             <div class="printing-products__item">
@@ -255,122 +255,9 @@
    <img class="outdor-advertising-portfolio__mobile" src="{{asset('img/outdoor_advertising/cases_small.jpg')}}" alt="">
    <div class="outdor-advertising-portfolio__body">
       <div class="outdor-advertising-portfolio__tittle">@lang('outdorAdvertising.portfolio.tittle')</div>
-      <a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}" class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
+      <a href="{{ route('portfolio.lang', ['locale' => __('main.set_lang')]) }}"
+         class="outdor-advertising-portfolio__btn">@lang('outdorAdvertising.portfolio.btn')</a>
    </div>
 </section>
-<section class="slider">
-   <div class="slider__container">
-      <div class="swiper">
-         <!-- Additional required wrapper -->
-         <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/consulado.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/moonsters.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/1.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/marista.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/2.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/3.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/4.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/5_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/6_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/7.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/8_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/10.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/11.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/12_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-         </div>
-         <!--pagination -->
-         <div class="swiper-pagination"></div>
-
-         <!--navigation buttons -->
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-button-next"></div>
-      </div>
-   </div>
-</section>
+@include('inc.slider')
 @endsection

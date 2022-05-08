@@ -19,8 +19,8 @@
 </section>
 <section class="main-baner-top">
    <div class="main-baner-top__body">
-      <img class="main-baner-top__lage" src="{{asset('img/service/identity/identity_1820_650s.jpg')}}" alt="our cases">
-      <img class="main-baner-top__small" src="{{asset('img/service/identity/identity_310_350.jpg')}}" alt="our cases">
+      <img class="main-baner-top__lage" src="{{asset('img/service/identity/identity_1820_650s.jpg')}}" alt="@lang('altTag.identity.baner')">
+      <img class="main-baner-top__small" src="{{asset('img/service/identity/identity_310_350.jpg')}}" alt="@lang('altTag.identity.baner')">
       <h1 class="main-baner-top__tittle">@lang('services.identity')</h1>
    </div>
 </section>
@@ -69,7 +69,7 @@
    <div class="outdor-advertising-products__container">
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/1.jpg')}}" alt="">
+            <img src="{{asset('img/design/1.jpg')}}" alt="@lang('altTag.identity.services.graphic')">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -103,7 +103,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/3_poligraphy.jpg')}}" alt="">
+            <img src="{{asset('img/design/3_poligraphy.jpg')}}" alt="@lang('altTag.identity.services.polygraphy')">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -111,7 +111,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/logo.jpg')}}" alt="">
+            <img src="{{asset('img/design/logo.jpg')}}" alt="@lang('altTag.identity.services.logo')">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -168,7 +168,7 @@
             </div>
          </div>
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/2_fir_style.jpg')}}" alt="">
+            <img src="{{asset('img/design/2_fir_style.jpg')}}" alt="@lang('altTag.identity.services.style')">
          </div>
          <button
             class="item-outdor-advertising-products__btn-mobile description-product__btn popup-btn">@lang('main.order')</button>
@@ -176,7 +176,7 @@
 
       <div class="outdor-advertising-products__item item-outdor-advertising-products">
          <div class="item-outdor-advertising-products__img">
-            <img src="{{asset('img/design/2_web_design.jpg')}}" alt="">
+            <img src="{{asset('img/design/2_web_design.jpg')}}" alt="@lang('altTag.identity.services.web')">
          </div>
          <div class="item-outdor-advertising-products__description description-product">
             <h2 class="description-product__tittle">
@@ -239,119 +239,5 @@
       </div>
    </div>
 </section>
-<section class="slider">
-   <div class="slider__container">
-      <div class="swiper">
-         <!-- Additional required wrapper -->
-         <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/consulado.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/moonsters.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/1.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/marista.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/2.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/3.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/4.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/5_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/6_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/7.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/8_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/10.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/11.png')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-            <div class="swiper-slide">
-
-               <div class="color-image">
-                  <img class="swiper-lazy" data-src="{{asset('img/clients/color/12_black.jpg')}}"
-                     src="{{asset('img/1px.jpg')}}" alt="Our clients">
-               </div>
-            </div>
-         </div>
-         <!--pagination -->
-         <div class="swiper-pagination"></div>
-
-         <!--navigation buttons -->
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-button-next"></div>
-      </div>
-   </div>
-</section>
+@include('inc.slider')
 @endsection
