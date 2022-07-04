@@ -9,15 +9,23 @@
       rel="alternate"
       href="https://colorit.agency/ru"
       hreflang="ru"/>
+      <xhtml:link
+      rel="alternate"
+      href="https://colorit.agency/"
+      hreflang="es"/>
   </url>
    <url>
       <loc>https://colorit.agency/ru</loc>
       <lastmod>2022-06-01</lastmod>
       <priority>1.00</priority>
-       <xhtml:link
+      <xhtml:link
          rel="alternate"
          href="https://colorit.agency/es"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/outdoor_advertising</loc>
@@ -27,6 +35,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/outdoor_advertising"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/outdoor_advertising"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/outdoor_advertising</loc>
@@ -36,6 +48,10 @@
          rel="alternate"
          href="https://colorit.agency/es/outdoor_advertising"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/outdoor_advertising"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/polygraphy</loc>
@@ -45,6 +61,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/polygraphy"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/polygraphy"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/polygraphy</loc>
@@ -54,6 +74,10 @@
          rel="alternate"
          href="https://colorit.agency/es/polygraphy"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/polygraphy"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/design</loc>
@@ -63,6 +87,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/design"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/design"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/design</loc>
@@ -72,6 +100,10 @@
          rel="alternate"
          href="https://colorit.agency/es/design"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/design"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/smm</loc>
@@ -81,6 +113,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/smm"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/smm"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/smm</loc>
@@ -90,6 +126,10 @@
          rel="alternate"
          href="https://colorit.agency/es/smm"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/smm"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/website_development</loc>
@@ -99,6 +139,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/website_development"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/website_development"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/website_development</loc>
@@ -108,6 +152,10 @@
          rel="alternate"
          href="https://colorit.agency/es/website_development"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/website_development"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/uv_printing</loc>
@@ -117,6 +165,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/uv_printing"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/uv_printing"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/uv_printingt</loc>
@@ -126,6 +178,10 @@
          rel="alternate"
          href="https://colorit.agency/es/uv_printing"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/uv_printing"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/printing_on_clothes</loc>
@@ -135,6 +191,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/printing_on_clothes"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/printing_on_clothes"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/printing_on_clothes</loc>
@@ -144,6 +204,10 @@
          rel="alternate"
          href="https://colorit.agency/es/printing_on_clothes"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/printing_on_clothes"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/contacts</loc>
@@ -153,6 +217,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/contacts"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/contacts"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/contacts</loc>
@@ -162,6 +230,10 @@
          rel="alternate"
          href="https://colorit.agency/es/contacts"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/contacts"
+         hreflang="ru"/>
    </url>
    <url>
       <loc>https://colorit.agency/es/portfolio</loc>
@@ -171,6 +243,10 @@
          rel="alternate"
          href="https://colorit.agency/ru/portfolio"
          hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/portfolio"
+         hreflang="es"/>
    </url>
    <url>
       <loc>https://colorit.agency/ru/portfolio</loc>
@@ -180,5 +256,35 @@
          rel="alternate"
          href="https://colorit.agency/es/portfolio"
          hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/portfolio"
+         hreflang="ru"/>
+   </url>
+   <url>
+      <loc>https://colorit.agency/es/about_us</loc>
+      <lastmod>2022-06-01</lastmod>
+      <priority>0.8</priority>
+      <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/about_us"
+         hreflang="ru"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/about_us"
+         hreflang="es"/>
+   </url>
+   <url>
+      <loc>https://colorit.agency/ru/about_us</loc>
+      <lastmod>2022-06-01</lastmod>
+      <priority>0.8</priority>
+      <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/es/about_us"
+         hreflang="es"/>
+         <xhtml:link
+         rel="alternate"
+         href="https://colorit.agency/ru/about_us"
+         hreflang="ru"/>
    </url>
 </urlset>
