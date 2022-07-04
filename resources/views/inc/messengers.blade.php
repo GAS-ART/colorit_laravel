@@ -1,7 +1,7 @@
 <div class="messengers">
    <div class="messengers__svg svg-messengers">
       <div class="svg-messengers__icons">
-         <div class="svg-messengers__icon">
+         <div class="svg-messengers__icon send-analytics" data-event-name="Whatsapp" data-first-click="true">
             <a href="https://wa.me/34691820317" class="svg-messengers__whatsapp">
                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                   style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
@@ -12,7 +12,7 @@
             </a>
             <div class="svg-messengers__label">WhatsApp</div>
          </div>
-         <div class="svg-messengers__icon">
+         <div class="svg-messengers__icon send-analytics" data-event-name="telegram" data-first-click="true">
             <a href="tg://resolve?domain=colorit_agency" class="svg-messengers__telegram">
                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                   style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">

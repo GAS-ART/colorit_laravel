@@ -48,7 +48,7 @@
                   <li class="information-footer__item"><button
                         class="information-footer__item-link popup-btn">@lang('footer.lead')</button></li>
                   <li class="information-footer__item"><a href="{{ route('download.lang', ['locale' => __('main.set_lang')]) }}"
-                        class="information-footer__item-link">@lang('contacts.presentation')</a></li>
+                        class="information-footer__item-link send-analytics" data-event-name="Загрузка презентации @lang('main.set_lang') (footer)" data-first-click="true">@lang('contacts.presentation')</a></li>
                   <li class="information-footer__item"><a
                         href="{{ route('privacy.lang', ['locale' => __('main.set_lang')]) }}"
                         class="information-footer__item-link">@lang('footer.privacy')</a>
@@ -69,20 +69,22 @@
             </div>
             <div class="contacts-footer__phone">
                <p>@lang('contacts.phone')</p>
-               <a href="tel:%2B34691820317">+34 691 820 317</a>
+               <a class="send-analytics" data-event-name="Клик на телефон (footer)" data-first-click="true" href="tel:%2B34691820317">+34 691 820 317</a>
             </div>
             <div class="contacts-footer__email">
                <p>E-mail</p>
-               <a href="mailto:colorit.bcn@gmail.com">colorit.bcn@gmail.com</a>
+               <a class="send-analytics" data-event-name="Клик на email (footer)" data-first-click="true" href="mailto:colorit.bcn@gmail.com">colorit.bcn@gmail.com</a>
             </div>
          </div>
          <div class="footer__rights rights">
             <div class="rights__text">@lang('footer.rights')</div>
             <div class="rights__social">
-               <a href="https://www.facebook.com/colorit.agency" target="_blank" class="rights__meta _icon-facebook">
+               <a href="https://www.facebook.com/colorit.agency" target="_blank" data-event-name="Переход в facebook (footer)"
+                        data-first-click="true" class="rights__meta _icon-facebook send-analytics">
                </a>
-               <a href="https://www.instagram.com/colorit.agency/" target="_blank"
-                  class="rights__instagram _icon-instagram">
+               <a href="https://www.instagram.com/colorit.agency/"  data-event-name="Переход в instagram (footer)"
+                        data-first-click="true" target="_blank"
+                  class="rights__instagram _icon-instagram send-analytics">
                </a>
             </div>
          </div>

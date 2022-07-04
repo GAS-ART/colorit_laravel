@@ -669,4 +669,19 @@ window.onload = function () {
          $('body,html').animate({ scrollTop: top }, 1500);
       });*/
 
+   //Send analitics evants
+   const sendAnalytics = document.querySelectorAll('.send-analytics');
+   sendAnalytics.forEach((item) => {
+      item.addEventListener('click', function () {
+         let isFirstClick = item.dataset.firstClick;
+         if (isFirstClick == "true") {
+            let eventName = item.dataset.eventName;
+            gtag('event', eventName, {
+               'Категория': "Клик",
+            });
+            item.dataset.firstClick = false;
+         }
+      })
+   });
+
 }

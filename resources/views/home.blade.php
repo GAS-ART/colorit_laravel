@@ -32,9 +32,11 @@
                   </ul>
                </nav>
                <div class="service-menu__social">
-                  <a href="https://www.facebook.com/colorit.agency" target="_blank" class="social-burger__meta _icon-facebook">
+                  <a href="https://www.facebook.com/colorit.agency" target="_blank" data-event-name="Переход в facebook (baner)"
+                        data-first-click="true" class="social-burger__meta _icon-facebook send-analytics">
                   </a>
-                  <a href="https://www.instagram.com/colorit.agency/#" target="_blank" class="social-burger__instagram _icon-instagram">
+                  <a href="https://www.instagram.com/colorit.agency/#" data-event-name="Переход в instagram (baner)"
+                        data-first-click="true" target="_blank" class="social-burger__instagram _icon-instagram send-analytics">
                   </a>
                </div>
             </div>
