@@ -174,7 +174,8 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="alianca" class="info-cases__tittle">@lang('home.cases.alianca')</div>
+                     <div data-event-name="Просмотр кейса (alianca)"
+                        data-first-click="true" data-id="alianca" class="info-cases__tittle send-analytics">@lang('home.cases.alianca')</div>
                   </div>
                </div>
             </div>
@@ -185,7 +186,8 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="costaMaresme" class="info-cases__tittle">@lang('home.cases.costa_maresme')</div>
+                     <div data-event-name="Просмотр кейса (costa_maresme)"
+                        data-first-click="true" data-id="costaMaresme" class="info-cases__tittle send-analytics">@lang('home.cases.costa_maresme')</div>
                   </div>
                </div>
             </div>
@@ -198,7 +200,8 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="moonstersJump" class="info-cases__tittle">@lang('home.cases.moonsters_jump')</div>
+                     <div data-event-name="Просмотр кейса (moonsters_jump)"
+                        data-first-click="true" data-id="moonstersJump" class="info-cases__tittle send-analytics">@lang('home.cases.moonsters_jump')</div>
                   </div>
                </div>
             </div>
@@ -209,7 +212,8 @@
                </picture>
                <div class="cases__info info-cases">
                   <div class="info-cases__body">
-                     <div data-id="floaretelie" class="info-cases__tittle">@lang('home.cases.floaretelie')</div>
+                     <div data-event-name="Просмотр кейса (floaretelie)"
+                        data-first-click="true" data-id="floaretelie" class="info-cases__tittle send-analytics">@lang('home.cases.floaretelie')</div>
                   </div>
                </div>
             </div>
